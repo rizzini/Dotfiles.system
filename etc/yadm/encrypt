@@ -1,0 +1,8 @@
+etc/ufw/*
+etc/group
+etc/group-
+etc/passwd
+etc/passwd-
+etc/shadow
+etc/shadow-
+etc/ssh/sshd_config

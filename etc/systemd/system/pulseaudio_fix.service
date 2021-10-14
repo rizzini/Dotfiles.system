@@ -1,0 +1,9 @@
+[Unit]
+Description=Corrigir microfone frontal
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/bin/pulseaudio_fix_mic
+
+[Install]
+WantedBy=multi-user.target

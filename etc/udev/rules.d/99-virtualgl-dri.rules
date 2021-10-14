@@ -1,0 +1,1 @@
+KERNEL=="card*|renderD*", MODE="0660", OWNER="root", GROUP="vglusers"

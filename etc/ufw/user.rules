@@ -17,10 +17,6 @@
 :ufw-user-limit-accept - [0:0]
 ### RULES ###
 
-### tuple ### allow any 51413 192.168.0.201 any 0.0.0.0/0 in
--A ufw-user-input -p tcp -d 192.168.0.201 --dport 51413 -j ACCEPT
--A ufw-user-input -p udp -d 192.168.0.201 --dport 51413 -j ACCEPT
-
 ### tuple ### allow tcp 51413 192.168.0.201 any 0.0.0.0/0 in
 -A ufw-user-input -p tcp -d 192.168.0.201 --dport 51413 -j ACCEPT
 

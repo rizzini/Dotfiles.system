@@ -11,5 +11,5 @@ User=root
 # ExecStartPre=/usr/local/bin/pulseaudio_fix_mic
 ExecStartPre=/usr/local/bin/anbox-bridge restart
 ExecStart=/usr/bin/X :1 -sharevts -noreset -config intel/xorg.conf
-ExecStop=/bin/bash -c "/user/bin/systemctl restart anbox-container-manager.service && kill -9 $(/usr/bin/ps auxm | grep Xorg | grep ':1' | grep -v 'auto' | awk '{print $2}')"
+ExecStop=/bin/bash -c "/usr/bin/systemctl restart anbox-container-manager.service && kill -9 $(/usr/bin/ps auxm | grep Xorg | grep ':1' | grep -v 'auto' | awk '{print $2}')"
 

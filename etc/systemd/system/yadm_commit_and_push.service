@@ -1,5 +1,5 @@
 [Unit]
-Description=Atualiza repositório Dotfiles(https://github.com/rizzini/Dotfiles)
+Description=Atualiza repositório Dotfiles.system(https://github.com/rizzini/Dotfiles.system)
 
 [Service]
 Type=oneshot

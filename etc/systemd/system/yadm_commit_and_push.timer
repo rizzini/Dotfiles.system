@@ -1,9 +1,0 @@
-[Unit]
-Description=Atualiza repositório Dotfiles.system(https://github.com/rizzini/Dotfiles.system)
-
-[Timer]
-OnCalendar=hourly
-OnBootSec=1min
-
-[Install]
-WantedBy=timers.target

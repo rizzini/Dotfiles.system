@@ -1,0 +1,8 @@
+[Unit]
+Description=Generate rEFInd manual boot stanzas from Btrfs snapshots
+
+[Timer]
+OnBootSec=1min
+
+[Install]
+WantedBy=timers.target

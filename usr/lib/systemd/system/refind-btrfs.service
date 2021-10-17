@@ -1,0 +1,15 @@
+[Unit]
+Description=Generate rEFInd manual boot stanzas from Btrfs snapshots
+After=multi-user.target
+Before=snapper-boot.service
+
+[Service]
+Type=notify
+NotifyAccess=main
+KillMode=mixed
+KillSignal=SIGTERM
+RestartKillSignal=SIGTERM
+ExecStart=/usr/bin/python -m refind_btrfs --run-mode background
+
+# [Install]
+# WantedBy=multi-user.target

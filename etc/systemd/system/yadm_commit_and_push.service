@@ -1,0 +1,9 @@
+[Unit]
+Description=Atualiza repositório Dotfiles(https://github.com/rizzini/Dotfiles)
+
+[Service]
+Type=oneshot
+User=root
+# enter your username and password here
+ExecStart=/usr/bin/yadm -Y /etc/yadm push
+

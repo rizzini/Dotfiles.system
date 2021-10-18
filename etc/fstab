@@ -1,4 +1,4 @@
-UUID=423b1452-abe3-4549-ad79-da611bf9d137	/         	btrfs     	rw,noatime,ssd,space_cache,discard,subvol=refind_btrfs/ROOT.20211017T1443	0 0
+UUID=423b1452-abe3-4549-ad79-da611bf9d137	/         	btrfs     	rw,noatime,ssd,space_cache,discard,subvol=ROOT	0 0
 
 UUID=423b1452-abe3-4549-ad79-da611bf9d137	/home/         	btrfs     	rw,noatime,ssd,space_cache,discard,subvol=HOME	0 0
 

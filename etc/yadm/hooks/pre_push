@@ -1,2 +1,4 @@
 #!/bin/bash
-yadm -Y /etc/yadm commit -a -m "atualizando"
+if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then 
+    yadm -Y /etc/yadm commit -a -m "atualizando"
+fi

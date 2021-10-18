@@ -7,4 +7,4 @@ UUID=423b1452-abe3-4549-ad79-da611bf9d137       /mnt/archlinux  btrfs           
 binder                         /dev/binderfs binder   nofail  0      0
 
 
-UUID=83ED-BDD9          /boot/efi       vfat            rw,noatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro   0 0
+UUID=83ED-BDD9          /boot/efi       vfat            rw,noatime,fmask=0022,dmask=0022,codepage=437,iocharset=ascii,shortname=mixed,utf8,errors=remount-ro   0 2

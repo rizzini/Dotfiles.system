@@ -12,7 +12,11 @@ fi
  
 touch /tmp/btrbk.sh.pid
 
-while [ -n "$(pgrep UNO)" ] || [ -n "$(pgrep Diablo)" ] ||  [ -n "$(pgrep qemu)" ] || [ -n "$(mount | grep '/dev/sda2 on / type btrfs' | grep rwsnap)" ];
+if [[ ! "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]]; then
+    notify-send 'Você não está no subvolume ROOT. Snapshot não foi criado.';
+fi
+
+while [ -n "$(pgrep UNO)" ] || [ -n "$(pgrep Diablo)" ] ||  [ -n "$(pgrep qemu)" ];
 do
    sleep 10;
 done

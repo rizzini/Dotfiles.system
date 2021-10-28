@@ -11,5 +11,5 @@ KillSignal=SIGTERM
 RestartKillSignal=SIGTERM
 ExecStart=/usr/bin/python -m refind_btrfs --run-mode background
 
-# [Install]
-# WantedBy=multi-user.target
+[Install]
+WantedBy=multi-user.target

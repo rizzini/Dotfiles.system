@@ -7,17 +7,20 @@ fi
 if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then 
     if [ -n "$(yadm -Y /etc/yadm diff --name-only)" ]; then
         yadm -Y /etc/yadm diff
+    else
+        echo '\nNENHUM ARQUIVO MODIFICADO'
     fi
-    if [ -n $(yadm status -Y /etc/yadm --porcelain | grep "^A" | cut -c 4- | wc -l) -ge 2 ]; then
+    if [ $(yadm status -Y /etc/yadm --porcelain | grep "^A" | cut -c 4- | wc -l) -ge 2 ]; then
         echo -e "\nARQUIVOS ADICIONADOS:"
         for i in $(yadm status -Y /etc/yadm --porcelain | grep "^A" | cut -c 4-); do
             echo -e "/$i";
         done
-    else
+    elif [ $(yadm status -Y /etc/yadm --porcelain | grep "^A" | cut -c 4- | wc -l) -eq 1 ]; then
         echo -e "\nARQUIVO ADICIONADO:\n/$(yadm status -Y /etc/yadm --porcelain | grep "^A" | cut -c 4-)"
+    else
+        echo "NENHUM ARQUIVO ADICIONADO"
     fi
-#     echo 'NENHUM ARQUIVO MODIFICADO'
-#     exit 1
+
         
         
     if [ $(yadm -Y /etc/yadm diff --name-only | wc -l) -ge 2 ]; then
@@ -29,7 +32,7 @@ if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then
         echo -e "\nARQUIVO MODIFICADO:\n/$(yadm -Y /etc/yadm diff --name-only)\n"
     fi
 
-    yadm -Y /etc/yadm commit -a -m "atualizando"
+#     yadm -Y /etc/yadm commit -a -m "atualizando"
 else
     echo -e "Você não está no subvolume ROOT. push não realizado"
 fi

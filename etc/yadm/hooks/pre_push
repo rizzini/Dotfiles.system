@@ -5,10 +5,8 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then 
-    if [ -n "$(yadm -Y /etc/yadm diff --name-only)" ]; then
+    if [[ -n "$(yadm -Y /etc/yadm diff --name-only)" && -z "$(yadm status | grep "new file:" | cut -c 14-)" ]]; then
         yadm -Y /etc/yadm diff
-    elif [ -n "$(yadm status | grep "new file:" | cut -c 14-)" ];then
-        break
     else
         echo 'NENHUM ARQUIVO MODIFICADO'
         exit 1

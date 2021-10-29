@@ -7,7 +7,12 @@ fi
 if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then 
     if [ -n "$(yadm -Y /etc/yadm diff --name-only)" ]; then
         yadm -Y /etc/yadm diff
-    elif  [ -z "$(yadm status -Y /etc/yadm --porcelain | grep "^A" | cut -c 4-)" ]; then
+    elif  [ -n "$(yadm status -Y /etc/yadm --porcelain | grep "^A" | cut -c 4-)" ]; then
+        if [ $(yadm status -Y /etc/yadm --porcelain | grep "^A" | cut -c 4- | wc -l) -ge 2 ]; then
+            echo -e "ARQUIVOS ADICIONADOS:\n/$(yadm status -Y /etc/yadm --porcelain | grep "^A" | cut -c 4-)\n"
+        else
+            echo -e "ARQUIVO ADICIONADO:\n/$(yadm status -Y /etc/yadm --porcelain | grep "^A" | cut -c 4-)\n"
+        fi
         echo 'NENHUM ARQUIVO MODIFICADO'
         exit 1
     fi

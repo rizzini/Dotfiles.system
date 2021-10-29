@@ -8,7 +8,7 @@ if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then
     if [ -n "$(yadm -Y /etc/yadm diff --name-only)" ]; then
         yadm -Y /etc/yadm diff
     fi
-    if [ $(yadm status -Y /etc/yadm --porcelain | grep "^A" | cut -c 4- | wc -l) -ge 2 ]; then
+    if [ -n $(yadm status -Y /etc/yadm --porcelain | grep "^A" | cut -c 4- | wc -l) -ge 2 ]; then
         echo -e "\nARQUIVOS ADICIONADOS:"
         for i in $(yadm status -Y /etc/yadm --porcelain | grep "^A" | cut -c 4-); do
             echo -e "/$i";

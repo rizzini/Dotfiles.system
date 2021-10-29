@@ -7,6 +7,14 @@ fi
 if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then 
     if [ -n "$(yadm -Y /etc/yadm diff --name-only)" ]; then
         yadm -Y /etc/yadm diff
+        if [ $(yadm -Y /etc/yadm diff --name-only | wc -l) -ge 2 ]; then
+            echo -e "\nARQUIVOS MODIFICADOS:"
+            for i in $(yadm -Y /etc/yadm diff --name-only); do
+                echo -e "/$i";
+            done
+        else
+            echo -e "\nARQUIVO MODIFICADO:\n/$(yadm -Y /etc/yadm diff --name-only)\n"
+        fi
     else
         echo -e "\nNENHUM ARQUIVO MODIFICADO"
     fi
@@ -23,14 +31,7 @@ if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then
 
         
         
-    if [ $(yadm -Y /etc/yadm diff --name-only | wc -l) -ge 2 ]; then
-         echo -e "\nARQUIVOS MODIFICADOS:"
-         for i in $(yadm -Y /etc/yadm diff --name-only); do
-            echo -e "/$i";
-        done
-    else
-        echo -e "\nARQUIVO MODIFICADO:\n/$(yadm -Y /etc/yadm diff --name-only)\n"
-    fi
+
 
 #     yadm -Y /etc/yadm commit -a -m "atualizando"
 else

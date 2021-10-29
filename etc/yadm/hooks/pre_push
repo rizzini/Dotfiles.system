@@ -7,6 +7,8 @@ fi
 if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then 
     if [ -n "$(yadm -Y /etc/yadm diff --name-only)" ]; then
         yadm -Y /etc/yadm diff
+    elif [ -n "$(yadm status | grep "new file:" | cut -c 14-)" ];then
+        break
     else
         echo 'NENHUM ARQUIVO MODIFICADO'
         exit 1

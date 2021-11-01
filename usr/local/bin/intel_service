@@ -1,4 +1,8 @@
 #!/bin/bash
+if [ ! -b '/dev/dri/card1' ];then
+    sudo -u lucas XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send  'iGPU desabilitada..'
+    exit 1
+fi
 if [ "$(systemctl is-active intel_display.service)" == "active" ];then
     sudo -u lucas XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send  'Anbox encerrado..'
     systemctl stop intel_display.service 

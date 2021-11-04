@@ -2,7 +2,15 @@ UUID=423b1452-abe3-4549-ad79-da611bf9d137	/         	btrfs     	rw,compress=zstd
 
 UUID=423b1452-abe3-4549-ad79-da611bf9d137	/home/         	btrfs     	rw,compress=zstd:2,noatime,ssd,space_cache,discard,subvol=HOME	0 0
 
-UUID=423b1452-abe3-4549-ad79-da611bf9d137       /mnt/archlinux  btrfs           rw,noatime,ssd,space_cache,discard,subvol=/  0 0
+UUID=423b1452-abe3-4549-ad79-da611bf9d137       /home/lucas/.local/share/Steam  btrfs           rw,noatime,compress=zstd:2,ssd,discard,space_cache,subvol=STEAM      0 0
+
+UUID=423b1452-abe3-4549-ad79-da611bf9d137       /home/lucas/Downloads   btrfs           rw,noatime,compress=zstd:2,ssd,discard,space_cache,subvol=DOWNLOADS 00
+
+UUID=423b1452-abe3-4549-ad79-da611bf9d137       /var/cache/pacman/pkg   btrfs           rw,noatime,compress=zstd:2,ssd,discard,space_cache,subvol=PKG   0 0
+
+UUID=423b1452-abe3-4549-ad79-da611bf9d137       /home/lucas/.wine/drive_c/Program\040Files\040(x86)/Diablo\040III    btrfs           rw,noatime,compress=zstd:2,ssd,discard,space_cache,subvol=DIABLO_III    0 0
+
+UUID=423b1452-abe3-4549-ad79-da611bf9d137       /mnt/archlinux  btrfs           rw,noatime,compress=zstd:2,ssd,space_cache,discard,subvol=/  0 0
 
 binder                         /dev/binderfs binder   nofail  0      0
 

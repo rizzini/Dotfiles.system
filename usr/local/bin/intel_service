@@ -6,9 +6,11 @@ fi
 if [ "$(systemctl is-active intel_display.service)" == "active" ];then
     sudo -u lucas XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send  'Anbox encerrado..'
     systemctl stop intel_display.service 
+    systemctl stop anbox-container-manager.service
 elif [[ "$(systemctl is-active intel_display.service)" == "inactive" || "$(systemctl is-active intel_display.service)" == "failed" ]];then
     sudo -u lucas XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send  'Anbox iniciado..'
     systemctl restart intel_display.service 
+    systemctl restart anbox-container-manager.service
     while [ -z "$(adb shell ps | grep whatsapp)" ];do
         sleep 1
     done

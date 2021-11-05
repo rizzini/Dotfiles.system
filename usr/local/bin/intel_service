@@ -14,3 +14,4 @@ elif [[ "$(systemctl is-active intel_display.service)" == "inactive" || "$(syste
     done
     sudo -u lucas XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus notify-send  'WhatsApp inciado..'
 fi
+

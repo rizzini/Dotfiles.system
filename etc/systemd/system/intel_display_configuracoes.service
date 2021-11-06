@@ -11,8 +11,3 @@ User=root
 ExecStartPre=/bin/bash -c 'if [ "$(uptime -p | sed 's/[^0-9]*//g')" -le 3 ];then /usr/bin/sleep 10; fi'
 ExecStartPre=sudo -u lucas XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus /home/lucas/Documentos/scripts/anbox.sh
 ExecStart=/bin/bash -c 'sudo -u lucas XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus LD_LIBRARY_PATH='' DISPLAY=:1 ANBOX_HW_CAMERA_BACK=webcam2 anbox session-manager --single-window --window-size=600,600'
-ExecStop=/bin/bash -c "kill -9 $(ps auxm | grep Xorg | grep ":1" | grep "sharevts" | awk '{print $2}') && killall -9 x0vncserver anbox && /usr/bin/systemctl restart anbox-container-manager.service"
-
-
-#[Install]
-#RequiredBy=intel_display.service

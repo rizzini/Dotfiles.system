@@ -1,0 +1,9 @@
+[Unit]
+Description=Run winetricks update script weekly (Saturday)
+
+[Timer]
+OnCalendar=Sat
+Persistent=true
+
+[Install]
+WantedBy=timers.target

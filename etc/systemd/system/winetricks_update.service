@@ -1,0 +1,7 @@
+[Unit]
+Description=Run winetricks update script
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/winetricks --self-update
+Type=oneshot

@@ -10,11 +10,11 @@ UUID=423b1452-abe3-4549-ad79-da611bf9d137   /home/lucas/.ccache     btrfs   rw,n
 
 UUID=423b1452-abe3-4549-ad79-da611bf9d137   /var/cache/pacman/pkg   btrfs   rw,noatime,compress=zstd:2,ssd,discard,space_cache,subvol=PKG   0 0
 
+UUID=423b1452-abe3-4549-ad79-da611bf9d137   /var/lib/waydroid   btrfs   rw,relatime,compress=zstd:2,ssd,discard,space_cache,subvol=WAYDROID  0 0
+
 UUID=423b1452-abe3-4549-ad79-da611bf9d137   /home/lucas/Downloads   btrfs   rw,noatime,compress=zstd:2,ssd,discard,space_cache,subvol=DOWNLOADS 00
 
 UUID=423b1452-abe3-4549-ad79-da611bf9d137   /home/lucas/.local/share/Steam  btrfs   rw,noatime,compress=zstd:2,ssd,discard,space_cache,subvol=STEAM 0 0
-
-UUID=423b1452-abe3-4549-ad79-da611bf9d137   /var/lib/waydroid/rootfs/vendor/waydroid.prop   btrfs   rw,noatime,compress=zstd:2,ssd,discard,space_cache,subvolid=7208,subvol=WAYDROID    0 0
 
 UUID=423b1452-abe3-4549-ad79-da611bf9d137   /home/lucas/.wine/drive_c/Program\040Files\040(x86)/Diablo\040III   btrfs   rw,noatime,compress=zstd:2,ssd,discard,space_cache,subvol=DIABLO_III    0 0
 

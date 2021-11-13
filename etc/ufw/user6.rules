@@ -17,6 +17,10 @@
 :ufw6-user-limit-accept - [0:0]
 ### RULES ###
 
+### tuple ### allow any 51413 ::/0 any ::/0 in
+-A ufw6-user-input -p tcp --dport 51413 -j ACCEPT
+-A ufw6-user-input -p udp --dport 51413 -j ACCEPT
+
 ### END RULES ###
 
 ### LOGGING ###

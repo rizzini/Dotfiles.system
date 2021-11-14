@@ -35,9 +35,10 @@
   <CollectionsMigratedToTags>true</CollectionsMigratedToTags>
   <CollectionFolderIdsMigrated>true</CollectionFolderIdsMigrated>
   <SaveMetadataHiddenMigrated>true</SaveMetadataHiddenMigrated>
+  <WanDdns />
   <UICulture>pt-BR</UICulture>
   <SaveMetadataHidden>false</SaveMetadataHidden>
-  <RemoteClientBitrateLimit>0</RemoteClientBitrateLimit>
+  <RemoteClientBitrateLimit>10000000</RemoteClientBitrateLimit>
   <DisplaySpecialsWithinSeasons>true</DisplaySpecialsWithinSeasons>
   <LocalNetworkSubnets />
   <LocalNetworkAddresses />
@@ -52,7 +53,7 @@
   <CollapseVideoFolders>true</CollapseVideoFolders>
   <EnableOriginalTrackTitles>false</EnableOriginalTrackTitles>
   <VacuumDatabaseOnStartup>false</VacuumDatabaseOnStartup>
-  <SimultaneousStreamLimit>0</SimultaneousStreamLimit>
+  <SimultaneousStreamLimit>1</SimultaneousStreamLimit>
   <DatabaseCacheSizeMB>96</DatabaseCacheSizeMB>
   <EnableSqLiteMmio>false</EnableSqLiteMmio>
   <NextUpUpgraded>true</NextUpUpgraded>

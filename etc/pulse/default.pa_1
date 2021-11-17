@@ -145,4 +145,4 @@ load-module module-filter-apply
 #Custom configs
 load-module module-switch-on-connect
 load-module module-alsa-source device=hw:1
-set-default-sink alsa_output.pci-0000_00_1b.0.analog-stereo
+set-default-sink 0

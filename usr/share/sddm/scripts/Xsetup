@@ -1,4 +1,3 @@
 #!/bin/sh
 # Xsetup - run as root before the login dialog appears
-/opt/VirtualGL/bin/vglgenkey
 #xrandr --output HDMI-0 --off --output HDMI1 --mode 1920x1080

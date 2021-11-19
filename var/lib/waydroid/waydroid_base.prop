@@ -1,6 +1,6 @@
 debug.stagefright.ccodec=0
 ro.hardware.gralloc=default
-ro.hardware.egl=mesa
+ro.hardware.egl=swiftshader
 ro.hardware.camera=v4l2
 ro.opengles.version=196608
 waydroid.system_ota=http://ota.waydro.id/system/lineage/waydroid_x86_64/VANILLA.json

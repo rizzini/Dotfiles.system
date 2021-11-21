@@ -27,6 +27,15 @@
 -A ufw-user-input -p tcp --dport 51413 -j ACCEPT
 -A ufw-user-input -p udp --dport 51413 -j ACCEPT
 
+### tuple ### allow tcp 9958 192.168.0.201 any 0.0.0.0/0 in
+-A ufw-user-input -p tcp -d 192.168.0.201 --dport 9958 -j ACCEPT
+
+### tuple ### allow udp 8854 192.168.0.201 any 0.0.0.0/0 in
+-A ufw-user-input -p udp -d 192.168.0.201 --dport 8854 -j ACCEPT
+
+### tuple ### allow tcp 9961 192.168.0.201 any 0.0.0.0/0 in
+-A ufw-user-input -p tcp -d 192.168.0.201 --dport 9961 -j ACCEPT
+
 ### END RULES ###
 
 ### LOGGING ###

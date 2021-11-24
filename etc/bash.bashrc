@@ -21,11 +21,11 @@ esac
 
 [ -r /usr/share/bash-completion/bash_completion   ] && . /usr/share/bash-completion/bash_completion
 
-# export PATH="/opt/VirtualGL/bin/:$PATH"
-# if [ "$DISPLAY" == ':0' ];then
-#     if [[ ! "$LD_LIBRARY_PATH" == *'mnt/archlinux/opengl_libs/nvidia'* ]];then
-#         export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}${LD_LIBRARY_PATH+:}/mnt/archlinux/opengl_libs/nvidia/"
-#     fi
-# fi
+#export PATH="/opt/VirtualGL/bin/:$PATH"
+if [ "$DISPLAY" == ':1' ];then
+    if [[ ! "$LD_LIBRARY_PATH" == *'mnt/archlinux/opengl_libs/nvidia'* ]];then
+        export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}${LD_LIBRARY_PATH+:}/mnt/archlinux/opengl_libs/nvidia/"
+    fi
+fi
 
 alias syadm="yadm -Y /etc/yadm"

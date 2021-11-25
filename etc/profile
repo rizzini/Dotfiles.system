@@ -1,4 +1,4 @@
-# /etc/profile
+    # /etc/profile
 
 # Set our umask
 umask 022
@@ -48,3 +48,21 @@ unset TERMCAP
 
 # Man is much better than us at figuring this out
 unset MANPATH
+
+if [ -n "$(grep nvidia /etc/X11/xorg.conf)" ];then
+    if [[ ! "$LD_LIBRARY_PATH" == *'opengl_libs'* ]];then
+        export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}${LD_LIBRARY_PATH+:}/mnt/archlinux/opengl_libs/nvidia/"
+    fi
+    if [ -d "$HOME/.cache/" ];then
+        export __GL_SHADER_DISK_CACHE_PATH="$HOME/.cache/";
+    else
+        mkdir -p $HOME/.cache/
+        export __GL_SHADER_DISK_CACHE_PATH="$HOME/.cache/";
+    fi
+    export KWIN_TRIPLE_BUFFER=1;
+    export __GL_YIELD=USLEEP;
+    export __GL_MaxFramesAllowed=1;
+    export KWIN_COMPOSE=O2ES;
+    export __GL_THREADED_OPTIMIZATION=1;
+    export __GL_SHADER_DISK_CACHE=1;
+fi

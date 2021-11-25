@@ -25,7 +25,7 @@ esac
 
 if [[ "$DISPLAY" == ':0' && -n "$(grep nvidia /etc/X11/xorg.conf)" ]];then
     if [[ ! "$LD_LIBRARY_PATH" == *'opengl_libs'* ]];then
-        export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}${LD_LIBRARY_PATH+:}/mnt/archlinux/opengl_libs/"
+        export LD_LIBRARY_PATH="${LD_LIBRARY_PATH}${LD_LIBRARY_PATH+:}/mnt/archlinux/opengl_libs/nvidia/"
     fi
 fi
 

@@ -1,1 +1,0 @@
-TAG=="seat", ENV{ID_FOR_SEAT}=="graphics-pci-0000_01_00_0", ENV{ID_SEAT}="seat1"

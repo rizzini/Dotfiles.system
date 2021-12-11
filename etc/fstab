@@ -4,7 +4,6 @@ UUID=423b1452-abe3-4549-ad79-da611bf9d137   /home/lucas/.ccache     btrfs   rw,n
 UUID=423b1452-abe3-4549-ad79-da611bf9d137   /mnt/archlinux  btrfs   rw,noatime,compress=zstd:2,ssd,space_cache=v2,discard=async,subvol=/ 0 0
 UUID=423b1452-abe3-4549-ad79-da611bf9d137   /var/lib/lxd    btrfs   rw,noatime,compress=zstd:2,ssd,discard=async,space_cache=v2,subvol=LXD   0 0
 UUID=423b1452-abe3-4549-ad79-da611bf9d137   /var/log    btrfs   rw,noatime,compress=zstd:2,ssd,discard=async,space_cache=v2,subvol=LOG   0 0
-
 UUID=423b1452-abe3-4549-ad79-da611bf9d137   /var/cache/pacman/pkg   btrfs   rw,noatime,compress=zstd:2,ssd,discard=async,space_cache=v2,subvol=PKG   0 0
 UUID=423b1452-abe3-4549-ad79-da611bf9d137   /home/lucas/Downloads   btrfs   rw,noatime,compress=zstd:2,ssd,discard=async,space_cache=v2,subvol=DOWNLOADS 00
 UUID=423b1452-abe3-4549-ad79-da611bf9d137   /home/lucas/.local/share/Steam  btrfs   rw,noatime,compress=zstd:2,ssd,discard=async,space_cache=v2,subvol=STEAM 0 0

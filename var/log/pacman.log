@@ -40536,3 +40536,129 @@
 [2022-01-06T10:55:45-0300] [ALPM] transaction completed
 [2022-01-06T10:55:45-0300] [ALPM] running '30-systemd-update.hook'...
 [2022-01-06T10:55:45-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-06T11:14:23-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/p7zip'
+[2022-01-06T11:14:25-0300] [ALPM] transaction started
+[2022-01-06T11:14:25-0300] [ALPM] installed p7zip (1:17.04-3)
+[2022-01-06T11:14:25-0300] [ALPM] transaction completed
+[2022-01-06T11:14:25-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-06T11:14:25-0300] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- p7zip'
+[2022-01-06T11:14:52-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/memtest86-efi/memtest86-efi-1:9.3build1000-1-any.pkg.tar.zst'
+[2022-01-06T11:14:52-0300] [ALPM] transaction started
+[2022-01-06T11:14:53-0300] [ALPM] installed memtest86-efi (1:9.3build1000-1)
+[2022-01-06T11:14:53-0300] [ALPM-SCRIPTLET] You can use command [4mmemtest86-efi --install[0m as root to install MemTest86 in your ESP.
+[2022-01-06T11:14:53-0300] [ALPM] transaction completed
+[2022-01-06T11:14:53-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-06T11:14:53-0300] [PACMAN] Running 'pacman -R -u --noconfirm --config /etc/pacman.conf -- p7zip'
+[2022-01-06T11:14:53-0300] [ALPM] transaction started
+[2022-01-06T11:14:54-0300] [ALPM] removed p7zip (1:17.04-3)
+[2022-01-06T11:14:54-0300] [ALPM] transaction completed
+[2022-01-06T11:14:54-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-06T13:24:50-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-06T13:24:50-0300] [PACMAN] synchronizing package lists
+[2022-01-06T13:24:51-0300] [PACMAN] starting full system upgrade
+[2022-01-06T15:03:49-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- gnome-keyring'
+[2022-01-06T15:03:52-0300] [ALPM] transaction started
+[2022-01-06T15:03:52-0300] [ALPM] installed gcr (3.41.0-1)
+[2022-01-06T15:03:52-0300] [ALPM-SCRIPTLET] Created symlink /etc/systemd/user/sockets.target.wants/gcr-ssh-agent.socket → /usr/lib/systemd/user/gcr-ssh-agent.socket.
+[2022-01-06T15:03:52-0300] [ALPM-SCRIPTLET] >>> gcr contains /etc/security/limits.d/10-gcr.conf which sets the memlock limit
+[2022-01-06T15:03:52-0300] [ALPM-SCRIPTLET]     in order to allow GCR to lock private keys in memory. If you have configured
+[2022-01-06T15:03:52-0300] [ALPM-SCRIPTLET]     this limit differently before, please review your configuration.
+[2022-01-06T15:03:52-0300] [ALPM] installed gnome-keyring (1:40.0-1)
+[2022-01-06T15:03:52-0300] [ALPM] transaction completed
+[2022-01-06T15:03:52-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-06T15:03:52-0300] [ALPM] running '30-update-mime-database.hook'...
+[2022-01-06T15:03:53-0300] [ALPM] running 'glib-compile-schemas.hook'...
+[2022-01-06T15:03:53-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-06T15:03:53-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-06T18:25:03-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-06T18:25:03-0300] [PACMAN] synchronizing package lists
+[2022-01-06T19:32:37-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-06T19:32:37-0300] [PACMAN] synchronizing package lists
+[2022-01-06T19:32:38-0300] [PACMAN] starting full system upgrade
+[2022-01-06T19:32:59-0300] [ALPM] running '60-mkinitcpio-remove.hook'...
+[2022-01-06T19:32:59-0300] [ALPM] transaction started
+[2022-01-06T19:32:59-0300] [ALPM] upgraded alsa-plugins (1:1.2.6-1 -> 1:1.2.6-2)
+[2022-01-06T19:33:01-0300] [ALPM] upgraded linux (5.15.12.arch1-1 -> 5.15.13.arch1-1)
+[2022-01-06T19:33:06-0300] [ALPM] upgraded plasma-workspace (5.23.5-1 -> 5.23.5-2)
+[2022-01-06T19:33:06-0300] [ALPM] upgraded python-pygments (2.11.1-1 -> 2.11.2-1)
+[2022-01-06T19:33:07-0300] [ALPM] transaction completed
+[2022-01-06T19:33:07-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-06T19:33:07-0300] [ALPM] running '60-depmod.hook'...
+[2022-01-06T19:33:09-0300] [ALPM] running '90-linux516-tkg-cfs.hook'...
+[2022-01-06T19:33:09-0300] [ALPM] running '90-mkinitcpio-install.hook'...
+[2022-01-06T19:33:09-0300] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2022-01-06T19:33:09-0300] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2022-01-06T19:33:09-0300] [ALPM-SCRIPTLET] ==> Starting build: 5.15.13-arch1-1
+[2022-01-06T19:33:09-0300] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2022-01-06T19:33:09-0300] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2022-01-06T19:33:09-0300] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2022-01-06T19:33:09-0300] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2022-01-06T19:33:09-0300] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2022-01-06T19:33:10-0300] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: xhci_pci
+[2022-01-06T19:33:10-0300] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2022-01-06T19:33:10-0300] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2022-01-06T19:33:10-0300] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2022-01-06T19:33:10-0300] [ALPM-SCRIPTLET] Decompress:  1/28 files. Current: ...el/cdrom.ko.zst : 0 B...    ==> Generating module dependencies
+[2022-01-06T19:33:10-0300] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux.img
+[2022-01-06T19:33:11-0300] [ALPM-SCRIPTLET] ==> Image generation successful
+[2022-01-06T19:33:11-0300] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2022-01-06T19:33:11-0300] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2022-01-06T19:33:11-0300] [ALPM-SCRIPTLET] ==> Starting build: 5.15.13-arch1-1
+[2022-01-06T19:33:11-0300] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2022-01-06T19:33:11-0300] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2022-01-06T19:33:11-0300] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2022-01-06T19:33:11-0300] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2022-01-06T19:33:12-0300] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2022-01-06T19:33:12-0300] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2022-01-06T19:33:13-0300] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: xhci_pci
+[2022-01-06T19:33:13-0300] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2022-01-06T19:33:14-0300] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2022-01-06T19:33:15-0300] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2022-01-06T19:33:15-0300] [ALPM-SCRIPTLET] Decompress:  1/633 files. Current: ...l/cryptd.ko.zst : 0 B...    Decompress: 397/633 files. Current: ...raid6_pq.ko.zst : 0 B...    ==> Generating module dependencies
+[2022-01-06T19:33:15-0300] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2022-01-06T19:33:16-0300] [ALPM-SCRIPTLET] ==> Image generation successful
+[2022-01-06T19:33:16-0300] [ALPM] running 'dbus-reload.hook'...
+[2022-01-06T19:33:16-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-06T19:33:17-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-07T09:34:30-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- community/libmaxminddb extra/spandsp extra/jsoncpp extra/rhash extra/cmake community/ninja'
+[2022-01-07T09:34:33-0300] [ALPM] transaction started
+[2022-01-07T09:34:33-0300] [ALPM] installed libmaxminddb (1.6.0-1)
+[2022-01-07T09:34:33-0300] [ALPM] installed spandsp (0.0.6-3)
+[2022-01-07T09:34:33-0300] [ALPM] installed jsoncpp (1.9.5-1)
+[2022-01-07T09:34:33-0300] [ALPM] installed rhash (1.4.2-1)
+[2022-01-07T09:34:34-0300] [ALPM] installed cmake (3.22.1-5)
+[2022-01-07T09:34:34-0300] [ALPM] installed ninja (1.10.2-1)
+[2022-01-07T09:34:34-0300] [ALPM] transaction completed
+[2022-01-07T09:34:34-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-07T09:34:34-0300] [ALPM] running '30-update-mime-database.hook'...
+[2022-01-07T09:34:36-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-07T09:34:36-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-07T09:34:36-0300] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- libmaxminddb spandsp jsoncpp rhash cmake ninja'
+[2022-01-07T09:38:06-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- bridge-utils'
+[2022-01-07T09:38:09-0300] [ALPM] transaction started
+[2022-01-07T09:38:09-0300] [ALPM] installed bridge-utils (1.7.1-1)
+[2022-01-07T09:38:09-0300] [ALPM] transaction completed
+[2022-01-07T09:38:09-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-07T10:01:29-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- inetutils'
+[2022-01-07T10:01:30-0300] [ALPM] transaction started
+[2022-01-07T10:01:30-0300] [ALPM] installed inetutils (2.2-1)
+[2022-01-07T10:01:31-0300] [ALPM] transaction completed
+[2022-01-07T10:01:31-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-07T10:01:31-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-07T10:01:31-0300] [ALPM] running 'texinfo-install.hook'...
+[2022-01-07T10:15:40-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- tre'
+[2022-01-07T10:15:41-0300] [ALPM] transaction started
+[2022-01-07T10:15:41-0300] [ALPM] installed tre (0.8.0-6)
+[2022-01-07T10:15:41-0300] [ALPM] transaction completed
+[2022-01-07T10:15:41-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-07T10:22:08-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- tcpdump'
+[2022-01-07T10:22:10-0300] [ALPM] transaction started
+[2022-01-07T10:22:10-0300] [ALPM] installed tcpdump (4.99.1-1)
+[2022-01-07T10:22:10-0300] [ALPM] transaction completed
+[2022-01-07T10:22:10-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-07T10:25:14-0300] [PACMAN] Running 'pacman -R -d -n -s -c --config /etc/pacman.conf -- tcpdump tre'
+[2022-01-07T10:25:15-0300] [ALPM] transaction started
+[2022-01-07T10:25:16-0300] [ALPM] removed tre (0.8.0-6)
+[2022-01-07T10:25:16-0300] [ALPM] removed tcpdump (4.99.1-1)
+[2022-01-07T10:25:16-0300] [ALPM] transaction completed
+[2022-01-07T10:25:16-0300] [ALPM] running '30-systemd-update.hook'...

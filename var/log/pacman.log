@@ -40662,3 +40662,33 @@
 [2022-01-07T10:25:16-0300] [ALPM] removed tcpdump (4.99.1-1)
 [2022-01-07T10:25:16-0300] [ALPM] transaction completed
 [2022-01-07T10:25:16-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-07T11:15:38-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/crow/crow-0.3+3-1-any.pkg.tar.zst'
+[2022-01-07T11:15:38-0300] [ALPM] transaction started
+[2022-01-07T11:15:38-0300] [ALPM] reinstalled crow (0.3+3-1)
+[2022-01-07T11:15:39-0300] [ALPM] transaction completed
+[2022-01-07T11:15:39-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-07T11:16:43-0300] [PACMAN] Running 'pacman -R -s -c -d -n --config /etc/pacman.conf -- crow'
+[2022-01-07T11:16:48-0300] [ALPM] transaction started
+[2022-01-07T11:16:48-0300] [ALPM] removed crow (0.3+3-1)
+[2022-01-07T11:16:50-0300] [ALPM] removed boost (1.78.0-1)
+[2022-01-07T11:16:50-0300] [ALPM] transaction completed
+[2022-01-07T11:16:50-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-07T11:17:06-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- community/leptonica community/tesseract extra/extra-cmake-modules'
+[2022-01-07T11:17:08-0300] [ALPM] transaction started
+[2022-01-07T11:17:08-0300] [ALPM] installed leptonica (1.82.0-1)
+[2022-01-07T11:17:08-0300] [ALPM] installed tesseract (4.1.1-8)
+[2022-01-07T11:17:08-0300] [ALPM-SCRIPTLET] You must install one of tesseract-data-* packages or whole tesseract-data group
+[2022-01-07T11:17:08-0300] [ALPM] installed extra-cmake-modules (5.89.0-1)
+[2022-01-07T11:17:08-0300] [ALPM] transaction completed
+[2022-01-07T11:17:08-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-07T11:17:08-0300] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- leptonica tesseract extra-cmake-modules'
+[2022-01-07T11:18:51-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/crow-translate/crow-translate-2.9.1-1-x86_64.pkg.tar.zst'
+[2022-01-07T11:18:51-0300] [ALPM] transaction started
+[2022-01-07T11:18:51-0300] [ALPM] installed crow-translate (2.9.1-1)
+[2022-01-07T11:18:52-0300] [ALPM] transaction completed
+[2022-01-07T11:18:52-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-07T11:18:52-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-07T11:18:52-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-07T12:14:10-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-07T12:14:10-0300] [PACMAN] synchronizing package lists
+[2022-01-07T12:14:12-0300] [PACMAN] starting full system upgrade

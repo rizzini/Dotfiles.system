@@ -40717,3 +40717,15 @@
 [2022-01-07T18:46:19-0300] [ALPM-SCRIPTLET] ✔ O cache de metadados foi atualizado com sucesso.
 [2022-01-07T18:55:10-0300] [PACMAN] Running 'pacman -S -y -y -y -y -y --config /etc/pacman.conf --'
 [2022-01-07T18:55:10-0300] [PACMAN] synchronizing package lists
+[2022-01-08T07:15:28-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-08T07:15:28-0300] [PACMAN] synchronizing package lists
+[2022-01-08T07:15:29-0300] [PACMAN] starting full system upgrade
+[2022-01-08T07:15:34-0300] [ALPM] transaction started
+[2022-01-08T07:15:34-0300] [ALPM] upgraded poppler (21.11.0-1 -> 22.01.0-1)
+[2022-01-08T07:15:34-0300] [ALPM] upgraded qt5-base (5.15.2+kde+r276-1 -> 5.15.2+kde+r277-1)
+[2022-01-08T07:15:34-0300] [ALPM] upgraded poppler-qt5 (21.11.0-1 -> 22.01.0-1)
+[2022-01-08T07:15:35-0300] [ALPM] upgraded python-setuptools (1:57.4.0-6 -> 1:59.1.0-1)
+[2022-01-08T07:15:35-0300] [ALPM] upgraded qt5-declarative (5.15.2+kde+r42-1 -> 5.15.2+kde+r43-1)
+[2022-01-08T07:15:35-0300] [ALPM] upgraded qt5-svg (5.15.2+kde+r15-1 -> 5.15.2+kde+r16-1)
+[2022-01-08T07:15:35-0300] [ALPM] transaction completed
+[2022-01-08T07:15:36-0300] [ALPM] running '30-systemd-update.hook'...

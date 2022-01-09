@@ -40754,3 +40754,17 @@
 [2022-01-08T21:04:17-0300] [ALPM] transaction completed
 [2022-01-08T21:04:17-0300] [ALPM] running '30-systemd-update.hook'...
 [2022-01-08T21:04:17-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-09T07:41:38-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/android-sdk-platform-tools/android-sdk-platform-tools-31.0.3-1-x86_64.pkg.tar.zst'
+[2022-01-09T07:41:38-0300] [ALPM] transaction started
+[2022-01-09T07:41:38-0300] [ALPM] installed android-sdk-platform-tools (31.0.3-1)
+[2022-01-09T07:41:38-0300] [ALPM-SCRIPTLET] You need to source /etc/profile or relogin to add the Android SDK platform tools to your path.
+[2022-01-09T07:41:42-0300] [ALPM] transaction completed
+[2022-01-09T07:41:42-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-09T07:41:43-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-09T07:49:03-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-09T07:49:03-0300] [PACMAN] synchronizing package lists
+[2022-01-09T07:49:03-0300] [PACMAN] starting full system upgrade
+[2022-01-09T07:49:06-0300] [ALPM] transaction started
+[2022-01-09T07:49:06-0300] [ALPM] upgraded pacman (6.0.1-2 -> 6.0.1-3)
+[2022-01-09T07:49:06-0300] [ALPM] transaction completed
+[2022-01-09T07:49:06-0300] [ALPM] running '30-systemd-update.hook'...

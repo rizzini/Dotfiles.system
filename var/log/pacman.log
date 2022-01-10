@@ -41078,3 +41078,110 @@
 [2022-01-10T16:14:35-0300] [ALPM] transaction completed
 [2022-01-10T16:14:35-0300] [ALPM] running '30-systemd-update.hook'...
 [2022-01-10T16:14:35-0300] [PACMAN] Running 'pacman -D -q --asdeps --noconfirm --config /etc/pacman.conf -- libpdfium-nojs'
+[2022-01-10T16:17:59-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- ntfs-3g'
+[2022-01-10T16:18:00-0300] [ALPM] transaction started
+[2022-01-10T16:18:00-0300] [ALPM] installed fuse2 (2.9.9-4)
+[2022-01-10T16:18:00-0300] [ALPM] installed ntfs-3g (2021.8.22-1)
+[2022-01-10T16:18:01-0300] [ALPM] transaction completed
+[2022-01-10T16:18:01-0300] [ALPM] running '30-systemd-udev-reload.hook'...
+[2022-01-10T16:18:01-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-10T16:22:51-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- partitionmanager'
+[2022-01-10T16:22:53-0300] [ALPM] transaction started
+[2022-01-10T16:22:53-0300] [ALPM] installed kpmcore (21.12.1-1)
+[2022-01-10T16:22:53-0300] [ALPM] installed partitionmanager (21.12.1-1)
+[2022-01-10T16:22:53-0300] [ALPM] transaction completed
+[2022-01-10T16:22:53-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-10T16:22:53-0300] [ALPM] running 'dbus-reload.hook'...
+[2022-01-10T16:22:54-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-10T16:22:54-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-10T16:24:31-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/megasync/megasync-4.5.3.0-2-x86_64.pkg.tar.zst'
+[2022-01-10T16:24:31-0300] [ALPM] transaction started
+[2022-01-10T16:24:31-0300] [ALPM] installed megasync (4.5.3.0-2)
+[2022-01-10T16:24:32-0300] [ALPM] transaction completed
+[2022-01-10T16:24:32-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-10T16:24:32-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-10T16:24:32-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-10T16:24:32-0300] [PACMAN] Running 'pacman -R -u --noconfirm --config /etc/pacman.conf -- gn swig doxygen'
+[2022-01-10T16:24:32-0300] [ALPM] transaction started
+[2022-01-10T16:24:32-0300] [ALPM] removed doxygen (1.9.3-1)
+[2022-01-10T16:24:32-0300] [ALPM] removed swig (4.0.2-5)
+[2022-01-10T16:24:32-0300] [ALPM] removed gn (0.1938.0153d369-1)
+[2022-01-10T16:24:32-0300] [ALPM] transaction completed
+[2022-01-10T16:24:32-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-10T16:36:09-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/vte-common extra/vte3 community/remmina extra/libao community/pcsclite core/libgssglue community/rdesktop'
+[2022-01-10T16:36:13-0300] [ALPM] transaction started
+[2022-01-10T16:36:13-0300] [ALPM] installed vte-common (0.66.2-1)
+[2022-01-10T16:36:14-0300] [ALPM] installed vte3 (0.66.2-1)
+[2022-01-10T16:36:14-0300] [ALPM] installed remmina (1:1.4.23-3)
+[2022-01-10T16:36:14-0300] [ALPM] installed libao (1.2.2-5)
+[2022-01-10T16:36:14-0300] [ALPM] installed pcsclite (1.9.5-1)
+[2022-01-10T16:36:14-0300] [ALPM] installed libgssglue (0.4-4)
+[2022-01-10T16:36:14-0300] [ALPM] installed rdesktop (1.9.0-2)
+[2022-01-10T16:36:14-0300] [ALPM] transaction completed
+[2022-01-10T16:36:14-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-10T16:36:15-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-10T16:36:15-0300] [ALPM] running '30-update-mime-database.hook'...
+[2022-01-10T16:36:16-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-10T16:36:16-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-10T16:36:16-0300] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- vte-common vte3 remmina libao pcsclite libgssglue rdesktop'
+[2022-01-10T16:36:35-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/remmina-plugin-rdesktop/remmina-plugin-rdesktop-1.3.0.0-2-x86_64.pkg.tar.zst'
+[2022-01-10T16:36:35-0300] [ALPM] transaction started
+[2022-01-10T16:36:35-0300] [ALPM] installed remmina-plugin-rdesktop (1.3.0.0-2)
+[2022-01-10T16:36:35-0300] [ALPM] transaction completed
+[2022-01-10T16:36:35-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-10T16:36:35-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-10T16:38:11-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- remmina'
+[2022-01-10T16:38:26-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/remmina-plugin-rdesktop/remmina-plugin-rdesktop-1.3.0.0-2-x86_64.pkg.tar.zst'
+[2022-01-10T16:38:26-0300] [ALPM] transaction started
+[2022-01-10T16:38:26-0300] [ALPM] reinstalled remmina-plugin-rdesktop (1.3.0.0-2)
+[2022-01-10T16:38:26-0300] [ALPM] transaction completed
+[2022-01-10T16:38:26-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-10T16:38:26-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-10T16:38:43-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- freerdp'
+[2022-01-10T16:38:45-0300] [ALPM] transaction started
+[2022-01-10T16:38:45-0300] [ALPM] installed freerdp (2:2.4.1-2)
+[2022-01-10T16:38:45-0300] [ALPM] transaction completed
+[2022-01-10T16:38:45-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-10T16:49:10-0300] [PACMAN] Running 'pacman -R -d -n -s -c --config /etc/pacman.conf -- remmina remmina-plugin-rdesktop'
+[2022-01-10T16:49:11-0300] [ALPM] transaction started
+[2022-01-10T16:49:11-0300] [ALPM] removed remmina-plugin-rdesktop (1.3.0.0-2)
+[2022-01-10T16:49:11-0300] [ALPM] removed rdesktop (1.9.0-2)
+[2022-01-10T16:49:11-0300] [ALPM] removed libao (1.2.2-5)
+[2022-01-10T16:49:12-0300] [ALPM] removed remmina (1:1.4.23-3)
+[2022-01-10T16:49:12-0300] [ALPM] removed vte3 (0.66.2-1)
+[2022-01-10T16:49:12-0300] [ALPM] removed vte-common (0.66.2-1)
+[2022-01-10T16:49:12-0300] [ALPM] transaction completed
+[2022-01-10T16:49:12-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-10T16:49:12-0300] [ALPM] running '30-update-mime-database.hook'...
+[2022-01-10T16:49:12-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-10T16:49:12-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-10T16:50:28-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- kcalc'
+[2022-01-10T16:50:29-0300] [ALPM] transaction started
+[2022-01-10T16:50:29-0300] [ALPM] installed kcalc (21.12.1-1)
+[2022-01-10T16:50:29-0300] [ALPM] transaction completed
+[2022-01-10T16:50:29-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-10T16:50:29-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-10T17:16:17-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-10T17:16:17-0300] [PACMAN] synchronizing package lists
+[2022-01-10T17:16:32-0300] [PACMAN] starting full system upgrade
+[2022-01-10T17:24:38-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/python-pyqt5-sip extra/python-pyqt5 community/python-send2trash'
+[2022-01-10T17:24:45-0300] [ALPM] transaction started
+[2022-01-10T17:24:45-0300] [ALPM] installed python-pyqt5-sip (12.9.0-3)
+[2022-01-10T17:24:45-0300] [ALPM] installed python-pyqt5 (5.15.6-6)
+[2022-01-10T17:24:45-0300] [ALPM] installed python-send2trash (1.8.0-3)
+[2022-01-10T17:24:46-0300] [ALPM] transaction completed
+[2022-01-10T17:24:46-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-10T17:24:46-0300] [PACMAN] Running 'pacman -D --asdeps -q --config /etc/pacman.conf -- python-pyqt5-sip python-pyqt5 python-send2trash'
+[2022-01-10T17:25:11-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/python-polib/python-polib-1.1.1-1-any.pkg.tar.zst /home/lucas/.cache/yay/python-hsaudiotag3k/python-hsaudiotag3k-1.1.3.post1-3-any.pkg.tar.zst'
+[2022-01-10T17:25:11-0300] [ALPM] transaction started
+[2022-01-10T17:25:11-0300] [ALPM] installed python-polib (1.1.1-1)
+[2022-01-10T17:25:11-0300] [ALPM] installed python-hsaudiotag3k (1.1.3.post1-3)
+[2022-01-10T17:25:11-0300] [ALPM] transaction completed
+[2022-01-10T17:25:11-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-10T17:25:11-0300] [PACMAN] Running 'pacman -D -q --asdeps --noconfirm --config /etc/pacman.conf -- python-polib python-hsaudiotag3k'
+[2022-01-10T17:25:46-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/dupeguru/dupeguru-4.1.1-3-any.pkg.tar.zst'
+[2022-01-10T17:25:46-0300] [ALPM] transaction started
+[2022-01-10T17:25:46-0300] [ALPM] installed dupeguru (4.1.1-3)
+[2022-01-10T17:25:47-0300] [ALPM] transaction completed
+[2022-01-10T17:25:47-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-10T17:25:47-0300] [ALPM] running 'update-desktop-database.hook'...

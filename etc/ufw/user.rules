@@ -36,13 +36,16 @@
 ### tuple ### allow tcp 5598 192.168.0.201 any 0.0.0.0/0 in
 -A ufw-user-input -p tcp -d 192.168.0.201 --dport 5598 -j ACCEPT
 
+### tuple ### allow udp 53 192.168.250.0/24 any 192.168.250.0/24 in_waydroid0
+-A ufw-user-input -i waydroid0 -p udp -d 192.168.250.0/24 --dport 53 -s 192.168.250.0/24 -j ACCEPT
+
 ### tuple ### allow udp 67 0.0.0.0/0 68 0.0.0.0/0 in_waydroid0
 -A ufw-user-input -i waydroid0 -p udp --dport 67 --sport 68 -j ACCEPT
 
 ### END RULES ###
 
 ### LOGGING ###
--A ufw-after-logging-input -j LOG --log-prefix "[UFW ALLOW] "
+-A ufw-after-logging-input -j LOG --log-prefix "[UFW BLOCK] "
 -A ufw-after-logging-output -j LOG --log-prefix "[UFW ALLOW] "
 -A ufw-after-logging-forward -j LOG --log-prefix "[UFW ALLOW] "
 -A ufw-logging-deny -m conntrack --ctstate INVALID -j LOG --log-prefix "[UFW AUDIT INVALID] "

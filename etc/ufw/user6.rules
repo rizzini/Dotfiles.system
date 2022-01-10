@@ -24,7 +24,7 @@
 ### END RULES ###
 
 ### LOGGING ###
--A ufw6-after-logging-input -j LOG --log-prefix "[UFW ALLOW] "
+-A ufw6-after-logging-input -j LOG --log-prefix "[UFW BLOCK] "
 -A ufw6-after-logging-output -j LOG --log-prefix "[UFW ALLOW] "
 -A ufw6-after-logging-forward -j LOG --log-prefix "[UFW ALLOW] "
 -A ufw6-logging-deny -m conntrack --ctstate INVALID -j LOG --log-prefix "[UFW AUDIT INVALID] "

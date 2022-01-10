@@ -40768,3 +40768,60 @@
 [2022-01-09T07:49:06-0300] [ALPM] upgraded pacman (6.0.1-2 -> 6.0.1-3)
 [2022-01-09T07:49:06-0300] [ALPM] transaction completed
 [2022-01-09T07:49:06-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-09T14:48:18-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-09T14:48:18-0300] [PACMAN] synchronizing package lists
+[2022-01-09T14:48:18-0300] [PACMAN] starting full system upgrade
+[2022-01-09T14:48:39-0300] [ALPM] transaction started
+[2022-01-09T14:48:44-0300] [ALPM] upgraded breeze-icons (5.89.0-1 -> 5.90.0-1)
+[2022-01-09T14:48:46-0300] [ALPM] upgraded qt5-base (5.15.2+kde+r277-1 -> 5.15.2+kde+r281-1)
+[2022-01-09T14:48:46-0300] [ALPM] upgraded syndication (5.89.0-1 -> 5.90.0-1)
+[2022-01-09T14:48:46-0300] [ALPM] upgraded frameworkintegration (5.89.0-1 -> 5.90.0-1)
+[2022-01-09T14:48:46-0300] [ALPM] upgraded glu (9.0.2-1 -> 9.0.2-2)
+[2022-01-09T14:48:46-0300] [ALPM] upgraded kactivities-stats (5.89.0-1 -> 5.90.0-1)
+[2022-01-09T14:48:46-0300] [ALPM] upgraded kitemmodels (5.89.0-1 -> 5.90.0-1)
+[2022-01-09T14:48:48-0300] [ALPM] upgraded kdelibs4support (5.89.0-1 -> 5.90.0-1)
+[2022-01-09T14:48:48-0300] [ALPM] upgraded kdesu (5.89.0-1 -> 5.90.0-1)
+[2022-01-09T14:48:48-0300] [ALPM] upgraded kdnssd (5.89.0-1 -> 5.90.0-1)
+[2022-01-09T14:48:48-0300] [ALPM] upgraded kholidays (1:5.89.0-1 -> 1:5.90.0-1)
+[2022-01-09T14:48:48-0300] [ALPM] upgraded knotifyconfig (5.89.0-1 -> 5.90.0-1)
+[2022-01-09T14:48:48-0300] [ALPM] upgraded kpeople (5.89.0-1 -> 5.90.0-1)
+[2022-01-09T14:48:48-0300] [ALPM] upgraded kquickcharts (5.89.0-1 -> 5.90.0-1)
+[2022-01-09T14:48:48-0300] [ALPM] upgraded ktexteditor (5.89.0-1 -> 5.90.0-1)
+[2022-01-09T14:48:48-0300] [ALPM] upgraded lib32-glu (9.0.2-1 -> 9.0.2-2)
+[2022-01-09T14:48:48-0300] [ALPM] upgraded modemmanager-qt (5.89.0-1 -> 5.90.0-1)
+[2022-01-09T14:48:48-0300] [ALPM] upgraded networkmanager-qt (5.89.0-1 -> 5.90.0-1)
+[2022-01-09T14:48:48-0300] [ALPM] upgraded prison (5.89.0-1 -> 5.90.0-1)
+[2022-01-09T14:48:49-0300] [ALPM] upgraded purpose (5.89.0-1 -> 5.90.0-1)
+[2022-01-09T14:48:49-0300] [ALPM] upgraded qqc2-desktop-style (5.89.0-1 -> 5.90.0-1)
+[2022-01-09T14:48:49-0300] [ALPM] transaction completed
+[2022-01-09T14:48:50-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-09T14:48:50-0300] [ALPM] running 'dbus-reload.hook'...
+[2022-01-09T14:48:50-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-09T14:58:37-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-09T14:58:37-0300] [PACMAN] synchronizing package lists
+[2022-01-09T14:58:38-0300] [PACMAN] starting full system upgrade
+[2022-01-09T15:15:23-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- iotop'
+[2022-01-09T15:15:28-0300] [ALPM] transaction started
+[2022-01-09T15:15:28-0300] [ALPM] installed iotop (0.6-9)
+[2022-01-09T15:15:29-0300] [ALPM] transaction completed
+[2022-01-09T15:15:29-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-09T15:16:31-0300] [PACMAN] Running 'pacman -R -d -n -s -c --config /etc/pacman.conf -- iotop stress'
+[2022-01-09T15:16:32-0300] [ALPM] running 'texinfo-remove.hook'...
+[2022-01-09T15:16:33-0300] [ALPM] transaction started
+[2022-01-09T15:16:33-0300] [ALPM] removed stress (1.0.4-6)
+[2022-01-09T15:16:36-0300] [ALPM] removed iotop (0.6-9)
+[2022-01-09T15:16:39-0300] [ALPM] transaction completed
+[2022-01-09T15:16:39-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-09T22:12:32-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-09T22:12:32-0300] [PACMAN] synchronizing package lists
+[2022-01-09T22:12:34-0300] [PACMAN] starting full system upgrade
+[2022-01-09T22:12:36-0300] [ALPM] transaction started
+[2022-01-09T22:12:37-0300] [ALPM] upgraded bash (5.1.012-1 -> 5.1.016-1)
+[2022-01-09T22:12:39-0300] [ALPM] transaction completed
+[2022-01-09T22:12:39-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-09T22:12:39-0300] [ALPM] running 'texinfo-install.hook'...
+[2022-01-09T22:12:54-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/legendary/legendary-0.20.23-1-any.pkg.tar.zst'
+[2022-01-09T22:12:54-0300] [ALPM] transaction started
+[2022-01-09T22:12:54-0300] [ALPM] upgraded legendary (0.20.22-1 -> 0.20.23-1)
+[2022-01-09T22:12:54-0300] [ALPM] transaction completed
+[2022-01-09T22:12:54-0300] [ALPM] running '30-systemd-update.hook'...

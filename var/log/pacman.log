@@ -41185,3 +41185,120 @@
 [2022-01-10T17:25:47-0300] [ALPM] transaction completed
 [2022-01-10T17:25:47-0300] [ALPM] running '30-systemd-update.hook'...
 [2022-01-10T17:25:47-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-10T18:14:25-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- arch-install-scripts'
+[2022-01-10T18:14:26-0300] [ALPM] transaction started
+[2022-01-10T18:14:26-0300] [ALPM] installed arch-install-scripts (24-2)
+[2022-01-10T18:14:27-0300] [ALPM] transaction completed
+[2022-01-10T18:14:27-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-11T08:23:26-0300] [PACMAN] Running 'pacman -S -u -y --config /etc/pacman.conf --'
+[2022-01-11T08:23:26-0300] [PACMAN] synchronizing package lists
+[2022-01-11T08:23:27-0300] [PACMAN] starting full system upgrade
+[2022-01-11T08:24:16-0300] [ALPM] transaction started
+[2022-01-11T08:24:16-0300] [ALPM] removed hwids (20210613-1)
+[2022-01-11T08:24:16-0300] [ALPM] installed hwdata (0.355-1)
+[2022-01-11T08:24:16-0300] [ALPM] upgraded systemd-libs (250.1-1 -> 250.1-2)
+[2022-01-11T08:24:17-0300] [ALPM] upgraded systemd (250.1-1 -> 250.1-2)
+[2022-01-11T08:24:18-0300] [ALPM] upgraded handbrake (1.4.2-2 -> 1.5.1-1)
+[2022-01-11T08:24:18-0300] [ALPM] upgraded lib32-libunwind (1.5.0-1 -> 1.6.2-1)
+[2022-01-11T08:24:18-0300] [ALPM] upgraded lib32-sqlite (3.37.0-1 -> 3.37.2-1)
+[2022-01-11T08:24:22-0300] [ALPM] upgraded linux-firmware (20211027.1d00989-1 -> 20211216.f682ecb-1)
+[2022-01-11T08:24:22-0300] [ALPM] upgraded mdadm (4.1-2 -> 4.2-1)
+[2022-01-11T08:24:22-0300] [ALPM] upgraded pciutils (3.7.0-1 -> 3.7.0-2)
+[2022-01-11T08:24:25-0300] [ALPM] upgraded qt5-base (5.15.2+kde+r283-1 -> 5.15.2+kde+r286-1)
+[2022-01-11T08:24:25-0300] [ALPM] upgraded vulkan-headers (1:1.2.202-1 -> 1:1.2.203-1)
+[2022-01-11T08:24:26-0300] [ALPM] upgraded qt6-base (6.2.2-4 -> 6.2.2-5)
+[2022-01-11T08:24:26-0300] [ALPM] upgraded sdl2 (2.0.18-3 -> 2.0.20-1)
+[2022-01-11T08:24:26-0300] [ALPM] upgraded systemd-sysvcompat (250.1-1 -> 250.1-2)
+[2022-01-11T08:24:26-0300] [ALPM] upgraded usbutils (014-1 -> 014-2)
+[2022-01-11T08:24:26-0300] [ALPM] transaction completed
+[2022-01-11T08:24:27-0300] [ALPM] running '20-systemd-sysusers.hook'...
+[2022-01-11T08:24:27-0300] [ALPM] running '30-systemd-catalog.hook'...
+[2022-01-11T08:24:27-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-11T08:24:27-0300] [ALPM] running '30-systemd-hwdb.hook'...
+[2022-01-11T08:24:27-0300] [ALPM] running '30-systemd-sysctl.hook'...
+[2022-01-11T08:24:27-0300] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2022-01-11T08:24:27-0300] [ALPM] running '30-systemd-udev-reload.hook'...
+[2022-01-11T08:24:28-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-11T08:24:28-0300] [ALPM] running '90-mkinitcpio-install.hook'...
+[2022-01-11T08:24:28-0300] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux516-tkg-cfs.preset: 'default'
+[2022-01-11T08:24:28-0300] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux516-tkg-cfs -c /etc/mkinitcpio.conf -g /boot/initramfs-linux516-tkg-cfs.img
+[2022-01-11T08:24:28-0300] [ALPM-SCRIPTLET] ==> Starting build: 5.16.0-rc6-230-tkg-cfs
+[2022-01-11T08:24:28-0300] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2022-01-11T08:24:28-0300] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2022-01-11T08:24:29-0300] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2022-01-11T08:24:29-0300] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2022-01-11T08:24:29-0300] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2022-01-11T08:24:29-0300] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: xhci_pci
+[2022-01-11T08:24:30-0300] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2022-01-11T08:24:30-0300] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2022-01-11T08:24:30-0300] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2022-01-11T08:24:31-0300] [ALPM-SCRIPTLET] Decompress:  1/28 files. Current: ...-memless.ko.zst : 0 B...    ==> Generating module dependencies
+[2022-01-11T08:24:31-0300] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux516-tkg-cfs.img
+[2022-01-11T08:24:31-0300] [ALPM-SCRIPTLET] ==> Image generation successful
+[2022-01-11T08:24:31-0300] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux516-tkg-cfs.preset: 'fallback'
+[2022-01-11T08:24:31-0300] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux516-tkg-cfs -c /etc/mkinitcpio.conf -g /boot/initramfs-linux516-tkg-cfs-fallback.img -S autodetect
+[2022-01-11T08:24:31-0300] [ALPM-SCRIPTLET] ==> Starting build: 5.16.0-rc6-230-tkg-cfs
+[2022-01-11T08:24:31-0300] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2022-01-11T08:24:31-0300] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2022-01-11T08:24:32-0300] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2022-01-11T08:24:32-0300] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2022-01-11T08:24:33-0300] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2022-01-11T08:24:33-0300] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2022-01-11T08:24:34-0300] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: xhci_pci
+[2022-01-11T08:24:36-0300] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2022-01-11T08:24:38-0300] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2022-01-11T08:24:39-0300] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2022-01-11T08:24:39-0300] [ALPM-SCRIPTLET] Decompress:  1/633 files. Current: ...rnel/uas.ko.zst : 0 B...    Decompress: 436/633 files. Current: .../mptbase.ko.zst : 0 B...    ==> Generating module dependencies
+[2022-01-11T08:24:39-0300] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux516-tkg-cfs-fallback.img
+[2022-01-11T08:24:40-0300] [ALPM-SCRIPTLET] ==> Image generation successful
+[2022-01-11T08:24:40-0300] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'default'
+[2022-01-11T08:24:40-0300] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux.img
+[2022-01-11T08:24:40-0300] [ALPM-SCRIPTLET] ==> Starting build: 5.15.13-arch1-1
+[2022-01-11T08:24:40-0300] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2022-01-11T08:24:41-0300] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2022-01-11T08:24:41-0300] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2022-01-11T08:24:41-0300] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2022-01-11T08:24:41-0300] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2022-01-11T08:24:41-0300] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: xhci_pci
+[2022-01-11T08:24:42-0300] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2022-01-11T08:24:42-0300] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2022-01-11T08:24:42-0300] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2022-01-11T08:24:42-0300] [ALPM-SCRIPTLET] Decompress:  1/28 files. Current: ...el/cdrom.ko.zst : 0 B...    ==> Generating module dependencies
+[2022-01-11T08:24:42-0300] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux.img
+[2022-01-11T08:24:43-0300] [ALPM-SCRIPTLET] ==> Image generation successful
+[2022-01-11T08:24:43-0300] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux.preset: 'fallback'
+[2022-01-11T08:24:43-0300] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux -c /etc/mkinitcpio.conf -g /boot/initramfs-linux-fallback.img -S autodetect
+[2022-01-11T08:24:43-0300] [ALPM-SCRIPTLET] ==> Starting build: 5.15.13-arch1-1
+[2022-01-11T08:24:43-0300] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2022-01-11T08:24:43-0300] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2022-01-11T08:24:43-0300] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2022-01-11T08:24:43-0300] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2022-01-11T08:24:44-0300] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2022-01-11T08:24:45-0300] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2022-01-11T08:24:45-0300] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: xhci_pci
+[2022-01-11T08:24:46-0300] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2022-01-11T08:24:47-0300] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2022-01-11T08:24:48-0300] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2022-01-11T08:24:48-0300] [ALPM-SCRIPTLET] Decompress:  1/633 files. Current: ...l/cryptd.ko.zst : 0 B...    Decompress: 405/633 files. Current: ...el/lockd.ko.zst : 256 KiB...    ==> Generating module dependencies
+[2022-01-11T08:24:49-0300] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux-fallback.img
+[2022-01-11T08:24:50-0300] [ALPM-SCRIPTLET] ==> Image generation successful
+[2022-01-11T08:24:50-0300] [ALPM] running 'dbus-reload.hook'...
+[2022-01-11T08:24:50-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-11T08:24:50-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-11T08:26:46-0300] [PACMAN] Running 'pacman -S -y --config /etc/pacman.conf -- extra/gn'
+[2022-01-11T08:26:46-0300] [PACMAN] synchronizing package lists
+[2022-01-11T08:26:47-0300] [ALPM] transaction started
+[2022-01-11T08:26:47-0300] [ALPM] installed gn (0.1938.0153d369-1)
+[2022-01-11T08:26:48-0300] [ALPM] transaction completed
+[2022-01-11T08:26:48-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-11T08:26:48-0300] [PACMAN] Running 'pacman -D --asdeps -q --config /etc/pacman.conf -- gn'
+[2022-01-11T08:27:14-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/legendary/legendary-0.20.24-1-any.pkg.tar.zst'
+[2022-01-11T08:27:14-0300] [ALPM] transaction started
+[2022-01-11T08:27:14-0300] [ALPM] upgraded legendary (0.20.23-1 -> 0.20.24-1)
+[2022-01-11T08:27:14-0300] [ALPM] transaction completed
+[2022-01-11T08:27:14-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-11T08:27:33-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/libpdfium-nojs/libpdfium-nojs-4692.r0.31722577db-3-x86_64.pkg.tar.zst'
+[2022-01-11T08:27:33-0300] [ALPM] transaction started
+[2022-01-11T08:27:33-0300] [ALPM] reinstalled libpdfium-nojs (4692.r0.31722577db-3)
+[2022-01-11T08:27:33-0300] [ALPM] transaction completed
+[2022-01-11T08:27:33-0300] [ALPM] running '30-systemd-update.hook'...

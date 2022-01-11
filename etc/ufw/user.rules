@@ -27,15 +27,6 @@
 -A ufw-user-input -p tcp --dport 51413 -j ACCEPT
 -A ufw-user-input -p udp --dport 51413 -j ACCEPT
 
-### tuple ### allow udp 9985 192.168.0.201 any 0.0.0.0/0 in
--A ufw-user-input -p udp -d 192.168.0.201 --dport 9985 -j ACCEPT
-
-### tuple ### allow udp 5601 192.168.0.201 any 0.0.0.0/0 in
--A ufw-user-input -p udp -d 192.168.0.201 --dport 5601 -j ACCEPT
-
-### tuple ### allow tcp 5598 192.168.0.201 any 0.0.0.0/0 in
--A ufw-user-input -p tcp -d 192.168.0.201 --dport 5598 -j ACCEPT
-
 ### tuple ### allow udp 53 192.168.250.0/24 any 192.168.250.0/24 in_waydroid0
 -A ufw-user-input -i waydroid0 -p udp -d 192.168.250.0/24 --dport 53 -s 192.168.250.0/24 -j ACCEPT
 

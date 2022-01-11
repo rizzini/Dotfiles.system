@@ -41328,3 +41328,6 @@
 [2022-01-11T18:55:36-0300] [ALPM] reinstalled libpdfium-nojs (4692.r0.31722577db-3)
 [2022-01-11T18:55:36-0300] [ALPM] transaction completed
 [2022-01-11T18:55:36-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-11T19:32:16-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-11T19:32:16-0300] [PACMAN] synchronizing package lists
+[2022-01-11T19:32:17-0300] [PACMAN] starting full system upgrade

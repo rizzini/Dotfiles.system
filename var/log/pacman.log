@@ -41744,3 +41744,275 @@
 [2022-01-13T17:54:20-0300] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux516-tkg-cfs-fallback.img
 [2022-01-13T17:54:21-0300] [ALPM-SCRIPTLET] ==> Image generation successful
 [2022-01-13T17:54:21-0300] [ALPM] running 'dbus-reload.hook'...
+[2022-01-13T18:42:59-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-13T18:42:59-0300] [PACMAN] synchronizing package lists
+[2022-01-13T18:43:03-0300] [PACMAN] starting full system upgrade
+[2022-01-13T18:43:12-0300] [PACMAN] Running 'pacman -R -d -n -s -c --config /etc/pacman.conf -- freerdp'
+[2022-01-13T18:43:13-0300] [ALPM] transaction started
+[2022-01-13T18:43:13-0300] [ALPM] removed freerdp (2:2.4.1-2)
+[2022-01-13T18:43:13-0300] [ALPM] removed pcsclite (1.9.5-1)
+[2022-01-13T18:43:13-0300] [ALPM] removed libgssglue (0.4-4)
+[2022-01-13T18:43:14-0300] [ALPM] transaction completed
+[2022-01-13T18:43:14-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-13T18:43:14-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-13T21:54:04-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-13T21:54:04-0300] [PACMAN] synchronizing package lists
+[2022-01-13T21:54:30-0300] [PACMAN] starting full system upgrade
+[2022-01-13T21:54:41-0300] [ALPM] transaction started
+[2022-01-13T21:54:41-0300] [ALPM] upgraded ndctl (72-1 -> 72.1-1)
+[2022-01-13T21:54:41-0300] [ALPM] transaction completed
+[2022-01-13T21:54:41-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-13T21:54:41-0300] [ALPM] running '30-systemd-udev-reload.hook'...
+[2022-01-13T21:54:42-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-14T08:00:47-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-14T08:00:47-0300] [PACMAN] synchronizing package lists
+[2022-01-14T08:00:50-0300] [PACMAN] starting full system upgrade
+[2022-01-14T08:00:54-0300] [ALPM] transaction started
+[2022-01-14T08:00:54-0300] [ALPM] upgraded archlinux-keyring (20220111-1 -> 20220114-1)
+[2022-01-14T08:00:54-0300] [ALPM-SCRIPTLET] ==> Anexando chaves de archlinux.gpg...
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] ==> Desabilitando chaves revogadas no chaveiro...
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET]   -> Desabilitadas 1 chaves.
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] ==> Atualizando base de dados de confiança...
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 786C63F330D7CB92: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 1EB2638FF56C0C53: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: key 1EB2638FF56C0C53: no user ID for key signature packet of class 10
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: marginals needed: 3  completes needed: 1  trust model: pgp
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: depth: 0  valid:   1  signed:   5  trust: 0-, 0q, 0n, 0m, 0f, 1u
+[2022-01-14T08:00:56-0300] [ALPM-SCRIPTLET] gpg: depth: 1  valid:   5  signed:  94  trust: 0-, 0q, 0n, 5m, 0f, 0u
+[2022-01-14T08:00:57-0300] [ALPM-SCRIPTLET] gpg: depth: 2  valid:  85  signed:  34  trust: 85-, 0q, 0n, 0m, 0f, 0u
+[2022-01-14T08:00:57-0300] [ALPM-SCRIPTLET] gpg: proxima verificação da base de dados de confiança a 2022-05-06
+[2022-01-14T08:00:57-0300] [ALPM-SCRIPTLET] ==> Atualizando base de dados de confiança...
+[2022-01-14T08:00:57-0300] [ALPM-SCRIPTLET] gpg: proxima verificação da base de dados de confiança a 2022-05-06
+[2022-01-14T08:00:57-0300] [ALPM] upgraded lib32-ocl-icd (2.3.0-1 -> 2.3.1-1)
+[2022-01-14T08:00:57-0300] [ALPM] upgraded qt5-base (5.15.2+kde+r289-1 -> 5.15.2+kde+r291-1)
+[2022-01-14T08:00:58-0300] [ALPM] transaction completed
+[2022-01-14T08:00:58-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-14T08:31:19-0300] [PACMAN] Running 'pacman -R -s -c -d -n --config /etc/pacman.conf -- waydroid-git waydroid-image'
+[2022-01-14T08:31:23-0300] [ALPM] running 'texinfo-remove.hook'...
+[2022-01-14T08:31:23-0300] [ALPM] transaction started
+[2022-01-14T08:31:24-0300] [ALPM] removed waydroid-image (17.1_20211021-1)
+[2022-01-14T08:31:24-0300] [ALPM] removed waydroid-git (1.2.0.r5.gd03e10c-1)
+[2022-01-14T08:31:24-0300] [ALPM] removed python-gobject (3.42.0-3)
+[2022-01-14T08:31:24-0300] [ALPM] removed gobject-introspection-runtime (1.70.0-5)
+[2022-01-14T08:31:24-0300] [ALPM] removed python-gbinder (1.0.0-2)
+[2022-01-14T08:31:24-0300] [ALPM] removed lxc (1:4.0.11-2)
+[2022-01-14T08:31:24-0300] [ALPM] removed wget (1.21.2-1)
+[2022-01-14T08:31:24-0300] [ALPM] removed libgbinder (1.1.16-1)
+[2022-01-14T08:31:24-0300] [ALPM] removed libglibutil (1.0.61-1)
+[2022-01-14T08:31:24-0300] [ALPM] removed dnsmasq (2.86-1)
+[2022-01-14T08:31:25-0300] [ALPM] removed cython (0.29.26-2)
+[2022-01-14T08:31:25-0300] [ALPM] transaction completed
+[2022-01-14T08:31:25-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-14T08:31:25-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-14T08:31:25-0300] [ALPM] running 'dbus-reload.hook'...
+[2022-01-14T08:31:25-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-14T08:31:27-0300] [PACMAN] Running 'pacman -R --config /etc/pacman.conf -- fontforge lib32-aalib lib32-gpm lib32-gst-plugins-good lib32-imlib2 lib32-libavc1394 lib32-libcaca lib32-libdv lib32-libid3tag lib32-libiec61883 lib32-libraw1394 lib32-libshout lib32-libtheora lib32-libwebp lib32-libxmu lib32-libxt lib32-popt lib32-speex lib32-taglib lib32-twolame lib32-wavpack libspiro libuninameslist meson mingw-w64-binutils mingw-w64-crt mingw-w64-gcc mingw-w64-headers mingw-w64-winpthreads ninja opencl-headers potrace'
+[2022-01-14T08:31:28-0300] [ALPM] running 'texinfo-remove.hook'...
+[2022-01-14T08:31:28-0300] [ALPM] transaction started
+[2022-01-14T08:31:28-0300] [ALPM] removed opencl-headers (2:2021.04.29-1)
+[2022-01-14T08:31:28-0300] [ALPM] removed mingw-w64-gcc (11.2.0-1)
+[2022-01-14T08:31:28-0300] [ALPM] removed mingw-w64-winpthreads (9.0.0-1)
+[2022-01-14T08:31:29-0300] [ALPM] removed mingw-w64-headers (9.0.0-2)
+[2022-01-14T08:31:29-0300] [ALPM] removed mingw-w64-crt (9.0.0-1)
+[2022-01-14T08:31:29-0300] [ALPM] removed mingw-w64-binutils (2.36.1-1)
+[2022-01-14T08:31:29-0300] [ALPM] removed meson (0.61.0-4)
+[2022-01-14T08:31:29-0300] [ALPM] removed ninja (1.10.2-1)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-libxmu (1.1.3-1)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-libxt (1.2.1-1)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-gst-plugins-good (1.18.5-1)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-wavpack (5.4.0-1)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-twolame (0.4.0-2)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-taglib (1.12-1)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-libshout (2.4.5-1)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-speex (1.2.0-2)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-libtheora (1.1.1-12)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-libiec61883 (1.2.0-2)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-libdv (1.0.0-5)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-popt (1.18-1)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-libcaca (0.99.beta19-5)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-imlib2 (1.7.5-1)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-libwebp (1.2.1-2)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-libid3tag (0.15.1b-2)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-libavc1394 (0.5.4-2)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-libraw1394 (2.1.2-2)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-aalib (1.4rc5-2)
+[2022-01-14T08:31:29-0300] [ALPM] removed lib32-gpm (1.20.7-2)
+[2022-01-14T08:31:29-0300] [ALPM] removed fontforge (20201107-3)
+[2022-01-14T08:31:29-0300] [ALPM] removed potrace (1.16-2)
+[2022-01-14T08:31:29-0300] [ALPM] removed libuninameslist (20211114-1)
+[2022-01-14T08:31:29-0300] [ALPM] removed libspiro (1:20200505-2)
+[2022-01-14T08:31:29-0300] [ALPM] transaction completed
+[2022-01-14T08:31:29-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-14T08:31:29-0300] [ALPM] running '30-update-mime-database.hook'...
+[2022-01-14T08:31:29-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-14T08:31:30-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-14T08:32:35-0300] [PACMAN] Running 'pacman -R -n -s -c -d --config /etc/pacman.conf -- weston'
+[2022-01-14T08:32:38-0300] [ALPM] transaction started
+[2022-01-14T08:32:38-0300] [ALPM] removed weston (9.0.0-1)
+[2022-01-14T08:32:38-0300] [ALPM] removed libpipewire02 (0.2.7-2)
+[2022-01-14T08:32:38-0300] [ALPM] removed colord (1.4.5-4)
+[2022-01-14T08:32:38-0300] [ALPM] removed libgusb (0.3.10-1)
+[2022-01-14T08:32:38-0300] [ALPM] transaction completed
+[2022-01-14T08:32:38-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-14T08:32:38-0300] [ALPM] running '30-systemd-udev-reload.hook'...
+[2022-01-14T08:32:38-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-14T08:32:38-0300] [ALPM] running 'dbus-reload.hook'...
+[2022-01-14T08:32:38-0300] [ALPM] running 'glib-compile-schemas.hook'...
+[2022-01-14T08:33:25-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/wget community/perl-sgmls extra/perl-encode-locale extra/perl-http-date extra/perl-file-listing extra/perl-html-tagset extra/perl-clone extra/perl-io-html extra/perl-lwp-mediatypes extra/perl-uri extra/perl-http-message extra/perl-html-parser extra/perl-http-cookies extra/perl-http-daemon extra/perl-http-negotiate extra/perl-net-http extra/perl-try-tiny extra/perl-www-robotrules extra/perl-libwww extra/perl-xml-parser extra/perl-xml-sax-base extra/perl-xml-namespacesupport extra/perl-xml-sax extra/sgml-common extra/opensp extra/openjade community/perl-xml-sax-expat community/docbook2x extra/lua extra/apparmor extra/sdl2_image extra/protobuf extra/squashfs-tools extra/jsoncpp extra/rhash extra/cmake extra/doxygen community/glm extra/boost community/gtest'
+[2022-01-14T08:33:32-0300] [ALPM] transaction started
+[2022-01-14T08:33:32-0300] [ALPM] installed wget (1.21.2-1)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-sgmls (1:1.1-8)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-encode-locale (1.05-8)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-http-date (6.05-4)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-file-listing (6.14-2)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-html-tagset (3.20-11)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-clone (0.45-3)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-io-html (1.004-2)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-lwp-mediatypes (6.04-1)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-uri (5.10-1)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-http-message (6.34-1)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-html-parser (3.76-2)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-http-cookies (6.10-2)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-http-daemon (6.12-1)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-http-negotiate (6.01-9)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-net-http (6.21-2)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-try-tiny (0.31-1)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-www-robotrules (6.02-9)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-libwww (6.58-1)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-xml-parser (2.46-3)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-xml-sax-base (1.09-4)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-xml-namespacesupport (1.12-4)
+[2022-01-14T08:33:32-0300] [ALPM] installed perl-xml-sax (1.02-1)
+[2022-01-14T08:33:33-0300] [ALPM] installed sgml-common (0.6.3-7)
+[2022-01-14T08:33:33-0300] [ALPM] installed opensp (1.5.2-9)
+[2022-01-14T08:33:33-0300] [ALPM] installed openjade (1.3.2-6)
+[2022-01-14T08:33:33-0300] [ALPM] installed perl-xml-sax-expat (0.51-7)
+[2022-01-14T08:33:33-0300] [ALPM] installed docbook2x (0.8.8-18)
+[2022-01-14T08:33:33-0300] [ALPM] installed lua (5.4.3-1)
+[2022-01-14T08:33:33-0300] [ALPM] installed apparmor (3.0.3-2)
+[2022-01-14T08:33:33-0300] [ALPM] installed sdl2_image (2.0.5-2)
+[2022-01-14T08:33:33-0300] [ALPM] installed protobuf (3.19.2-1)
+[2022-01-14T08:33:33-0300] [ALPM] installed squashfs-tools (4.5-1)
+[2022-01-14T08:33:33-0300] [ALPM] installed jsoncpp (1.9.5-1)
+[2022-01-14T08:33:33-0300] [ALPM] installed rhash (1.4.2-1)
+[2022-01-14T08:33:34-0300] [ALPM] installed cmake (3.22.1-5)
+[2022-01-14T08:33:34-0300] [ALPM] installed doxygen (1.9.3-1)
+[2022-01-14T08:33:35-0300] [ALPM] installed glm (0.9.9.8-1)
+[2022-01-14T08:33:37-0300] [ALPM] installed boost (1.78.0-1)
+[2022-01-14T08:33:37-0300] [ALPM] installed gtest (1.11.0-3)
+[2022-01-14T08:33:37-0300] [ALPM] transaction completed
+[2022-01-14T08:33:38-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-14T08:33:38-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-14T08:33:38-0300] [ALPM] running '30-update-mime-database.hook'...
+[2022-01-14T08:33:38-0300] [ALPM] running 'detect-old-perl-modules.hook'...
+[2022-01-14T08:33:38-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-14T08:33:38-0300] [ALPM] running 'texinfo-install.hook'...
+[2022-01-14T08:33:38-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-14T08:33:38-0300] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- wget perl-sgmls perl-encode-locale perl-http-date perl-file-listing perl-html-tagset perl-clone perl-io-html perl-lwp-mediatypes perl-uri perl-http-message perl-html-parser perl-http-cookies perl-http-daemon perl-http-negotiate perl-net-http perl-try-tiny perl-www-robotrules perl-libwww perl-xml-parser perl-xml-sax-base perl-xml-namespacesupport perl-xml-sax sgml-common opensp openjade perl-xml-sax-expat docbook2x lua apparmor sdl2_image protobuf squashfs-tools jsoncpp rhash cmake doxygen glm boost gtest'
+[2022-01-14T08:36:06-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/lxc-git/lxc-git-4.0.0.r2155.ge3d53aeaf-1-x86_64.pkg.tar.zst'
+[2022-01-14T08:36:06-0300] [ALPM] transaction started
+[2022-01-14T08:36:06-0300] [ALPM] installed lxc-git (4.0.0.r2155.ge3d53aeaf-1)
+[2022-01-14T08:36:07-0300] [ALPM] transaction completed
+[2022-01-14T08:36:07-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-14T08:36:07-0300] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2022-01-14T08:36:07-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-14T08:36:07-0300] [PACMAN] Running 'pacman -D -q --asdeps --noconfirm --config /etc/pacman.conf -- lxc-git'
+[2022-01-14T08:40:40-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/anbox-image-houdini-rooted/anbox-image-houdini-rooted-2018.07.19-5-x86_64.pkg.tar.zst'
+[2022-01-14T08:40:40-0300] [ALPM] transaction started
+[2022-01-14T08:40:40-0300] [ALPM] installed anbox-image-houdini-rooted (2018.07.19-5)
+[2022-01-14T08:40:40-0300] [ALPM] transaction completed
+[2022-01-14T08:40:40-0300] [PACMAN] Running 'pacman -D -q --asdeps --noconfirm --config /etc/pacman.conf -- anbox-image-houdini-rooted'
+[2022-01-14T08:41:03-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/sdbus-cpp/sdbus-cpp-0.8.3-4-x86_64.pkg.tar.zst'
+[2022-01-14T08:41:03-0300] [ALPM] transaction started
+[2022-01-14T08:41:03-0300] [ALPM] installed sdbus-cpp (0.8.3-4)
+[2022-01-14T08:41:03-0300] [ALPM] transaction completed
+[2022-01-14T08:41:03-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-14T08:41:03-0300] [PACMAN] Running 'pacman -D -q --asdeps --noconfirm --config /etc/pacman.conf -- sdbus-cpp'
+[2022-01-14T08:41:12-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/properties-cpp/properties-cpp-0.0.2-1-any.pkg.tar.zst'
+[2022-01-14T08:41:12-0300] [ALPM] transaction started
+[2022-01-14T08:41:12-0300] [ALPM] installed properties-cpp (0.0.2-1)
+[2022-01-14T08:41:12-0300] [ALPM] transaction completed
+[2022-01-14T08:41:12-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-14T08:41:12-0300] [PACMAN] Running 'pacman -D -q --asdeps --noconfirm --config /etc/pacman.conf -- properties-cpp'
+[2022-01-14T08:45:03-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/anbox-git/anbox-git-1:r1358.84f0268-3-x86_64.pkg.tar.zst'
+[2022-01-14T08:45:03-0300] [ALPM] transaction started
+[2022-01-14T08:45:03-0300] [ALPM] installed anbox-git (1:r1358.84f0268-3)
+[2022-01-14T08:45:03-0300] [ALPM] transaction completed
+[2022-01-14T08:45:03-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-14T08:45:04-0300] [ALPM] running '30-systemd-udev-reload.hook'...
+[2022-01-14T08:45:04-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-14T08:45:04-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-14T08:45:04-0300] [PACMAN] Running 'pacman -R -u --noconfirm --config /etc/pacman.conf -- properties-cpp perl-sgmls perl-encode-locale perl-http-date perl-file-listing perl-html-tagset perl-clone perl-io-html perl-lwp-mediatypes perl-uri perl-http-message perl-html-parser perl-http-cookies perl-http-daemon perl-http-negotiate perl-net-http perl-try-tiny perl-www-robotrules perl-libwww perl-xml-parser perl-xml-sax-base perl-xml-namespacesupport perl-xml-sax sgml-common opensp openjade perl-xml-sax-expat docbook2x lua apparmor squashfs-tools jsoncpp rhash cmake doxygen glm boost gtest'
+[2022-01-14T08:45:04-0300] [ALPM] running 'texinfo-remove.hook'...
+[2022-01-14T08:45:04-0300] [ALPM] transaction started
+[2022-01-14T08:45:04-0300] [ALPM] removed gtest (1.11.0-3)
+[2022-01-14T08:45:05-0300] [ALPM] removed boost (1.78.0-1)
+[2022-01-14T08:45:05-0300] [ALPM] removed glm (0.9.9.8-1)
+[2022-01-14T08:45:05-0300] [ALPM] removed doxygen (1.9.3-1)
+[2022-01-14T08:45:05-0300] [ALPM] removed cmake (3.22.1-5)
+[2022-01-14T08:45:05-0300] [ALPM] removed rhash (1.4.2-1)
+[2022-01-14T08:45:05-0300] [ALPM] removed jsoncpp (1.9.5-1)
+[2022-01-14T08:45:05-0300] [ALPM] removed squashfs-tools (4.5-1)
+[2022-01-14T08:45:05-0300] [ALPM] removed apparmor (3.0.3-2)
+[2022-01-14T08:45:05-0300] [ALPM] removed lua (5.4.3-1)
+[2022-01-14T08:45:05-0300] [ALPM] removed docbook2x (0.8.8-18)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-xml-sax-expat (0.51-7)
+[2022-01-14T08:45:05-0300] [ALPM] removed openjade (1.3.2-6)
+[2022-01-14T08:45:05-0300] [ALPM] removed opensp (1.5.2-9)
+[2022-01-14T08:45:05-0300] [ALPM] removed sgml-common (0.6.3-7)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-xml-sax (1.02-1)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-xml-namespacesupport (1.12-4)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-xml-sax-base (1.09-4)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-xml-parser (2.46-3)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-libwww (6.58-1)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-www-robotrules (6.02-9)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-try-tiny (0.31-1)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-net-http (6.21-2)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-http-negotiate (6.01-9)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-http-daemon (6.12-1)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-http-cookies (6.10-2)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-html-parser (3.76-2)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-http-message (6.34-1)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-uri (5.10-1)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-lwp-mediatypes (6.04-1)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-io-html (1.004-2)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-clone (0.45-3)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-html-tagset (3.20-11)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-file-listing (6.14-2)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-http-date (6.05-4)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-encode-locale (1.05-8)
+[2022-01-14T08:45:05-0300] [ALPM] removed perl-sgmls (1:1.1-8)
+[2022-01-14T08:45:05-0300] [ALPM] removed properties-cpp (0.0.2-1)
+[2022-01-14T08:45:06-0300] [ALPM] transaction completed
+[2022-01-14T08:45:06-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-14T08:45:06-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-14T08:45:06-0300] [ALPM] running '30-update-mime-database.hook'...
+[2022-01-14T08:45:06-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-14T08:45:06-0300] [ALPM] running 'update-desktop-database.hook'...

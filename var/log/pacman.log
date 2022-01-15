@@ -42144,3 +42144,55 @@
 [2022-01-14T16:46:04-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
 [2022-01-14T16:46:04-0300] [PACMAN] synchronizing package lists
 [2022-01-14T16:46:05-0300] [PACMAN] starting full system upgrade
+[2022-01-15T05:46:14-0300] [PACMAN] Running 'pacman -S -u -y --config /etc/pacman.conf --'
+[2022-01-15T05:46:14-0300] [PACMAN] synchronizing package lists
+[2022-01-15T05:46:16-0300] [PACMAN] starting full system upgrade
+[2022-01-15T05:46:20-0300] [ALPM] transaction started
+[2022-01-15T05:46:20-0300] [ALPM] upgraded starship (1.1.1-1 -> 1.2.0-1)
+[2022-01-15T05:46:20-0300] [ALPM] transaction completed
+[2022-01-15T05:46:20-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-15T05:46:24-0300] [PACMAN] Running 'pacman -S -y --config /etc/pacman.conf -- community/perl-sgmls extra/perl-encode-locale extra/perl-http-date extra/perl-file-listing extra/perl-html-tagset extra/perl-clone extra/perl-io-html extra/perl-lwp-mediatypes extra/perl-uri extra/perl-http-message extra/perl-html-parser extra/perl-http-cookies extra/perl-http-daemon extra/perl-http-negotiate extra/perl-net-http extra/perl-try-tiny extra/perl-www-robotrules extra/perl-libwww extra/perl-xml-parser extra/perl-xml-sax-base extra/perl-xml-namespacesupport extra/perl-xml-sax extra/sgml-common extra/opensp extra/openjade community/perl-xml-sax-expat community/docbook2x extra/lua extra/apparmor'
+[2022-01-15T05:46:24-0300] [PACMAN] synchronizing package lists
+[2022-01-15T05:46:27-0300] [ALPM] transaction started
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-sgmls (1:1.1-8)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-encode-locale (1.05-8)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-http-date (6.05-4)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-file-listing (6.14-2)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-html-tagset (3.20-11)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-clone (0.45-3)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-io-html (1.004-2)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-lwp-mediatypes (6.04-1)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-uri (5.10-1)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-http-message (6.34-1)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-html-parser (3.76-2)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-http-cookies (6.10-2)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-http-daemon (6.12-1)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-http-negotiate (6.01-9)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-net-http (6.21-2)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-try-tiny (0.31-1)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-www-robotrules (6.02-9)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-libwww (6.58-1)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-xml-parser (2.46-3)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-xml-sax-base (1.09-4)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-xml-namespacesupport (1.12-4)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-xml-sax (1.02-1)
+[2022-01-15T05:46:27-0300] [ALPM] installed sgml-common (0.6.3-7)
+[2022-01-15T05:46:27-0300] [ALPM] installed opensp (1.5.2-9)
+[2022-01-15T05:46:27-0300] [ALPM] installed openjade (1.3.2-6)
+[2022-01-15T05:46:27-0300] [ALPM] installed perl-xml-sax-expat (0.51-7)
+[2022-01-15T05:46:27-0300] [ALPM] installed docbook2x (0.8.8-18)
+[2022-01-15T05:46:27-0300] [ALPM] installed lua (5.4.3-1)
+[2022-01-15T05:46:27-0300] [ALPM] installed apparmor (3.0.3-2)
+[2022-01-15T05:46:27-0300] [ALPM] transaction completed
+[2022-01-15T05:46:27-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-15T05:46:27-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-15T05:46:27-0300] [ALPM] running 'detect-old-perl-modules.hook'...
+[2022-01-15T05:46:27-0300] [ALPM] running 'texinfo-install.hook'...
+[2022-01-15T05:46:27-0300] [PACMAN] Running 'pacman -D --asdeps -q --config /etc/pacman.conf -- perl-sgmls perl-encode-locale perl-http-date perl-file-listing perl-html-tagset perl-clone perl-io-html perl-lwp-mediatypes perl-uri perl-http-message perl-html-parser perl-http-cookies perl-http-daemon perl-http-negotiate perl-net-http perl-try-tiny perl-www-robotrules perl-libwww perl-xml-parser perl-xml-sax-base perl-xml-namespacesupport perl-xml-sax sgml-common opensp openjade perl-xml-sax-expat docbook2x lua apparmor'
+[2022-01-15T05:47:51-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/lxc-git/lxc-git-4.0.0.r2160.g0d27a2165-1-x86_64.pkg.tar.zst'
+[2022-01-15T05:47:52-0300] [ALPM] transaction started
+[2022-01-15T05:47:52-0300] [ALPM] upgraded lxc-git (4.0.0.r2157.g10a2878e0-1 -> 4.0.0.r2160.g0d27a2165-1)
+[2022-01-15T05:47:52-0300] [ALPM] transaction completed
+[2022-01-15T05:47:52-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-15T05:47:52-0300] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2022-01-15T05:47:52-0300] [ALPM] running '30-systemd-update.hook'...

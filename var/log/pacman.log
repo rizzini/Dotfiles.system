@@ -42196,3 +42196,157 @@
 [2022-01-15T05:47:52-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
 [2022-01-15T05:47:52-0300] [ALPM] running '30-systemd-tmpfiles.hook'...
 [2022-01-15T05:47:52-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-15T06:14:46-0300] [PACMAN] Running 'pacman -R --config /etc/pacman.conf -- apparmor docbook2x openjade opensp perl-sgmls perl-xml-namespacesupport perl-xml-parser perl-xml-sax perl-xml-sax-base perl-xml-sax-expat sgml-common'
+[2022-01-15T06:14:47-0300] [ALPM] running 'texinfo-remove.hook'...
+[2022-01-15T06:14:47-0300] [ALPM] transaction started
+[2022-01-15T06:14:48-0300] [ALPM] removed docbook2x (0.8.8-18)
+[2022-01-15T06:14:48-0300] [ALPM] removed perl-xml-sax-expat (0.51-7)
+[2022-01-15T06:14:48-0300] [ALPM] removed perl-xml-sax (1.02-1)
+[2022-01-15T06:14:48-0300] [ALPM] removed perl-xml-sax-base (1.09-4)
+[2022-01-15T06:14:48-0300] [ALPM] removed perl-xml-namespacesupport (1.12-4)
+[2022-01-15T06:14:48-0300] [ALPM] removed perl-xml-parser (2.46-3)
+[2022-01-15T06:14:48-0300] [ALPM] removed perl-sgmls (1:1.1-8)
+[2022-01-15T06:14:48-0300] [ALPM] removed openjade (1.3.2-6)
+[2022-01-15T06:14:48-0300] [ALPM] removed opensp (1.5.2-9)
+[2022-01-15T06:14:48-0300] [ALPM] removed sgml-common (0.6.3-7)
+[2022-01-15T06:14:48-0300] [ALPM] removed apparmor (3.0.3-2)
+[2022-01-15T06:14:48-0300] [ALPM] transaction completed
+[2022-01-15T06:14:48-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-15T06:14:49-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-15T06:15:20-0300] [PACMAN] Running 'pacman -R -c -d -n -s --config /etc/pacman.conf -- dupeguru'
+[2022-01-15T06:15:21-0300] [ALPM] transaction started
+[2022-01-15T06:15:21-0300] [ALPM] removed dupeguru (4.1.1-3)
+[2022-01-15T06:15:21-0300] [ALPM] removed python-send2trash (1.8.0-3)
+[2022-01-15T06:15:21-0300] [ALPM] removed python-pyqt5 (5.15.6-6)
+[2022-01-15T06:15:21-0300] [ALPM] removed python-pyqt5-sip (12.9.0-3)
+[2022-01-15T06:15:21-0300] [ALPM] removed python-polib (1.1.1-1)
+[2022-01-15T06:15:21-0300] [ALPM] removed python-hsaudiotag3k (1.1.3.post1-3)
+[2022-01-15T06:15:21-0300] [ALPM] transaction completed
+[2022-01-15T06:15:21-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-15T06:15:21-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-15T06:29:37-0300] [PACMAN] Running '/usr/bin/pacman -S --asdeps xmlto docbook-xsl bc python-sphinx python-sphinx_rtd_theme cpio'
+[2022-01-15T06:29:48-0300] [ALPM] transaction started
+[2022-01-15T06:29:48-0300] [ALPM] installed xmlto (0.0.28-4)
+[2022-01-15T06:29:48-0300] [ALPM] installed docbook-xml (4.5-9)
+[2022-01-15T06:29:48-0300] [ALPM] installed docbook-xsl (1.79.2-7)
+[2022-01-15T06:29:49-0300] [ALPM] installed bc (1.07.1-4)
+[2022-01-15T06:29:49-0300] [ALPM] installed python-pytz (2021.3-4)
+[2022-01-15T06:29:49-0300] [ALPM] installed python-babel (2.9.1-3)
+[2022-01-15T06:29:49-0300] [ALPM] installed python-docutils (1:0.16-2)
+[2022-01-15T06:29:49-0300] [ALPM] installed python-imagesize (1.3.0-3)
+[2022-01-15T06:29:49-0300] [ALPM] installed python-markupsafe (2.0.1-3)
+[2022-01-15T06:29:49-0300] [ALPM] installed python-jinja (3.0.3-3)
+[2022-01-15T06:29:49-0300] [ALPM] installed python-snowballstemmer (2.2.0-3)
+[2022-01-15T06:29:49-0300] [ALPM] installed python-sphinx-alabaster-theme (0.7.12-9)
+[2022-01-15T06:29:49-0300] [ALPM] installed python-sphinxcontrib-applehelp (1.0.2-8)
+[2022-01-15T06:29:49-0300] [ALPM] installed python-sphinxcontrib-devhelp (1.0.2-8)
+[2022-01-15T06:29:49-0300] [ALPM] installed python-sphinxcontrib-htmlhelp (2.0.0-3)
+[2022-01-15T06:29:49-0300] [ALPM] installed python-sphinxcontrib-jsmath (1.0.1-11)
+[2022-01-15T06:29:49-0300] [ALPM] installed python-sphinxcontrib-qthelp (1.0.3-8)
+[2022-01-15T06:29:49-0300] [ALPM] installed python-sphinxcontrib-serializinghtml (1.1.5-3)
+[2022-01-15T06:29:49-0300] [ALPM] installed python-sphinx (4.3.2-1)
+[2022-01-15T06:29:49-0300] [ALPM] installed python-sphinx_rtd_theme (1.0.0-5)
+[2022-01-15T06:29:49-0300] [ALPM] installed cpio (2.13-2)
+[2022-01-15T06:29:50-0300] [ALPM] transaction completed
+[2022-01-15T06:29:50-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-15T06:29:50-0300] [ALPM] running 'texinfo-install.hook'...
+[2022-01-15T06:31:54-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- schedtool'
+[2022-01-15T06:31:56-0300] [ALPM] transaction started
+[2022-01-15T06:31:56-0300] [ALPM] installed schedtool (1.3.0-7)
+[2022-01-15T06:31:57-0300] [ALPM] transaction completed
+[2022-01-15T06:31:57-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-15T06:32:01-0300] [PACMAN] Running '/usr/bin/pacman -Rnu bc cpio docbook-xml docbook-xsl python-babel python-docutils python-imagesize python-jinja python-markupsafe python-pytz python-snowballstemmer python-sphinx python-sphinx-alabaster-theme python-sphinx_rtd_theme python-sphinxcontrib-applehelp python-sphinxcontrib-devhelp python-sphinxcontrib-htmlhelp python-sphinxcontrib-jsmath python-sphinxcontrib-qthelp python-sphinxcontrib-serializinghtml xmlto'
+[2022-01-15T10:16:00-0300] [PACMAN] Running 'pacman -U linux516-tkg-cfs-5.16.rc6-230-x86_64.pkg.tar.zst linux516-tkg-cfs-headers-5.16.rc6-230-x86_64.pkg.tar.zst'
+[2022-01-15T10:16:11-0300] [ALPM] transaction started
+[2022-01-15T10:16:15-0300] [ALPM] reinstalled linux516-tkg-cfs (5.16.rc6-230)
+[2022-01-15T10:16:18-0300] [ALPM] reinstalled linux516-tkg-cfs-headers (5.16.rc6-230)
+[2022-01-15T10:16:19-0300] [ALPM] transaction completed
+[2022-01-15T10:16:19-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-15T10:16:19-0300] [ALPM] running '60-depmod.hook'...
+[2022-01-15T10:16:21-0300] [ALPM] running '90-linux516-tkg-cfs.hook'...
+[2022-01-15T10:16:21-0300] [ALPM] running '90-mkinitcpio-install.hook'...
+[2022-01-15T10:16:21-0300] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux516-tkg-cfs.preset: 'default'
+[2022-01-15T10:16:21-0300] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux516-tkg-cfs -c /etc/mkinitcpio.conf -g /boot/initramfs-linux516-tkg-cfs.img
+[2022-01-15T10:16:21-0300] [ALPM-SCRIPTLET] ==> Starting build: 5.16.0-rc6-230-tkg-cfs
+[2022-01-15T10:16:21-0300] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2022-01-15T10:16:21-0300] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2022-01-15T10:16:22-0300] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2022-01-15T10:16:22-0300] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2022-01-15T10:16:22-0300] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2022-01-15T10:16:22-0300] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: xhci_pci
+[2022-01-15T10:16:22-0300] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2022-01-15T10:16:23-0300] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2022-01-15T10:16:23-0300] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2022-01-15T10:16:23-0300] [ALPM-SCRIPTLET] Decompress:  1/28 files. Current: ...-memless.ko.zst : 0 B...    ==> Generating module dependencies
+[2022-01-15T10:16:23-0300] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux516-tkg-cfs.img
+[2022-01-15T10:16:24-0300] [ALPM-SCRIPTLET] ==> Image generation successful
+[2022-01-15T10:16:24-0300] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux516-tkg-cfs.preset: 'fallback'
+[2022-01-15T10:16:24-0300] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-linux516-tkg-cfs -c /etc/mkinitcpio.conf -g /boot/initramfs-linux516-tkg-cfs-fallback.img -S autodetect
+[2022-01-15T10:16:24-0300] [ALPM-SCRIPTLET] ==> Starting build: 5.16.0-rc6-230-tkg-cfs
+[2022-01-15T10:16:24-0300] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2022-01-15T10:16:24-0300] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2022-01-15T10:16:24-0300] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2022-01-15T10:16:24-0300] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2022-01-15T10:16:25-0300] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2022-01-15T10:16:26-0300] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: wd719x
+[2022-01-15T10:16:26-0300] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: xhci_pci
+[2022-01-15T10:16:27-0300] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2022-01-15T10:16:28-0300] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2022-01-15T10:16:28-0300] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2022-01-15T10:16:29-0300] [ALPM-SCRIPTLET] Decompress:  1/633 files. Current: ...rnel/uas.ko.zst : 0 B...    Decompress: 478/633 files. Current: .../qla2xxx.ko.zst : 896 KiB...    ==> Generating module dependencies
+[2022-01-15T10:16:29-0300] [ALPM-SCRIPTLET] ==> Creating zstd-compressed initcpio image: /boot/initramfs-linux516-tkg-cfs-fallback.img
+[2022-01-15T10:16:30-0300] [ALPM-SCRIPTLET] ==> Image generation successful
+[2022-01-15T13:03:47-0300] [PACMAN] Running 'pacman -S -u -y --config /etc/pacman.conf --'
+[2022-01-15T13:03:47-0300] [PACMAN] synchronizing package lists
+[2022-01-15T13:03:49-0300] [PACMAN] starting full system upgrade
+[2022-01-15T13:04:00-0300] [ALPM] transaction started
+[2022-01-15T13:04:01-0300] [ALPM] upgraded firefox (96.0-1 -> 96.0.1-1)
+[2022-01-15T13:04:03-0300] [ALPM] transaction completed
+[2022-01-15T13:04:03-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-15T13:04:03-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-15T13:04:03-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-15T13:05:23-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- extra/dkms extra/libsigc++ extra/glibmm extra/cairomm extra/pangomm extra/atkmm extra/gtkmm3 community/pcsclite'
+[2022-01-15T13:05:28-0300] [ALPM] transaction started
+[2022-01-15T13:05:28-0300] [ALPM] installed dkms (3.0.3-1)
+[2022-01-15T13:05:28-0300] [ALPM] installed libsigc++ (2.10.7-2)
+[2022-01-15T13:05:28-0300] [ALPM] installed glibmm (2.66.2-1)
+[2022-01-15T13:05:28-0300] [ALPM] installed cairomm (1.14.3-2)
+[2022-01-15T13:05:28-0300] [ALPM] installed pangomm (2.46.2-1)
+[2022-01-15T13:05:28-0300] [ALPM] installed atkmm (2.28.2-2)
+[2022-01-15T13:05:28-0300] [ALPM] installed gtkmm3 (3.24.5-2)
+[2022-01-15T13:05:28-0300] [ALPM] installed pcsclite (1.9.5-1)
+[2022-01-15T13:05:28-0300] [ALPM] transaction completed
+[2022-01-15T13:05:28-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-15T13:05:29-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-15T13:05:29-0300] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- dkms libsigc++ glibmm cairomm pangomm atkmm gtkmm3 pcsclite'
+[2022-01-15T13:05:49-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/vmware-keymaps/vmware-keymaps-1.0-3-any.pkg.tar.zst'
+[2022-01-15T13:05:49-0300] [ALPM] transaction started
+[2022-01-15T13:05:49-0300] [ALPM] installed vmware-keymaps (1.0-3)
+[2022-01-15T13:05:49-0300] [ALPM] transaction completed
+[2022-01-15T13:05:49-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-15T13:05:49-0300] [PACMAN] Running 'pacman -D --asdeps -q --noconfirm --config /etc/pacman.conf -- vmware-keymaps'
+[2022-01-15T13:06:48-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/vmware-workstation/vmware-workstation-16.2.1-3-x86_64.pkg.tar.zst'
+[2022-01-15T13:06:48-0300] [ALPM] transaction started
+[2022-01-15T13:06:49-0300] [ALPM] installed vmware-workstation (16.2.1-3)
+[2022-01-15T13:06:49-0300] [ALPM-SCRIPTLET] 
+[2022-01-15T13:06:49-0300] [ALPM-SCRIPTLET] ==> Before using VMware, you need to reboot or load vmw_vmci and vmmon kernel modules (in a terminal on root: modprobe -a vmw_vmci vmmon)
+[2022-01-15T13:06:49-0300] [ALPM-SCRIPTLET] ==> You may also need to enable some of the following services:
+[2022-01-15T13:06:49-0300] [ALPM-SCRIPTLET] - vmware-networks: to have network access inside VMs
+[2022-01-15T13:06:49-0300] [ALPM-SCRIPTLET] - vmware-usbarbitrator: to connect USB devices inside VMs
+[2022-01-15T13:06:49-0300] [ALPM-SCRIPTLET] These services can be activated during boot by enabling .service units or only when a VM is started by enabling .path units.
+[2022-01-15T13:06:49-0300] [ALPM-SCRIPTLET] 
+[2022-01-15T13:06:50-0300] [ALPM] transaction completed
+[2022-01-15T13:06:50-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-15T13:06:51-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-15T13:06:51-0300] [ALPM] running '30-update-mime-database.hook'...
+[2022-01-15T13:06:54-0300] [ALPM] running '70-dkms-install.hook'...
+[2022-01-15T13:06:54-0300] [ALPM-SCRIPTLET] ==> dkms install --no-depmod vmware-workstation/16.2.1_18811642 -k 5.16.0-rc6-230-tkg-cfs
+[2022-01-15T13:07:19-0300] [ALPM-SCRIPTLET] ==> depmod 5.16.0-rc6-230-tkg-cfs
+[2022-01-15T13:07:54-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-15T13:07:54-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-15T13:29:47-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-15T13:29:47-0300] [PACMAN] synchronizing package lists
+[2022-01-15T13:29:48-0300] [PACMAN] starting full system upgrade
+[2022-01-15T13:31:05-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-15T13:31:05-0300] [PACMAN] synchronizing package lists
+[2022-01-15T13:31:05-0300] [PACMAN] starting full system upgrade

@@ -42423,3 +42423,55 @@
 [2022-01-16T04:33:52-0300] [ALPM] running '30-systemd-update.hook'...
 [2022-01-16T04:33:52-0300] [ALPM] running 'fontconfig.hook'...
 [2022-01-16T04:33:52-0300] [ALPM] running 'fontconfig-32.hook'...
+[2022-01-16T10:07:40-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- gamemode'
+[2022-01-16T10:07:42-0300] [ALPM] transaction started
+[2022-01-16T10:07:43-0300] [ALPM] installed gamemode (1.6.1-1)
+[2022-01-16T10:07:43-0300] [ALPM] transaction completed
+[2022-01-16T10:07:43-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-16T10:08:59-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- xbindkeys'
+[2022-01-16T10:09:03-0300] [ALPM] transaction started
+[2022-01-16T10:09:03-0300] [ALPM] installed xbindkeys (1.8.7-2)
+[2022-01-16T10:09:03-0300] [ALPM] transaction completed
+[2022-01-16T10:09:03-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-16T10:29:51-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-16T10:29:51-0300] [PACMAN] synchronizing package lists
+[2022-01-16T10:29:53-0300] [PACMAN] starting full system upgrade
+[2022-01-16T10:29:56-0300] [ALPM] transaction started
+[2022-01-16T10:29:56-0300] [ALPM] upgraded jack2 (1.9.20-1 -> 1.9.20-2)
+[2022-01-16T10:29:56-0300] [ALPM] transaction completed
+[2022-01-16T10:29:56-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-16T11:15:23-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-16T11:15:23-0300] [PACMAN] synchronizing package lists
+[2022-01-16T11:17:53-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-16T11:17:53-0300] [PACMAN] synchronizing package lists
+[2022-01-16T11:17:54-0300] [PACMAN] starting full system upgrade
+[2022-01-16T11:17:58-0300] [ALPM] transaction started
+[2022-01-16T11:17:58-0300] [ALPM] upgraded lib32-jack2 (1.9.20-1 -> 1.9.20-2)
+[2022-01-16T11:17:58-0300] [ALPM] warning: /etc/pacman.d/mirrorlist installed as /etc/pacman.d/mirrorlist.pacnew
+[2022-01-16T11:17:58-0300] [ALPM] upgraded pacman-mirrorlist (20211212-1 -> 20220116-1)
+[2022-01-16T11:17:58-0300] [ALPM] transaction completed
+[2022-01-16T11:17:58-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-16T11:18:14-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-16T11:18:14-0300] [PACMAN] synchronizing package lists
+[2022-01-16T11:18:48-0300] [PACMAN] Running 'pacman -S -y -y -y -y --config /etc/pacman.conf --'
+[2022-01-16T11:18:48-0300] [PACMAN] synchronizing package lists
+[2022-01-16T11:45:03-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- kpat'
+[2022-01-16T11:45:07-0300] [ALPM] transaction started
+[2022-01-16T11:45:07-0300] [ALPM] installed libkdegames (21.12.1-1)
+[2022-01-16T11:45:07-0300] [ALPM] installed freecell-solver (6.6.0-1)
+[2022-01-16T11:45:07-0300] [ALPM] installed black-hole-solver (1.10.1-1)
+[2022-01-16T11:45:07-0300] [ALPM] installed kpat (21.12.1-1)
+[2022-01-16T11:45:07-0300] [ALPM] transaction completed
+[2022-01-16T11:45:07-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-16T11:45:07-0300] [ALPM] running '30-update-mime-database.hook'...
+[2022-01-16T11:45:07-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-16T11:45:07-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-16T15:36:51-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-16T15:36:51-0300] [PACMAN] synchronizing package lists
+[2022-01-16T15:36:54-0300] [PACMAN] starting full system upgrade
+[2022-01-16T15:36:57-0300] [ALPM] transaction started
+[2022-01-16T15:36:57-0300] [ALPM] upgraded jack2 (1.9.20-2 -> 1.9.20-3)
+[2022-01-16T15:36:57-0300] [ALPM] upgraded reflector (2021.7.8-2 -> 2021.11-2)
+[2022-01-16T15:36:57-0300] [ALPM] transaction completed
+[2022-01-16T15:36:57-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-16T15:36:57-0300] [ALPM] running '30-systemd-update.hook'...

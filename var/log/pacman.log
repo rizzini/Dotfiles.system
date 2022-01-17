@@ -42475,3 +42475,98 @@
 [2022-01-16T15:36:57-0300] [ALPM] transaction completed
 [2022-01-16T15:36:57-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
 [2022-01-16T15:36:57-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-16T16:33:43-0300] [PACMAN] Running 'pacman -R -s -c -d -n --config /etc/pacman.conf -- dolphin-emu-beta-git dolphin-emu-primehack-git'
+[2022-01-16T16:33:47-0300] [PACMAN] Running 'pacman -R -c -d -n -s --config /etc/pacman.conf -- dolphin-emu'
+[2022-01-16T16:33:49-0300] [ALPM] transaction started
+[2022-01-16T16:33:49-0300] [ALPM] removed dolphin-emu (1:5.0.r15445.db02b50d2e-2)
+[2022-01-16T16:33:49-0300] [ALPM] removed sfml (2.5.1-2)
+[2022-01-16T16:33:49-0300] [ALPM] removed pugixml (1.11.4-1)
+[2022-01-16T16:33:49-0300] [ALPM] removed miniupnpc (2.2.2-2)
+[2022-01-16T16:33:49-0300] [ALPM] removed mbedtls (2.28.0-1)
+[2022-01-16T16:33:50-0300] [ALPM] removed enet (1.3.17-1)
+[2022-01-16T16:33:50-0300] [ALPM] transaction completed
+[2022-01-16T16:33:50-0300] [ALPM] running '30-systemd-udev-reload.hook'...
+[2022-01-16T16:33:50-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-16T16:33:50-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-16T16:33:50-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-16T18:14:21-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-16T18:14:21-0300] [PACMAN] synchronizing package lists
+[2022-01-16T18:14:23-0300] [PACMAN] starting full system upgrade
+[2022-01-16T18:14:26-0300] [ALPM] transaction started
+[2022-01-16T18:14:26-0300] [ALPM] upgraded libuv (1.42.0-1 -> 1.43.0-1)
+[2022-01-16T18:14:27-0300] [ALPM] upgraded python-setuptools (1:59.1.0-1 -> 1:59.1.1-1)
+[2022-01-16T18:14:27-0300] [ALPM] transaction completed
+[2022-01-16T18:14:27-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-17T07:23:06-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-17T07:23:06-0300] [PACMAN] synchronizing package lists
+[2022-01-17T07:23:21-0300] [PACMAN] starting full system upgrade
+[2022-01-17T07:23:27-0300] [ALPM] transaction started
+[2022-01-17T07:23:27-0300] [ALPM] upgraded expat (2.4.2-1 -> 2.4.3-1)
+[2022-01-17T07:23:27-0300] [ALPM] upgraded lib32-expat (2.4.2-1 -> 2.4.3-1)
+[2022-01-17T07:23:27-0300] [ALPM] upgraded python-sphinx (4.3.2-1 -> 4.4.0-1)
+[2022-01-17T07:23:28-0300] [ALPM] transaction completed
+[2022-01-17T07:23:28-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-17T07:23:31-0300] [PACMAN] Running 'pacman -R --config /etc/pacman.conf -- bc celt cpio docbook-xml docbook-xsl fontforge lib32-aalib lib32-gpm lib32-gst-plugins-good lib32-imlib2 lib32-libavc1394 lib32-libcaca lib32-libdv lib32-libid3tag lib32-libiec61883 lib32-libraw1394 lib32-libshout lib32-libtheora lib32-libwebp lib32-libxmu lib32-libxt lib32-popt lib32-speex lib32-taglib lib32-twolame lib32-wavpack libspiro libuninameslist meson mingw-w64-binutils mingw-w64-crt mingw-w64-gcc mingw-w64-headers mingw-w64-winpthreads ninja opencl-headers potrace python-babel python-docutils python-imagesize python-jinja python-markupsafe python-pytz python-snowballstemmer python-sphinx python-sphinx-alabaster-theme python-sphinx_rtd_theme python-sphinxcontrib-applehelp python-sphinxcontrib-devhelp python-sphinxcontrib-htmlhelp python-sphinxcontrib-jsmath python-sphinxcontrib-qthelp python-sphinxcontrib-serializinghtml xmlto zita-alsa-pcmi zita-resampler'
+[2022-01-17T07:23:32-0300] [ALPM] running 'texinfo-remove.hook'...
+[2022-01-17T07:23:32-0300] [ALPM] transaction started
+[2022-01-17T07:23:32-0300] [ALPM] removed zita-resampler (1.8.0-1)
+[2022-01-17T07:23:32-0300] [ALPM] removed zita-alsa-pcmi (0.4.0-1)
+[2022-01-17T07:23:32-0300] [ALPM] removed xmlto (0.0.28-4)
+[2022-01-17T07:23:32-0300] [ALPM] removed python-sphinx_rtd_theme (1.0.0-5)
+[2022-01-17T07:23:33-0300] [ALPM] removed python-sphinx (4.4.0-1)
+[2022-01-17T07:23:33-0300] [ALPM] removed python-sphinxcontrib-serializinghtml (1.1.5-3)
+[2022-01-17T07:23:33-0300] [ALPM] removed python-sphinxcontrib-qthelp (1.0.3-8)
+[2022-01-17T07:23:33-0300] [ALPM] removed python-sphinxcontrib-jsmath (1.0.1-11)
+[2022-01-17T07:23:33-0300] [ALPM] removed python-sphinxcontrib-htmlhelp (2.0.0-3)
+[2022-01-17T07:23:33-0300] [ALPM] removed python-sphinxcontrib-devhelp (1.0.2-8)
+[2022-01-17T07:23:33-0300] [ALPM] removed python-sphinxcontrib-applehelp (1.0.2-8)
+[2022-01-17T07:23:33-0300] [ALPM] removed python-sphinx-alabaster-theme (0.7.12-9)
+[2022-01-17T07:23:33-0300] [ALPM] removed python-snowballstemmer (2.2.0-3)
+[2022-01-17T07:23:33-0300] [ALPM] removed python-jinja (3.0.3-3)
+[2022-01-17T07:23:33-0300] [ALPM] removed python-markupsafe (2.0.1-3)
+[2022-01-17T07:23:33-0300] [ALPM] removed python-imagesize (1.3.0-3)
+[2022-01-17T07:23:33-0300] [ALPM] removed python-docutils (1:0.16-2)
+[2022-01-17T07:23:33-0300] [ALPM] removed python-babel (2.9.1-3)
+[2022-01-17T07:23:33-0300] [ALPM] removed python-pytz (2021.3-4)
+[2022-01-17T07:23:33-0300] [ALPM] removed opencl-headers (2:2021.04.29-1)
+[2022-01-17T07:23:34-0300] [ALPM] removed mingw-w64-gcc (11.2.0-1)
+[2022-01-17T07:23:34-0300] [ALPM] removed mingw-w64-winpthreads (9.0.0-1)
+[2022-01-17T07:23:34-0300] [ALPM] removed mingw-w64-headers (9.0.0-2)
+[2022-01-17T07:23:34-0300] [ALPM] removed mingw-w64-crt (9.0.0-1)
+[2022-01-17T07:23:34-0300] [ALPM] removed mingw-w64-binutils (2.36.1-1)
+[2022-01-17T07:23:34-0300] [ALPM] removed meson (0.61.0-4)
+[2022-01-17T07:23:34-0300] [ALPM] removed ninja (1.10.2-1)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-libxmu (1.1.3-1)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-libxt (1.2.1-1)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-gst-plugins-good (1.18.5-1)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-wavpack (5.4.0-1)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-twolame (0.4.0-2)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-taglib (1.12-1)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-libshout (2.4.5-1)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-speex (1.2.0-2)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-libtheora (1.1.1-12)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-libiec61883 (1.2.0-2)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-libdv (1.0.0-5)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-popt (1.18-1)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-libcaca (0.99.beta19-5)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-imlib2 (1.7.5-1)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-libwebp (1.2.1-2)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-libid3tag (0.15.1b-2)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-libavc1394 (0.5.4-2)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-libraw1394 (2.1.2-2)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-aalib (1.4rc5-2)
+[2022-01-17T07:23:34-0300] [ALPM] removed lib32-gpm (1.20.7-2)
+[2022-01-17T07:23:34-0300] [ALPM] removed fontforge (20201107-3)
+[2022-01-17T07:23:34-0300] [ALPM] removed potrace (1.16-2)
+[2022-01-17T07:23:34-0300] [ALPM] removed libuninameslist (20211114-1)
+[2022-01-17T07:23:34-0300] [ALPM] removed libspiro (1:20200505-2)
+[2022-01-17T07:23:34-0300] [ALPM] removed docbook-xsl (1.79.2-7)
+[2022-01-17T07:23:34-0300] [ALPM] removed docbook-xml (4.5-9)
+[2022-01-17T07:23:34-0300] [ALPM] removed cpio (2.13-2)
+[2022-01-17T07:23:34-0300] [ALPM] removed celt (0.11.3-4)
+[2022-01-17T07:23:34-0300] [ALPM] removed bc (1.07.1-4)
+[2022-01-17T07:23:34-0300] [ALPM] transaction completed
+[2022-01-17T07:23:35-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-17T07:23:35-0300] [ALPM] running '30-update-mime-database.hook'...
+[2022-01-17T07:23:35-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-17T07:23:35-0300] [ALPM] running 'update-desktop-database.hook'...

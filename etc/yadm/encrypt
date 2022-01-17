@@ -7,3 +7,5 @@ etc/gshadow
 etc/gshadow-
 etc/group
 etc/group-
+etc/security/*
+/etc/security/limits.d/*

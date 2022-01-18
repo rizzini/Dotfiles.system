@@ -1,0 +1,3 @@
+#!/bin/bash
+wine_path='/opt/wine-tkg-git-staging-7.0rc6.r0.g0111d074/bin/wine'
+exec $wine_path "$@"

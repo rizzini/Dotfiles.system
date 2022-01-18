@@ -42781,3 +42781,75 @@
 [2022-01-17T21:28:18-0300] [ALPM-SCRIPTLET] ==> depmod 5.16.0-rc6-230-tkg-cfs
 [2022-01-17T21:28:23-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
 [2022-01-17T21:28:23-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-17T21:42:11-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-17T21:42:11-0300] [PACMAN] synchronizing package lists
+[2022-01-17T21:42:13-0300] [PACMAN] starting full system upgrade
+[2022-01-17T21:42:15-0300] [ALPM] transaction started
+[2022-01-17T21:42:15-0300] [ALPM] upgraded efivar (38-1 -> 38-2)
+[2022-01-17T21:42:15-0300] [ALPM] upgraded libxml2 (2.9.12-6 -> 2.9.12-7)
+[2022-01-17T21:42:15-0300] [ALPM] upgraded gtk-update-icon-cache (1:4.6.0-1 -> 1:4.6.0-2)
+[2022-01-17T21:42:15-0300] [ALPM] upgraded rest (0.8.1-3 -> 0.8.1+r4+ge5ee6ef-1)
+[2022-01-17T21:42:15-0300] [ALPM] transaction completed
+[2022-01-17T21:42:15-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-17T22:16:04-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/quake3/quake3-1.32c-2-x86_64.pkg.tar.zst'
+[2022-01-17T22:16:04-0300] [ALPM] transaction started
+[2022-01-17T22:16:04-0300] [ALPM] installed quake3 (1.32c-2)
+[2022-01-17T22:16:04-0300] [ALPM-SCRIPTLET] >>>
+[2022-01-17T22:16:04-0300] [ALPM-SCRIPTLET] >>>>To play Q3 with the Retail Version:
+[2022-01-17T22:16:04-0300] [ALPM-SCRIPTLET] >>>   Move the pak0.pk3 file from the original game CD to
+[2022-01-17T22:16:04-0300] [ALPM-SCRIPTLET] >>>      /opt/quake3/baseq3/
+[2022-01-17T22:16:04-0300] [ALPM-SCRIPTLET] >>>
+[2022-01-17T22:16:04-0300] [ALPM-SCRIPTLET] >>>>To play Q3 with the Demo Version:
+[2022-01-17T22:16:04-0300] [ALPM-SCRIPTLET] >>>   You need the demoq3/pak0.pk3 from the demo installer. The
+[2022-01-17T22:16:04-0300] [ALPM-SCRIPTLET] >>>   qvm files inside that pk3 file will not work, so you have
+[2022-01-17T22:16:04-0300] [ALPM-SCRIPTLET] >>>   to copy or link the .so files in the baseq3/ directory to
+[2022-01-17T22:16:04-0300] [ALPM-SCRIPTLET] >>>   /opt/quake3/demoq3/ with the pak0.pk3 file.
+[2022-01-17T22:16:04-0300] [ALPM-SCRIPTLET] >>>
+[2022-01-17T22:16:04-0300] [ALPM-SCRIPTLET] >>>>When you have the .pk3 file(s) installed, run the game:
+[2022-01-17T22:16:04-0300] [ALPM-SCRIPTLET] >>>      quake3
+[2022-01-17T22:16:04-0300] [ALPM-SCRIPTLET] >>>
+[2022-01-17T22:16:04-0300] [ALPM] transaction completed
+[2022-01-17T22:16:04-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-17T22:16:04-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-17T22:25:20-0300] [PACMAN] Running 'pacman -R -c -d -n -s --config /etc/pacman.conf -- quake3'
+[2022-01-17T22:25:22-0300] [ALPM] transaction started
+[2022-01-17T22:25:22-0300] [ALPM] removed quake3 (1.32c-2)
+[2022-01-17T22:25:22-0300] [ALPM] transaction completed
+[2022-01-17T22:25:22-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-17T22:25:22-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-17T22:26:00-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- community/opusfile'
+[2022-01-17T22:26:01-0300] [ALPM] transaction started
+[2022-01-17T22:26:01-0300] [ALPM] installed opusfile (0.12-1)
+[2022-01-17T22:26:02-0300] [ALPM] transaction completed
+[2022-01-17T22:26:02-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-17T22:26:02-0300] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- opusfile'
+[2022-01-17T22:27:05-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/ioquake3-git/ioquake3-git-20211208.g84daa282-1-x86_64.pkg.tar.zst'
+[2022-01-17T22:27:05-0300] [ALPM] transaction started
+[2022-01-17T22:27:05-0300] [ALPM] installed ioquake3-git (20211208.g84daa282-1)
+[2022-01-17T22:27:05-0300] [ALPM-SCRIPTLET] >>>
+[2022-01-17T22:27:05-0300] [ALPM-SCRIPTLET] >>> To play Q3 with the Retail Version:
+[2022-01-17T22:27:05-0300] [ALPM-SCRIPTLET] >>>   Move the pak0.pk3 file from the original game CD to:
+[2022-01-17T22:27:05-0300] [ALPM-SCRIPTLET] >>>      /opt/quake3/baseq3/
+[2022-01-17T22:27:05-0300] [ALPM-SCRIPTLET] >>>
+[2022-01-17T22:27:05-0300] [ALPM-SCRIPTLET] >>> To play Q3 with the Demo Version:
+[2022-01-17T22:27:05-0300] [ALPM-SCRIPTLET] >>>   Move the demoq3/pak0.pk3 from the demo installer to:
+[2022-01-17T22:27:05-0300] [ALPM-SCRIPTLET] >>>      /opt/quake3/demoq3/
+[2022-01-17T22:27:05-0300] [ALPM-SCRIPTLET] >>>
+[2022-01-17T22:27:05-0300] [ALPM-SCRIPTLET] >>> When you have the .pk3 file(s) installed, run the game:
+[2022-01-17T22:27:05-0300] [ALPM-SCRIPTLET] >>>      quake3
+[2022-01-17T22:27:05-0300] [ALPM-SCRIPTLET] >>>
+[2022-01-17T22:27:05-0300] [ALPM-SCRIPTLET] >>> Or for the Demo Version:
+[2022-01-17T22:27:05-0300] [ALPM-SCRIPTLET] >>>     quake3 +set fs_game demoq3
+[2022-01-17T22:27:05-0300] [ALPM-SCRIPTLET] >>>
+[2022-01-17T22:27:05-0300] [ALPM] transaction completed
+[2022-01-17T22:27:05-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-17T22:27:06-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-17T22:27:06-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-17T22:50:20-0300] [PACMAN] Running 'pacman -R -n -s -c -d --config /etc/pacman.conf -- ioquake3-git'
+[2022-01-17T22:50:21-0300] [ALPM] transaction started
+[2022-01-17T22:50:22-0300] [ALPM] removed ioquake3-git (20211208.g84daa282-1)
+[2022-01-17T22:50:22-0300] [ALPM] removed opusfile (0.12-1)
+[2022-01-17T22:50:22-0300] [ALPM] transaction completed
+[2022-01-17T22:50:22-0300] [ALPM] running '30-systemd-daemon-reload.hook'...
+[2022-01-17T22:50:22-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-17T22:50:22-0300] [ALPM] running 'update-desktop-database.hook'...

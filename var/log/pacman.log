@@ -42868,3 +42868,49 @@
 [2022-01-17T23:54:37-0300] [ALPM] running '30-systemd-update.hook'...
 [2022-01-17T23:54:37-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
 [2022-01-17T23:54:37-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-18T01:37:13-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- discord'
+[2022-01-18T01:37:20-0300] [ALPM] transaction started
+[2022-01-18T01:37:21-0300] [ALPM] installed discord (0.0.16-1)
+[2022-01-18T01:37:21-0300] [ALPM] transaction completed
+[2022-01-18T01:37:21-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-18T01:37:21-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-18T09:08:32-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-18T09:08:32-0300] [PACMAN] synchronizing package lists
+[2022-01-18T09:08:33-0300] [PACMAN] starting full system upgrade
+[2022-01-18T10:03:02-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- community/oniguruma community/jq community/nodejs-nopt community/semver community/node-gyp community/npm'
+[2022-01-18T10:03:04-0300] [ALPM] transaction started
+[2022-01-18T10:03:04-0300] [ALPM] installed oniguruma (6.9.7.1-1)
+[2022-01-18T10:03:04-0300] [ALPM] installed jq (1.6-4)
+[2022-01-18T10:03:04-0300] [ALPM] installed nodejs-nopt (5.0.0-2)
+[2022-01-18T10:03:04-0300] [ALPM] installed semver (7.3.5-2)
+[2022-01-18T10:03:04-0300] [ALPM] installed node-gyp (8.4.1-1)
+[2022-01-18T10:03:04-0300] [ALPM] installed npm (8.3.1-1)
+[2022-01-18T10:03:04-0300] [ALPM] transaction completed
+[2022-01-18T10:03:04-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-18T10:03:04-0300] [PACMAN] Running 'pacman -D -q --asdeps --config /etc/pacman.conf -- oniguruma jq nodejs-nopt semver node-gyp npm'
+[2022-01-18T10:04:00-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/nodejs-nativefier/nodejs-nativefier-46.0.4-1-any.pkg.tar.zst'
+[2022-01-18T10:04:00-0300] [ALPM] transaction started
+[2022-01-18T10:04:02-0300] [ALPM] installed nodejs-nativefier (46.0.4-1)
+[2022-01-18T10:04:02-0300] [ALPM] transaction completed
+[2022-01-18T10:04:02-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-18T10:04:02-0300] [PACMAN] Running 'pacman -D -q --asdeps --noconfirm --config /etc/pacman.conf -- nodejs-nativefier'
+[2022-01-18T10:04:06-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/nativefier-freedesktop-git/nativefier-freedesktop-git-20170430-1-any.pkg.tar.zst'
+[2022-01-18T10:04:06-0300] [ALPM] transaction started
+[2022-01-18T10:04:06-0300] [ALPM] installed nativefier-freedesktop-git (20170430-1)
+[2022-01-18T10:04:06-0300] [ALPM-SCRIPTLET] Remember to create the following directories:
+[2022-01-18T10:04:06-0300] [ALPM-SCRIPTLET] mkdir -p ~/.local/share/icons
+[2022-01-18T10:04:06-0300] [ALPM-SCRIPTLET] mkdir -p ~/.local/share/applications
+[2022-01-18T10:04:06-0300] [ALPM] transaction completed
+[2022-01-18T10:04:06-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-18T10:04:06-0300] [ALPM] running '30-update-mime-database.hook'...
+[2022-01-18T10:04:07-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-18T10:04:07-0300] [PACMAN] Running 'pacman -R -u --noconfirm --config /etc/pacman.conf -- oniguruma jq nodejs-nopt semver node-gyp npm'
+[2022-01-18T10:04:07-0300] [ALPM] transaction started
+[2022-01-18T10:04:08-0300] [ALPM] removed npm (8.3.1-1)
+[2022-01-18T10:04:08-0300] [ALPM] removed node-gyp (8.4.1-1)
+[2022-01-18T10:04:08-0300] [ALPM] removed semver (7.3.5-2)
+[2022-01-18T10:04:08-0300] [ALPM] removed nodejs-nopt (5.0.0-2)
+[2022-01-18T10:04:08-0300] [ALPM] removed jq (1.6-4)
+[2022-01-18T10:04:08-0300] [ALPM] removed oniguruma (6.9.7.1-1)
+[2022-01-18T10:04:08-0300] [ALPM] transaction completed
+[2022-01-18T10:04:08-0300] [ALPM] running '30-systemd-update.hook'...

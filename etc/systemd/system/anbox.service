@@ -2,9 +2,9 @@
 Description=Abox - Whatsapp
 [Service]
 Type=simple
-ExecStartPre=/bin/bash -c '/usr/bin/anbox-bridge start &'
-ExecStartPre=bash -c '/usr/bin/systemctl restart anbox-container-manager.service'
-ExecStartPre=bash -c '/usr/bin/sleep 1'
+ExecStartPre=/bin/bash -c '/usr/bin/anbox-bridge force-reload &'
+#ExecStartPre=bash -c '/usr/bin/systemctl restart anbox-container-manager.service'
+#ExecStartPre=bash -c '/usr/bin/sleep 1'
 ExecStart=/usr/bin/sudo -u lucas /bin/bash -c 'XDG_RUNTIME_DIR=/run/user/1000 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus DISPLAY=:0 /usr/bin/anbox session-manager --single-window --window-size=600,509'
 
 [Install]

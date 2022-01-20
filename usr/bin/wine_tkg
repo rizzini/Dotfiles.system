@@ -1,3 +1,0 @@
-#!/bin/bash
-wine_path='/opt/wine-tkg-staging-fsync-opt-git-7.0.r0.g2fc92f8b/bin/wine'
-exec $wine_path "$@"

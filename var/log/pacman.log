@@ -43346,3 +43346,28 @@
 [2022-01-21T16:15:58-0300] [ALPM] running '30-systemd-update.hook'...
 [2022-01-21T16:15:59-0300] [ALPM] running '60-depmod.hook'...
 [2022-01-21T16:15:59-0300] [ALPM] running '90-linux516-tkg-pds.hook'...
+[2022-01-21T16:22:58-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-21T16:22:58-0300] [PACMAN] synchronizing package lists
+[2022-01-21T16:23:12-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-21T16:23:12-0300] [PACMAN] synchronizing package lists
+[2022-01-21T16:23:45-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-21T16:23:45-0300] [PACMAN] synchronizing package lists
+[2022-01-21T16:23:47-0300] [PACMAN] starting full system upgrade
+[2022-01-21T16:24:15-0300] [ALPM] transaction started
+[2022-01-21T16:24:15-0300] [ALPM] upgraded vulkan-icd-loader (1.2.202-1 -> 1.2.203-1)
+[2022-01-21T16:24:15-0300] [ALPM] upgraded libp11-kit (0.24.0-2 -> 0.24.1-1)
+[2022-01-21T16:24:15-0300] [ALPM] upgraded p11-kit (0.24.0-2 -> 0.24.1-1)
+[2022-01-21T16:24:15-0300] [ALPM] upgraded kconfigwidgets (5.90.0-1 -> 5.90.1-1)
+[2022-01-21T16:24:15-0300] [ALPM] upgraded lib32-p11-kit (0.24.0-2 -> 0.24.1-1)
+[2022-01-21T16:24:15-0300] [ALPM] upgraded lib32-vulkan-icd-loader (1.2.202-1 -> 1.2.203-1)
+[2022-01-21T16:24:15-0300] [ALPM] installed linux-firmware-whence (20220119.0c6a7b3-2)
+[2022-01-21T16:24:16-0300] [ALPM] upgraded linux-firmware (20211216.f682ecb-1 -> 20220119.0c6a7b3-2)
+[2022-01-21T16:24:16-0300] [ALPM] upgraded perl-http-message (6.34-1 -> 6.35-1)
+[2022-01-21T16:24:16-0300] [ALPM] upgraded spirv-tools (2021.3-1 -> 2021.4-1)
+[2022-01-21T16:24:16-0300] [ALPM] upgraded vulkan-tools (1.2.199-1 -> 1.2.203-1)
+[2022-01-21T16:24:19-0300] [ALPM] upgraded webkit2gtk (2.34.3-1 -> 2.34.4-1)
+[2022-01-21T16:24:20-0300] [ALPM] upgraded yt-dlp (2021.12.27-1 -> 2022.01.21-1)
+[2022-01-21T16:24:22-0300] [ALPM] transaction completed
+[2022-01-21T16:24:22-0300] [ALPM] running '30-systemd-tmpfiles.hook'...
+[2022-01-21T16:24:22-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-21T16:24:22-0300] [ALPM] running 'detect-old-perl-modules.hook'...

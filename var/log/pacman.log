@@ -43205,3 +43205,64 @@
 [2022-01-20T22:50:55-0300] [ALPM] running '30-systemd-udev-reload.hook'...
 [2022-01-20T22:50:55-0300] [ALPM] running '30-systemd-update.hook'...
 [2022-01-20T22:50:55-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-21T06:23:13-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- qemu'
+[2022-01-21T06:23:19-0300] [ALPM] transaction started
+[2022-01-21T06:23:19-0300] [ALPM] installed dtc (1.6.1-3)
+[2022-01-21T06:23:19-0300] [ALPM] installed libcacard (2.7.0-2)
+[2022-01-21T06:23:19-0300] [ALPM] installed libnfs (4.0.0-4)
+[2022-01-21T06:23:19-0300] [ALPM] installed libslirp (4.6.1-1)
+[2022-01-21T06:23:19-0300] [ALPM] installed seabios (1.15.0-1)
+[2022-01-21T06:23:19-0300] [ALPM] installed sdl2_image (2.0.5-2)
+[2022-01-21T06:23:19-0300] [ALPM] installed spice (0.15.0-1)
+[2022-01-21T06:23:19-0300] [ALPM] installed usbredir (0.12.0-1)
+[2022-01-21T06:23:19-0300] [ALPM] installed virglrenderer (0.9.1-1)
+[2022-01-21T06:23:19-0300] [ALPM] installed vde2 (2.3.2-18)
+[2022-01-21T06:23:19-0300] [ALPM-SCRIPTLET] vde config files should be placed in /etc/vde, sample files are provided.
+[2022-01-21T06:23:19-0300] [ALPM-SCRIPTLET] iptables and dhcpd sample files have been installed to '/usr/share/vde2'.
+[2022-01-21T06:23:19-0300] [ALPM-SCRIPTLET] Merge those examples, if needed to the according config files.
+[2022-01-21T06:23:19-0300] [ALPM] installed vte-common (0.66.2-1)
+[2022-01-21T06:23:19-0300] [ALPM] installed vte3 (0.66.2-1)
+[2022-01-21T06:23:19-0300] [ALPM] installed qemu (6.2.0-2)
+[2022-01-21T06:23:19-0300] [ALPM] transaction completed
+[2022-01-21T06:23:19-0300] [ALPM] running '30-systemd-udev-reload.hook'...
+[2022-01-21T06:23:19-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-21T06:23:19-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-21T06:23:19-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-21T06:24:58-0300] [PACMAN] Running 'pacman -R -c -d -n -s --config /etc/pacman.conf -- qemu'
+[2022-01-21T06:24:59-0300] [ALPM] transaction started
+[2022-01-21T06:25:00-0300] [ALPM] removed qemu (6.2.0-2)
+[2022-01-21T06:25:00-0300] [ALPM] removed vte3 (0.66.2-1)
+[2022-01-21T06:25:00-0300] [ALPM] removed vte-common (0.66.2-1)
+[2022-01-21T06:25:00-0300] [ALPM] removed virglrenderer (0.9.1-1)
+[2022-01-21T06:25:00-0300] [ALPM] removed vde2 (2.3.2-18)
+[2022-01-21T06:25:00-0300] [ALPM] removed usbredir (0.12.0-1)
+[2022-01-21T06:25:00-0300] [ALPM] removed spice (0.15.0-1)
+[2022-01-21T06:25:00-0300] [ALPM] removed seabios (1.15.0-1)
+[2022-01-21T06:25:00-0300] [ALPM] removed sdl2_image (2.0.5-2)
+[2022-01-21T06:25:00-0300] [ALPM] removed libslirp (4.6.1-1)
+[2022-01-21T06:25:00-0300] [ALPM] removed libnfs (4.0.0-4)
+[2022-01-21T06:25:00-0300] [ALPM] removed libcacard (2.7.0-2)
+[2022-01-21T06:25:00-0300] [ALPM] removed dtc (1.6.1-3)
+[2022-01-21T06:25:00-0300] [ALPM] transaction completed
+[2022-01-21T06:25:00-0300] [ALPM] running '30-systemd-udev-reload.hook'...
+[2022-01-21T06:25:00-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-21T06:25:00-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-21T06:25:00-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-21T09:56:03-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-21T09:56:03-0300] [PACMAN] synchronizing package lists
+[2022-01-21T09:56:04-0300] [PACMAN] starting full system upgrade
+[2022-01-21T09:56:08-0300] [ALPM] transaction started
+[2022-01-21T09:56:08-0300] [ALPM] upgraded lib32-gnutls (3.7.2-1 -> 3.7.3-1)
+[2022-01-21T09:56:08-0300] [ALPM] upgraded libwebp (1.2.1-2 -> 1.2.2-1)
+[2022-01-21T09:56:08-0300] [ALPM] upgraded lib32-libwebp (1.2.1-2 -> 1.2.2-1)
+[2022-01-21T09:56:08-0300] [ALPM] upgraded qt5-quickcontrols2 (5.15.2+kde+r9-1 -> 5.15.2+kde+r10-1)
+[2022-01-21T09:56:08-0300] [ALPM] upgraded rubberband (2.0.0-1 -> 2.0.1-1)
+[2022-01-21T09:56:08-0300] [ALPM] transaction completed
+[2022-01-21T09:56:08-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-21T09:56:33-0300] [PACMAN] Running 'pacman -U --noconfirm --config /etc/pacman.conf -- /home/lucas/.cache/yay/skypeforlinux-stable-bin/skypeforlinux-stable-bin-8.80.0.143-1-x86_64.pkg.tar.zst'
+[2022-01-21T09:56:33-0300] [ALPM] transaction started
+[2022-01-21T09:56:34-0300] [ALPM] upgraded skypeforlinux-stable-bin (8.79.0.95-1 -> 8.80.0.143-1)
+[2022-01-21T09:56:34-0300] [ALPM] transaction completed
+[2022-01-21T09:56:34-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-21T09:56:34-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-21T09:56:34-0300] [ALPM] running 'update-desktop-database.hook'...

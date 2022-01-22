@@ -43372,3 +43372,54 @@
 [2022-01-21T16:24:22-0300] [ALPM] running '30-systemd-update.hook'...
 [2022-01-21T16:24:22-0300] [ALPM] running 'detect-old-perl-modules.hook'...
 [2022-01-21T19:25:59-0300] [PACMAN] Running 'pacman -R -n -s -c -d --config /etc/pacman.conf -- vi'
+[2022-01-21T20:53:06-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-21T20:53:06-0300] [PACMAN] synchronizing package lists
+[2022-01-21T20:53:21-0300] [PACMAN] starting full system upgrade
+[2022-01-21T20:54:22-0300] [PACMAN] Running 'pacman -R -d -n -s -c --config /etc/pacman.conf -- krita'
+[2022-01-21T20:54:24-0300] [ALPM] transaction started
+[2022-01-21T20:54:25-0300] [ALPM] removed krita (5.0.2-1)
+[2022-01-21T20:54:25-0300] [ALPM] removed quazip (1.2-1)
+[2022-01-21T20:54:25-0300] [ALPM] removed openexr (3.1.3-1)
+[2022-01-21T20:54:25-0300] [ALPM] removed opencolorio (2.1.1-2)
+[2022-01-21T20:54:25-0300] [ALPM] removed yaml-cpp (0.7.0-2)
+[2022-01-21T20:54:25-0300] [ALPM] removed tinyxml (2.6.2-8)
+[2022-01-21T20:54:25-0300] [ALPM] removed pystring (1.1.3.git1-1)
+[2022-01-21T20:54:25-0300] [ALPM] removed imath (3.1.3-4)
+[2022-01-21T20:54:25-0300] [ALPM] removed glew (2.2.0-2)
+[2022-01-21T20:54:25-0300] [ALPM] removed freeglut (3.2.1-2)
+[2022-01-21T20:54:25-0300] [ALPM] transaction completed
+[2022-01-21T20:54:25-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-21T20:54:25-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-21T20:54:25-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-21T21:12:56-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- openshot'
+[2022-01-21T21:13:43-0300] [PACMAN] Running 'pacman -S --config /etc/pacman.conf -- openshot'
+[2022-01-21T21:14:04-0300] [ALPM] transaction started
+[2022-01-21T21:14:04-0300] [ALPM] installed tbb (2021.5.0-1)
+[2022-01-21T21:14:04-0300] [ALPM] installed imath (3.1.4-1)
+[2022-01-21T21:14:04-0300] [ALPM] installed openexr (3.1.3-1)
+[2022-01-21T21:14:04-0300] [ALPM] installed libdc1394 (2.2.6-2)
+[2022-01-21T21:14:04-0300] [ALPM] installed blas (3.10.0-1)
+[2022-01-21T21:14:04-0300] [ALPM] installed cblas (3.10.0-1)
+[2022-01-21T21:14:04-0300] [ALPM] installed lapack (3.10.0-1)
+[2022-01-21T21:14:04-0300] [ALPM] installed libexif (0.6.24-1)
+[2022-01-21T21:14:05-0300] [ALPM] installed libgphoto2 (2.5.28-1)
+[2022-01-21T21:14:05-0300] [ALPM] installed protobuf (3.19.2-1)
+[2022-01-21T21:14:06-0300] [ALPM] installed opencv (4.5.5-1)
+[2022-01-21T21:14:06-0300] [ALPM] installed jsoncpp (1.9.5-1)
+[2022-01-21T21:14:06-0300] [ALPM] installed libopenshot-audio (0.2.2-1)
+[2022-01-21T21:14:06-0300] [ALPM] installed libopenshot (0.2.7-7)
+[2022-01-21T21:14:06-0300] [ALPM] installed python-pyqt5-sip (12.9.0-3)
+[2022-01-21T21:14:06-0300] [ALPM] installed python-pyqt5 (5.15.6-6)
+[2022-01-21T21:14:08-0300] [ALPM] installed python-pyzmq (22.2.1-3)
+[2022-01-21T21:14:08-0300] [ALPM] installed qt5-webkit (5.212.0alpha4-11)
+[2022-01-21T21:14:10-0300] [ALPM] installed openshot (2.6.1-5)
+[2022-01-21T21:14:10-0300] [ALPM] transaction completed
+[2022-01-21T21:14:10-0300] [ALPM] running '30-systemd-hwdb.hook'...
+[2022-01-21T21:14:11-0300] [ALPM] running '30-systemd-udev-reload.hook'...
+[2022-01-21T21:14:11-0300] [ALPM] running '30-systemd-update.hook'...
+[2022-01-21T21:14:11-0300] [ALPM] running '30-update-mime-database.hook'...
+[2022-01-21T21:14:11-0300] [ALPM] running 'gtk-update-icon-cache.hook'...
+[2022-01-21T21:14:12-0300] [ALPM] running 'update-desktop-database.hook'...
+[2022-01-22T06:28:10-0300] [PACMAN] Running 'pacman -S -y -u --config /etc/pacman.conf --'
+[2022-01-22T06:28:10-0300] [PACMAN] synchronizing package lists
+[2022-01-22T06:28:13-0300] [PACMAN] starting full system upgrade

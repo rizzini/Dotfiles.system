@@ -5,16 +5,18 @@ if [[ $EUID -ne 0 ]]; then
 fi
 
 if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then 
-    for i in $(yadm stun /etc/modprobe.d/* --porcelain | grep -v "^A" | awk '{print $2}'); do if [ -n "$i" ];then yadm add "/$i"; fi done &
-    for i in $(yadm stun /etc/modules-load.d/* --porcelain | grep -v "^A" | awk '{print $2}'); do if [ -n "$i" ];then yadm add "/$i"; fi done &
-    for i in $(yadm stun /etc/sysctl.d/* --porcelain | grep -v "^A" | awk '{print $2}'); do if [ -n "$i" ];then yadm add "/$i"; fi done &
-    for i in $(yadm stun /etc/systemd/system/* --porcelain | grep -v "^A" | awk '{print $2}'); do if [ -n "$i" ];then yadm add "/$i"; fi done &
-    for i in $(yadm stun /etc/X11/* --porcelain | grep -v "^A" | awk '{print $2}'); do if [ -n "$i" ];then yadm add "/$i"; fi done &
-    for i in $(yadm stun /etc/systemd/* --porcelain | grep -v "^A" | awk '{print $2}'); do if [ -n "$i" ];then yadm add "/$i"; fi done &
-    for i in $(yadm stun /etc/tmpfiles.d/* --porcelain | grep -v "^A" | awk '{print $2}'); do if [ -n "$i" ];then yadm add "/$i"; fi done &
-    for i in $(yadm stun /usr/local/bin/* --porcelain | grep -v "^A" | awk '{print $2}'); do if [ -n "$i" ];then yadm add "/$i"; fi done &
+    for i in $(yadm stun /etc/modprobe.d/* --porcelain | grep -E '^ ??|^??' | tr -d '??' | tr -d '"' | cut -c2-); do if [ -n "$i" ];then yadm add /$i; fi done
+    for i in $(yadm stun /etc/modules-load.d/* --porcelain | grep -E '^ ??|^??' | tr -d '??' | tr -d '"' | cut -c2-); do if [ -n "$i" ];then yadm add /$i; fi done
+    for i in $(yadm stun /etc/sysctl.d/* --porcelain | grep -E '^ ??|^??' | tr -d '??' | tr -d '"' | cut -c2-); do if [ -n "$i" ];then yadm add /$i; fi done
+    for i in $(yadm stun /etc/systemd/system/* --porcelain | grep -E '^ ??|^??' | tr -d '??' | tr -d '"' | cut -c2-); do if [ -n "$i" ];then yadm add /$i; fi done
+    for i in $(yadm stun /etc/X11/* --porcelain | grep -E '^ ??|^??' | tr -d '??' | tr -d '"' | cut -c2-); do if [ -n "$i" ];then yadm add /$i; fi done
+    for i in $(yadm stun /etc/systemd/* --porcelain | grep -E '^ ??|^??' | tr -d '??' | tr -d '"' | cut -c2-); do if [ -n "$i" ];then yadm add /$i; fi done
+    for i in $(yadm stun /etc/tmpfiles.d/* --porcelain | grep -E '^ ??|^??' | tr -d '??' | tr -d '"' | cut -c2-); do if [ -n "$i" ];then yadm add /$i; fi done
+    for i in $(yadm stun /usr/local/bin/* --porcelain | grep -E '^ ??|^??' | tr -d '??' | tr -d '"' | cut -c2-); do if [ -n "$i" ];then yadm add /$i; fi done
 
-    wait
+
+
+
     if [ -n "$(yadm -Y /etc/yadm diff --name-only)" ]; then
         yadm -Y /etc/yadm diff
         if [ $(yadm -Y /etc/yadm diff --name-only | wc -l) -ge 2 ]; then

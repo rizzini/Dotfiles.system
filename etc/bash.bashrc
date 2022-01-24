@@ -40,4 +40,4 @@ if [ -n "$(grep nvidia /etc/X11/xorg.conf)" ];then
     export __GL_SHADER_DISK_CACHE=1;
 fi
 
-alias syadm="yadm -Y /etc/yadm"
+alias syadm="sudo yadm -Y /etc/yadm"

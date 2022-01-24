@@ -1,2 +1,2 @@
 #!/bin/bash
-/usr/bin/kate "$1" &> /dev/null &
+/usr/bin/kate -n "$1" &> /dev/null &

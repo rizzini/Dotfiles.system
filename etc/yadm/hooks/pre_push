@@ -7,14 +7,15 @@ fi
 if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then 
     CURRENTIFS=$IFS
     IFS=$(echo -en "\n\b")
-    for i in $(yadm -Y /etc/yadm stun /etc/modprobe.d/* --porcelain | grep -E '^ ??|^??' | tr -d '??' | tr -d '"' | cut -c2-); do if [ -n "$i" ];then yadm add /$i; fi done
-    for i in $(yadm -Y /etc/yadm stun /etc/modules-load.d/* --porcelain | grep -E '^ ??|^??' | tr -d '??' | tr -d '"' | cut -c2-); do if [ -n "$i" ];then yadm add /$i; fi done
-    for i in $(yadm -Y /etc/yadm stun /etc/sysctl.d/* --porcelain | grep -E '^ ??|^??' | tr -d '??' | tr -d '"' | cut -c2-); do if [ -n "$i" ];then yadm add /$i; fi done
-    for i in $(yadm -Y /etc/yadm stun /etc/systemd/system/* --porcelain | grep -E '^ ??|^??' | tr -d '??' | tr -d '"' | cut -c2-); do if [ -n "$i" ];then yadm add /$i; fi done
-    for i in $(yadm -Y /etc/yadm stun /etc/X11/* --porcelain | grep -E '^ ??|^??' | tr -d '??' | tr -d '"' | cut -c2-); do if [ -n "$i" ];then yadm add /$i; fi done
-    for i in $(yadm -Y /etc/yadm stun /etc/systemd/* --porcelain | grep -E '^ ??|^??' | tr -d '??' | tr -d '"' | cut -c2-); do if [ -n "$i" ];then yadm add /$i; fi done
-    for i in $(yadm -Y /etc/yadm stun /etc/tmpfiles.d/* --porcelain | grep -E '^ ??|^??' | tr -d '??' | tr -d '"' | cut -c2-); do if [ -n "$i" ];then yadm add /$i; fi done
-    for i in $(yadm -Y /etc/yadm stun /usr/local/bin/* --porcelain | grep -E '^ ??|^??' | tr -d '??' | tr -d '"' | cut -c2-); do if [ -n "$i" ];then yadm add /$i; fi done
+    for i in $(yadm -Y /etc/yadm stun /etc/modprobe.d/* --porcelain | grep -E '^ ??|^??' | sed 's/^.*\(etc.*\).*$/\1/'); do if [ -n "$i" ];then yadm -Y /etc/yadm add /$i; fi done &
+    for i in $(yadm -Y /etc/yadm stun /etc/modules-load.d/* --porcelain | grep -E '^ ??|^??' | sed 's/^.*\(etc.*\).*$/\1/'); do if [ -n "$i" ];then yadm -Y /etc/yadm add /$i; fi done &
+    for i in $(yadm -Y /etc/yadm stun /etc/sysctl.d/* --porcelain | grep -E '^ ??|^??' | sed 's/^.*\(etc.*\).*$/\1/'); do if [ -n "$i" ];then yadm -Y /etc/yadm add /$i; fi done &
+    for i in $(yadm -Y /etc/yadm stun /etc/systemd/system/* --porcelain | grep -E '^ ??|^??' | sed 's/^.*\(etc.*\).*$/\1/'); do if [ -n "$i" ];then yadm -Y /etc/yadm add /$i; fi done &
+    for i in $(yadm -Y /etc/yadm stun /etc/X11/* --porcelain | grep -E '^ ??|^??' | sed 's/^.*\(etc.*\).*$/\1/'); do if [ -n "$i" ];then yadm -Y /etc/yadm add /$i; fi done &
+    for i in $(yadm -Y /etc/yadm stun /etc/systemd/* --porcelain | grep -E '^ ??|^??' | sed 's/^.*\(etc.*\).*$/\1/'); do if [ -n "$i" ];then yadm -Y /etc/yadm add /$i; fi done &
+    for i in $(yadm -Y /etc/yadm stun /etc/tmpfiles.d/* --porcelain | grep -E '^ ??|^??' | sed 's/^.*\(etc.*\).*$/\1/'); do if [ -n "$i" ];then yadm -Y /etc/yadm add /$i; fi done &
+    for i in $(yadm -Y /etc/yadm stun /usr/local/bin/* --porcelain | grep -E '^ ??|^??' | sed 's/^.*\(etc.*\).*$/\1/'); do if [ -n "$i" ];then yadm -Y /etc/yadm add /$i; fi done &
+    wait
     IFS=$CURRENTIFS
     if [ -n "$(yadm -Y /etc/yadm diff --name-only)" ]; then
         yadm -Y /etc/yadm diff

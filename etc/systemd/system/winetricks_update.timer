@@ -2,7 +2,7 @@
 Description=Run winetricks update script weekly (Saturday)
 
 [Timer]
-OnCalendar=Sat
+OnCalendar=weekly
 Persistent=true
 
 [Install]

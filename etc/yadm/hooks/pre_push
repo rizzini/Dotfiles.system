@@ -7,14 +7,13 @@ IFS=$(echo -en "\n\b")
 if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then 
     for i in $(yadm -Y /etc/yadm stun /etc/X11/* \
     /etc/systemd/* \
-    /etc/systemd/* \
     /etc/sysctl.d/* \
     /etc/modprobe.d/* \
     /etc/tmpfiles.d/* \
     /etc/modules-load.d/* \
     /usr/local/bin/* --porcelain); do
         if [ -n "$(echo "$i" | grep '??')" ];then
-            yadm -Y /etc/yadmm add "/$(echo "$i" | cut -d '"' -f2 | cut -c3-99 | tr -d ' ')";
+            yadm -Y /etc/yadmm add "/$(echo "$i" | cut -d '"' -f2 | tr -d '??' | perl -pe 's/^\s+//')";
         fi
     done
     yadm -Y /etc/yadm status --porcelain

@@ -3,7 +3,8 @@ if [[ $EUID -ne 0 ]]; then
    echo "Este script deve ser execuado como root." 
    exit 1
 fi
-IFS=$(echo -en "\n\b")
+arquivo_adicionado=0;
+IFS=$(echo -en "\n\b");
 if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then 
     for i in $(yadm -Y /etc/yadm stun /etc/X11/* \
     /etc/systemd/* \
@@ -14,11 +15,15 @@ if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then
     /usr/local/bin/* --porcelain); do
         if [ -n "$(echo "$i" | grep '??')" ];then
             yadm -Y /etc/yadmm add "/$(echo "$i" | cut -d '"' -f2 | tr -d '??' | perl -pe 's/^\s+//')";
+            arquivo_adicionado=1;
         fi
     done
-    yadm -Y /etc/yadm status --porcelain
-    read
-    yadm -Y /etc/yadm commit -a -m "atualizando"
+    if [[ $arquivo_adicionado -eq 1 || -n "$(yadm -Y /etc/yadm diff --name-only)"  ]];then
+        yadm -Y /etc/yadm status --porcelain;
+        echo -e "\nPressione qualquer tecla para continuar";
+        read;
+        yadm -Y /etc/yadm commit -a -m "atualizando";
+    fi
 else
-    echo -e "Você não está no subvolume ROOT. push não realizado"
+    echo -e "Você não está no subvolume ROOT. push não realizado";
 fi

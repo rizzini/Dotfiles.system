@@ -24,7 +24,7 @@ if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then
                 echo -e "\nARQUIVOS DELETADOS:"
                 for i in $(yadm status --porcelain | grep 'D' | awk '{print $2}'); do
                     if [ -n "$i" ];then
-                        echo "~/$i";
+                        echo "/$i";
                     fi
                 done
             fi

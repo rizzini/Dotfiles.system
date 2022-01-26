@@ -14,7 +14,7 @@ if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then
     /etc/modules-load.d/* \
     /usr/local/bin/* --porcelain); do
         if [ -n "$(echo "$i" | grep '??')" ];then
-            yadm -Y /etc/yadmm add "/$(echo "$i" | cut -d '"' -f2)";
+            yadm -Y /etc/yadmm add "/$(echo "$i" | cut -d '"' -f2 | cut -c3-99 | tr -d ' ')";
         fi
     done
     yadm -Y /etc/yadm status --porcelain

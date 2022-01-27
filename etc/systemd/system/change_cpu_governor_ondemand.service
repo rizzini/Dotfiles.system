@@ -1,0 +1,8 @@
+[Unit]
+Description=Change CPU Governor to ondemand
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/cpupower frequency-set -g ondemand
+
+[Install]
+WantedBy=multi-user.target

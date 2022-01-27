@@ -27,6 +27,12 @@
 -A ufw-user-input -p tcp --dport 51413 -j ACCEPT
 -A ufw-user-input -p udp --dport 51413 -j ACCEPT
 
+### tuple ### allow udp 53 0.0.0.0/0 any 0.0.0.0/0 in_waydroid0
+-A ufw-user-input -i waydroid0 -p udp --dport 53 -j ACCEPT
+
+### tuple ### allow udp 67 0.0.0.0/0 68 0.0.0.0/0 in_waydroid0
+-A ufw-user-input -i waydroid0 -p udp --dport 67 --sport 68 -j ACCEPT
+
 ### END RULES ###
 
 ### LOGGING ###

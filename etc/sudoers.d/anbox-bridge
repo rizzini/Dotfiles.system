@@ -1,1 +1,1 @@
-lucas ALL = NOPASSWD: /usr/local/bin/anbox-bridge restart
+lucas ALL = NOPASSWD:  /usr/local/bin/anbox-bridge force-reload

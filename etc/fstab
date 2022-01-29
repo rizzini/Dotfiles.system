@@ -3,7 +3,7 @@ UUID=696cc724-3165-4249-8dc1-2c59193f6b7e   /home/  btrfs   rw,noatime,ssd,space
 UUID=696cc724-3165-4249-8dc1-2c59193f6b7e   /home/lucas/.ccache     btrfs   rw,noatime,ssd,space_cache=v2,subvol=CCACHE    0 0
 UUID=696cc724-3165-4249-8dc1-2c59193f6b7e   /mnt/archlinux  btrfs   rw,noatime,ssd,space_cache=v2,subvol=/ 0 0
 UUID=696cc724-3165-4249-8dc1-2c59193f6b7e   /var/cache/pacman/pkg   btrfs   rw,noatime,ssd,space_cache=v2,subvol=PKG   0 0
-UUID=696cc724-3165-4249-8dc1-2c59193f6b7e   /home/lucas/Downloads   btrfs   rw,noatime,ssd,space_cache=v2,subvol=DOWNLOADS 00
+UUID=696cc724-3165-4249-8dc1-2c59193f6b7e   /home/lucas/Downloads   btrfs   rw,nodatacow,noatime,ssd,space_cache=v2,subvol=DOWNLOADS 00
 UUID=696cc724-3165-4249-8dc1-2c59193f6b7e   /mnt/archlinux/Games   btrfs   rw,noatime,ssd,space_cache=v2,subvol=Games 00
 
 binder  /dev/binderfs   binder  nofail  0 0

@@ -1,4 +1,0 @@
-lucas ALL = NOPASSWD: /usr/bin/systemctl start anbox.service
-lucas ALL = NOPASSWD: /usr/bin/systemctl start anbox-container-manager.service
-lucas ALL = NOPASSWD: /usr/bin/systemctl stop anbox.service
-

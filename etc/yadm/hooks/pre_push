@@ -7,7 +7,6 @@ arquivo_adicionado=0;
 IFS=$(echo -en "\n\b");
 if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then 
     for i in $(yadm -Y /etc/yadm stun /etc/X11/* \
-    /etc/samba/* \
     /etc/systemd/* \
     /etc/sysctl.d/* \
     /etc/modprobe.d/* \

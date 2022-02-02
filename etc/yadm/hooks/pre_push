@@ -11,6 +11,7 @@ if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then
     /etc/sysctl.d/* \
     /etc/modprobe.d/* \
     /etc/tmpfiles.d/* \
+    /etc/sddm.conf.d/* \
     /etc/modules-load.d/* \
     /usr/local/bin/* --porcelain); do
         if [ -n "$(echo "$i" | grep '??')" ];then

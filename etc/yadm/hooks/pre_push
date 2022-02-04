@@ -6,20 +6,23 @@ fi
 arquivo_adicionado=0;
 IFS=$(echo -en "\n\b");
 if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then 
-    for i in $(yadm -Y /etc/yadm stun /etc/X11/* \
+    for i in $(yadm -Y /etc/yadm stun \
+    /etc/X11/* \
     /etc/systemd/* \
     /etc/sysctl.d/* \
+    /usr/local/bin/* \
     /etc/modprobe.d/* \
     /etc/tmpfiles.d/* \
     /etc/sddm.conf.d/* \
     /etc/modules-load.d/* \
-    /usr/share/sddm/themes/* \
-    /usr/local/bin/* --porcelain); do
+    /usr/share/sddm/themes/* --porcelain); do
         if [ -n "$(echo "$i" | grep '??')" ];then
-            yadm -Y /etc/yadmm add "/$(echo "$i" | cut -d '"' -f2 | tr -d '??' | perl -pe 's/^\s+//')";
-            arquivo_adicionado=1;
+            yadm -Y /etc/yadm add "/$(echo "$i" | cut -d '"' -f2 | tr -d '??' | perl -pe 's/^\s+//')";
         fi
     done
+    if [ -n "$(yadm -Y /etc/yadm status --porcelain)" ];then
+        arquivo_adicionado=1;
+    fi
     if [[ $arquivo_adicionado -eq 1 || -n "$(yadm -Y /etc/yadm diff --name-only)"  ]];then
         yadm -Y /etc/yadm status --porcelain;
         echo -e "\nPressione enter para continuar";

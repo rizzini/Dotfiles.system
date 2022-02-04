@@ -13,6 +13,7 @@ if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then
     /etc/tmpfiles.d/* \
     /etc/sddm.conf.d/* \
     /etc/modules-load.d/* \
+    /usr/share/sddm/themes/* \
     /usr/local/bin/* --porcelain); do
         if [ -n "$(echo "$i" | grep '??')" ];then
             yadm -Y /etc/yadmm add "/$(echo "$i" | cut -d '"' -f2 | tr -d '??' | perl -pe 's/^\s+//')";

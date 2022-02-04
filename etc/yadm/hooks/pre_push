@@ -3,7 +3,6 @@ if [[ $EUID -ne 0 ]]; then
    echo "Este script deve ser execuado como root." 
    exit 1
 fi
-arquivo_adicionado=0;
 IFS=$(echo -en "\n\b");
 if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then 
     for i in $(yadm -Y /etc/yadm stun \
@@ -21,9 +20,6 @@ if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then
         fi
     done
     if [ -n "$(yadm -Y /etc/yadm status --porcelain)" ];then
-        arquivo_adicionado=1;
-    fi
-    if [[ $arquivo_adicionado -eq 1 || -n "$(yadm -Y /etc/yadm diff --name-only)"  ]];then
         yadm -Y /etc/yadm status --porcelain;
         echo -e "\nPressione enter para continuar";
         read;

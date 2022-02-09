@@ -150,7 +150,9 @@ Item {
 
     PlasmaComponents3.Label {
         id: usernameDelegate
-        font.pointSize: wrapper.fontSize
+
+        // Make it bigger than other fonts to match the scale of the avatar better
+        font.pointSize: wrapper.fontSize + 4
         anchors {
             bottom: parent.bottom
             horizontalCenter: parent.horizontalCenter

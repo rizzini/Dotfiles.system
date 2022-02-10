@@ -8,6 +8,7 @@ if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then
     for i in $(yadm -Y /etc/yadm stun \
     /etc/X11/* \
     /etc/systemd/* \
+    /etc/sudoers.d/* \
     /etc/sysctl.d/* \
     /usr/local/bin/* \
     /etc/modprobe.d/* \

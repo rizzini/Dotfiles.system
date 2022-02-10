@@ -1,0 +1,2 @@
+lucas ALL = NOPASSWD: /usr/bin/systemctl stop waydroid-container.service
+lucas ALL = NOPASSWD: /usr/bin/systemctl restart waydroid-container.service

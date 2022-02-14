@@ -1,1 +1,2 @@
 lucas ALL = NOPASSWD: /usr/bin/yadm -Y /etc/yadm push
+lucas ALL = NOPASSWD: /usr/bin/yadm -Y /etc/yadm commit -a -m "atualizando"

@@ -4,7 +4,6 @@ if [[ $EUID -ne 0 ]]; then
    exit 1
 fi
 IFS=$(echo -en "\n\b");
-echo 1
 if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then 
     for i in $(yadm -Y /etc/yadm stun \
     /etc/X11/* \

@@ -9,6 +9,8 @@ if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then
     /etc/X11/* \
     /etc/btrbk/* \
     /etc/systemd/* \
+    /etc/pipewire/* \
+    /etc/pulse/* \
     /etc/sudoers.d/* \
     /etc/sysctl.d/* \
     /usr/local/bin/* \

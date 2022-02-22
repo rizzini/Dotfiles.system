@@ -1,4 +1,4 @@
-[2022-02-20 10:42:24 PM]
+[2022-02-21 06:44:50 PM]
 GalaxyAPI: Initialized.
 Initializing graphics device...
 Initializing Carrion
@@ -9,7 +9,7 @@ Changing display mode...
  |- Full screen: True
  |- V-sync: True
  |- In-game resolution: 640x360
- '- Done. Total elapsed time: 2.3045 ms
+ '- Done. Total elapsed time: 1.9406 ms
 
 ⢰Screen filter mode: STRETCHED_PIXELS
 ----------------------------
@@ -20,13 +20,12 @@ Initializing sound system...
  |- Virtual Channels: 1024
  |- Init Flags: NORMAL
  |- Studio Flags: NORMAL
- '- Done. Total elapsed time: 210.5568 ms
+ '- Done. Total elapsed time: 176.4532 ms
 
-[2022-02-20 10:42:26 PM]
+[2022-02-21 06:44:52 PM]
 [FMOD] Loading C:\Carrion\Content\Audio\MasterBank.bank
 [FMOD] Loading C:\Carrion\Content\Audio\MasterBank.strings.bank
 [FMOD] Loading C:\Carrion\Content\Audio\Sounds.bank
-[2022-02-20 10:42:27 PM]
 Save game modes:
 	 CHECKPOINT
 	 SAVE
@@ -42,7 +41,7 @@ Save game modes:
   \/_/  \/_/\/_____/\/_/ \/_/\/_____/  \/_/  \/_____/\/_/ /_/ 
 
 Type help to list commands, press Page Up/Page Down to scroll.
-[2022-02-20 10:42:29 PM]
+[2022-02-21 06:44:56 PM]
 GalaxyAPI: Online: False
 GalaxyAPI: Auth Status: NOT_SIGNED_IN
 GalaxyAPI: Failed to initialize in 5 seconds.
@@ -51,324 +50,427 @@ Changing display mode...
  |- Full screen: False
  |- V-sync: True
  |- In-game resolution: 640x360
- '- Done. Total elapsed time: 13.8185 ms
+ '- Done. Total elapsed time: 16.1426 ms
 
-[2022-02-20 10:42:30 PM]
+[2022-02-21 06:44:57 PM]
 Loading scripts...
 Executing...
-[2022-02-20 10:44:13 PM]
+[2022-02-21 06:45:01 PM]
 Physics initialized.
-[2022-02-20 10:44:14 PM]
- |- Tile gen. threads: 0.1304004 s
-[2022-02-20 10:44:19 PM]
- |- Tile gen. threads: 0.0027801 s
+ |- Tile gen. threads: 0.5631947 s
+[2022-02-21 06:45:03 PM]
+ |- Tile gen. threads: 0.0027783 s
 Physics thread started.
-Layer generated in: 0.0764862 s, 4 threads.
-Layer generated in: 0.0710593 s, 4 threads.
+Layer generated in: 0.1084044 s, 4 threads.
+[2022-02-21 06:45:04 PM]
+Layer generated in: 0.0573431 s, 4 threads.
 Render target pool stats
- |- 256 x 256: used: 18 allocated: 18
- |- Approx. pool size in VRAM [MiB]: 4
- '- Done. Total elapsed time: 0.7822 ms
+ |- 256 x 256: used: 12 allocated: 12
+ |- Approx. pool size in VRAM [MiB]: 3
+ '- Done. Total elapsed time: 0.8291 ms
 
-[2022-02-20 10:44:39 PM]
-Layer generated in: 0.1204344 s, 4 threads.
-Layer generated in: 0.1082293 s, 4 threads.
+[2022-02-21 06:45:12 PM]
+Layer generated in: 0.1663875 s, 4 threads.
+Layer generated in: 0.1751452 s, 4 threads.
 Render target pool stats
- |- 256 x 256: used: 48 allocated: 48
- |- Approx. pool size in VRAM [MiB]: 12
- '- Done. Total elapsed time: 0.8269 ms
+ |- 256 x 256: used: 52 allocated: 52
+ |- Approx. pool size in VRAM [MiB]: 13
+ '- Done. Total elapsed time: 0.9379 ms
 
-[2022-02-20 10:46:09 PM]
-Physics thread finished.
-Physics uninitialized.
-Physics initialized.
- |- Tile gen. threads: 0.1232012 s
- |- Tile gen. threads: 0.0023392 s
-Physics thread started.
-Layer generated in: 0.072385 s, 4 threads.
-Layer generated in: 0.0750612 s, 4 threads.
+[2022-02-21 06:47:26 PM]
+Layer generated in: 0.2365888 s, 4 threads.
+Layer generated in: 0.1559745 s, 4 threads.
 Render target pool stats
- |- 256 x 256: used: 18 allocated: 48
- |- Approx. pool size in VRAM [MiB]: 12
- '- Done. Total elapsed time: 0.9563 ms
+ |- 256 x 256: used: 92 allocated: 92
+ |- Approx. pool size in VRAM [MiB]: 23
+ '- Done. Total elapsed time: 1.0467 ms
 
-[2022-02-20 10:46:17 PM]
-Layer generated in: 0.1096504 s, 4 threads.
-Layer generated in: 0.1110595 s, 4 threads.
-Render target pool stats
- |- 256 x 256: used: 48 allocated: 48
- |- Approx. pool size in VRAM [MiB]: 12
- '- Done. Total elapsed time: 0.7112 ms
-
-[2022-02-20 10:49:55 PM]
-Render target pool stats
- |- 256 x 256: used: 48 allocated: 48
- |- Approx. pool size in VRAM [MiB]: 12
- '- Done. Total elapsed time: 1.0701 ms
-
-[2022-02-20 10:49:58 PM]
-Save size: 948902
-Game saved in 37.5282 ms
-[2022-02-20 10:50:06 PM]
-Render target pool stats
- |- 256 x 256: used: 48 allocated: 48
- |- Approx. pool size in VRAM [MiB]: 12
- '- Done. Total elapsed time: 0.8235 ms
-
-[2022-02-20 10:50:09 PM]
-Layer generated in: 0.0962127 s, 4 threads.
-Layer generated in: 0.0768198 s, 4 threads.
-Render target pool stats
- |- 256 x 256: used: 84 allocated: 84
- |- Approx. pool size in VRAM [MiB]: 21
- '- Done. Total elapsed time: 1.0489 ms
-
-[2022-02-20 10:50:21 PM]
-Layer generated in: 0.0637357 s, 4 threads.
-Layer generated in: 0.0593259 s, 4 threads.
-Render target pool stats
- |- 256 x 256: used: 108 allocated: 108
- |- Approx. pool size in VRAM [MiB]: 27
- '- Done. Total elapsed time: 0.8088 ms
-
-[2022-02-20 10:50:37 PM]
-Save size: 948910
-Game saved in 32.9152 ms
-[2022-02-20 10:50:53 PM]
-Layer generated in: 0.0455109 s, 4 threads.
-Layer generated in: 0.0452417 s, 4 threads.
-Render target pool stats
- |- 256 x 256: used: 126 allocated: 126
- |- Approx. pool size in VRAM [MiB]: 31
- '- Done. Total elapsed time: 0.7408 ms
-
-[2022-02-20 10:51:02 PM]
-Render target pool stats
- |- 256 x 256: used: 126 allocated: 126
- |- Approx. pool size in VRAM [MiB]: 31
- '- Done. Total elapsed time: 0.8017 ms
-
-[2022-02-20 10:51:06 PM]
-Render target pool stats
- |- 256 x 256: used: 126 allocated: 126
- |- Approx. pool size in VRAM [MiB]: 31
- '- Done. Total elapsed time: 1.0502 ms
-
-[2022-02-20 10:51:16 PM]
-Render target pool stats
- |- 256 x 256: used: 126 allocated: 126
- |- Approx. pool size in VRAM [MiB]: 31
- '- Done. Total elapsed time: 0.8168 ms
-
-[2022-02-20 10:51:21 PM]
-Render target pool stats
- |- 256 x 256: used: 126 allocated: 126
- |- Approx. pool size in VRAM [MiB]: 31
- '- Done. Total elapsed time: 1.1372 ms
-
-[2022-02-20 10:51:39 PM]
-Render target pool stats
- |- 256 x 256: used: 126 allocated: 126
- |- Approx. pool size in VRAM [MiB]: 31
- '- Done. Total elapsed time: 0.8557 ms
-
-[2022-02-20 10:51:55 PM]
-Render target pool stats
- |- 256 x 256: used: 126 allocated: 126
- |- Approx. pool size in VRAM [MiB]: 31
- '- Done. Total elapsed time: 0.6969 ms
-
-[2022-02-20 10:51:59 PM]
-Render target pool stats
- |- 256 x 256: used: 126 allocated: 126
- |- Approx. pool size in VRAM [MiB]: 31
- '- Done. Total elapsed time: 0.6817 ms
-
-[2022-02-20 10:52:05 PM]
-Layer generated in: 0.0974454 s, 4 threads.
-Layer generated in: 0.0996188 s, 4 threads.
-Render target pool stats
- |- 256 x 256: used: 166 allocated: 166
- |- Approx. pool size in VRAM [MiB]: 41
- '- Done. Total elapsed time: 0.7598 ms
-
-[2022-02-20 10:52:20 PM]
-Render target pool stats
- |- 256 x 256: used: 166 allocated: 166
- |- Approx. pool size in VRAM [MiB]: 41
- '- Done. Total elapsed time: 0.9835 ms
-
-[2022-02-20 10:52:23 PM]
-Render target pool stats
- |- 256 x 256: used: 166 allocated: 166
- |- Approx. pool size in VRAM [MiB]: 41
- '- Done. Total elapsed time: 0.9049 ms
-
-[2022-02-20 10:52:28 PM]
-Render target pool stats
- |- 256 x 256: used: 166 allocated: 166
- |- Approx. pool size in VRAM [MiB]: 41
- '- Done. Total elapsed time: 0.7829 ms
-
-[2022-02-20 10:52:42 PM]
-Render target pool stats
- |- 256 x 256: used: 166 allocated: 166
- |- Approx. pool size in VRAM [MiB]: 41
- '- Done. Total elapsed time: 0.7946 ms
-
-[2022-02-20 10:52:57 PM]
-Render target pool stats
- |- 256 x 256: used: 166 allocated: 166
- |- Approx. pool size in VRAM [MiB]: 41
- '- Done. Total elapsed time: 0.8218 ms
-
-[2022-02-20 10:53:03 PM]
-Physics thread finished.
-Physics uninitialized.
-Physics initialized.
-Loading level: overworld
- |- Initializing humans and monsters...
- |  0.6695 ms
- |- Parsing level file...
- |  127.0212 ms
- |- Cleaning up tile layers...
- |  0.4900 ms
- |- Reading level properties...
- |  14.3164 ms
- |- Filling up tile layers...
- |- Tile gen. threads: 0.2733891 s
- |- Tile gen. threads: 0.0025942 s
- |  370.9981 ms
- |- Placing objects...
-[2022-02-20 10:53:22 PM]
- |  18515.1221 ms
- |- Finalizing...
- '- Done. Total elapsed time: 19029.4658 ms
-
-Physics thread started.
-Save size: 1149979
-Game saved in 390.9144 ms
-Layer generated in: 0.1120778 s, 4 threads.
-[2022-02-20 10:53:23 PM]
-Layer generated in: 0.1407031 s, 4 threads.
-Render target pool stats
- |- 256 x 256: used: 24 allocated: 166
- |- Approx. pool size in VRAM [MiB]: 41
- '- Done. Total elapsed time: 0.8687 ms
-
-[2022-02-20 10:53:50 PM]
-Layer generated in: 0.1748342 s, 4 threads.
-Layer generated in: 0.1700319 s, 4 threads.
-Render target pool stats
- |- 256 x 256: used: 72 allocated: 166
- |- Approx. pool size in VRAM [MiB]: 41
- '- Done. Total elapsed time: 0.8541 ms
-
-[2022-02-20 10:54:01 PM]
-Layer generated in: 0.0728467 s, 4 threads.
-Layer generated in: 0.0844052 s, 4 threads.
-Render target pool stats
- |- 256 x 256: used: 102 allocated: 166
- |- Approx. pool size in VRAM [MiB]: 41
- '- Done. Total elapsed time: 0.9752 ms
-
-[2022-02-20 10:54:32 PM]
-Layer generated in: 0.0515205 s, 4 threads.
-Layer generated in: 0.0554938 s, 4 threads.
-Render target pool stats
- |- 256 x 256: used: 122 allocated: 166
- |- Approx. pool size in VRAM [MiB]: 41
- '- Done. Total elapsed time: 0.6771 ms
-
-[2022-02-20 10:54:57 PM]
-Render target pool stats
- |- 256 x 256: used: 122 allocated: 166
- |- Approx. pool size in VRAM [MiB]: 41
- '- Done. Total elapsed time: 0.9127 ms
-
-[2022-02-20 10:55:18 PM]
-Render target pool stats
- |- 256 x 256: used: 122 allocated: 166
- |- Approx. pool size in VRAM [MiB]: 41
- '- Done. Total elapsed time: 0.7216 ms
-
-[2022-02-20 10:55:47 PM]
-Physics thread finished.
-Physics uninitialized.
-Physics initialized.
-Loading level: bureau
- |- Initializing humans and monsters...
- |  0.5716 ms
- |- Parsing level file...
- |  69.9887 ms
- |- Cleaning up tile layers...
- |  0.6458 ms
- |- Reading level properties...
- |  10.9023 ms
- |- Filling up tile layers...
- |- Tile gen. threads: 0.0922114 s
- |- Tile gen. threads: 0.002049 s
- |  163.5296 ms
- |- Placing objects...
- |  104.7797 ms
- |- Finalizing...
- '- Done. Total elapsed time: 351.3267 ms
-
-Loading scripts...
-Executing...
-Physics thread started.
-Save size: 1165456
-Game saved in 166.8693 ms
-Layer generated in: 0.0451116 s, 4 threads.
-Layer generated in: 0.0393232 s, 4 threads.
-Render target pool stats
- |- 256 x 256: used: 12 allocated: 166
- |- Approx. pool size in VRAM [MiB]: 41
- '- Done. Total elapsed time: 0.7195 ms
-
-[2022-02-20 10:55:58 PM]
-Save size: 1166399
-Game saved in 40.7481 ms
-[2022-02-20 10:56:05 PM]
-Layer generated in: 0.1005833 s, 4 threads.
-Layer generated in: 0.1154017 s, 4 threads.
-Render target pool stats
- |- 256 x 256: used: 52 allocated: 166
- |- Approx. pool size in VRAM [MiB]: 41
- '- Done. Total elapsed time: 1.3076 ms
-
-[2022-02-20 10:57:40 PM]
-Layer generated in: 0.1020581 s, 4 threads.
-Layer generated in: 0.0988786 s, 4 threads.
-Render target pool stats
- |- 256 x 256: used: 92 allocated: 166
- |- Approx. pool size in VRAM [MiB]: 41
- '- Done. Total elapsed time: 0.7908 ms
-
-[2022-02-20 10:58:46 PM]
+[2022-02-21 06:48:02 PM]
 Chambers pruned: 2
-Layer generated in: 0.0505014 s, 4 threads.
-Layer generated in: 0.0490858 s, 4 threads.
+Layer generated in: 0.0550495 s, 4 threads.
+Layer generated in: 0.0507551 s, 4 threads.
 Render target pool stats
- |- 256 x 256: used: 56 allocated: 166
- |- Approx. pool size in VRAM [MiB]: 41
- '- Done. Total elapsed time: 0.7738 ms
+ |- 256 x 256: used: 56 allocated: 92
+ |- Approx. pool size in VRAM [MiB]: 23
+ '- Done. Total elapsed time: 1.0224 ms
 
-[2022-02-20 10:58:53 PM]
-Layer generated in: 0.1131876 s, 4 threads.
-Layer generated in: 0.1222236 s, 4 threads.
+[2022-02-21 06:48:12 PM]
+Layer generated in: 0.1373638 s, 4 threads.
+Layer generated in: 0.167121 s, 4 threads.
 Render target pool stats
- |- 256 x 256: used: 92 allocated: 166
- |- Approx. pool size in VRAM [MiB]: 41
- '- Done. Total elapsed time: 0.7566 ms
+ |- 256 x 256: used: 92 allocated: 92
+ |- Approx. pool size in VRAM [MiB]: 23
+ '- Done. Total elapsed time: 1.1287 ms
 
-[2022-02-20 10:59:11 PM]
-Physics thread finished.
-Physics uninitialized.
-Physics initialized.
- |- Tile gen. threads: 0.1652802 s
- |- Tile gen. threads: 0.0023897 s
-Physics thread started.
+[2022-02-21 06:48:53 PM]
+Render target pool stats
+ |- 256 x 256: used: 92 allocated: 92
+ |- Approx. pool size in VRAM [MiB]: 23
+ '- Done. Total elapsed time: 1.2246 ms
+
+[2022-02-21 06:49:00 PM]
+Render target pool stats
+ |- 256 x 256: used: 92 allocated: 92
+ |- Approx. pool size in VRAM [MiB]: 23
+ '- Done. Total elapsed time: 0.9854 ms
+
+[2022-02-21 06:49:27 PM]
+Render target pool stats
+ |- 256 x 256: used: 92 allocated: 92
+ |- Approx. pool size in VRAM [MiB]: 23
+ '- Done. Total elapsed time: 1.0955 ms
+
+[2022-02-21 06:49:37 PM]
+Render target pool stats
+ |- 256 x 256: used: 92 allocated: 92
+ |- Approx. pool size in VRAM [MiB]: 23
+ '- Done. Total elapsed time: 1.1521 ms
+
+[2022-02-21 06:49:57 PM]
+Chambers pruned: 2
+Layer generated in: 0.064643 s, 4 threads.
+Layer generated in: 0.0619767 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 52 allocated: 92
+ |- Approx. pool size in VRAM [MiB]: 23
+ '- Done. Total elapsed time: 1.0728 ms
+
+[2022-02-21 06:50:26 PM]
+Save size: 1165682
+Game saved in 57.4847 ms
+[2022-02-21 06:50:32 PM]
+Chambers pruned: 1
+Layer generated in: 0.1376318 s, 4 threads.
+Layer generated in: 0.1489258 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 76 allocated: 92
+ |- Approx. pool size in VRAM [MiB]: 23
+ '- Done. Total elapsed time: 0.8427 ms
+
+[2022-02-21 06:50:35 PM]
+Chambers pruned: 1
+Layer generated in: 0.0320613 s, 4 threads.
+Layer generated in: 0.0497541 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 52 allocated: 92
+ |- Approx. pool size in VRAM [MiB]: 23
+ '- Done. Total elapsed time: 0.8510 ms
+
+[2022-02-21 06:50:50 PM]
+Layer generated in: 0.199582 s, 4 threads.
+Layer generated in: 0.2318391 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 112 allocated: 112
+ |- Approx. pool size in VRAM [MiB]: 28
+ '- Done. Total elapsed time: 1.1802 ms
+
+[2022-02-21 06:52:20 PM]
+Chambers pruned: 2
+Layer generated in: 0.3099951 s, 4 threads.
+Layer generated in: 0.3785274 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 172 allocated: 172
+ |- Approx. pool size in VRAM [MiB]: 43
+ '- Done. Total elapsed time: 1.0883 ms
+
+[2022-02-21 06:53:00 PM]
+Layer generated in: 0.0913442 s, 4 threads.
+Layer generated in: 0.0907642 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 190 allocated: 190
+ |- Approx. pool size in VRAM [MiB]: 47
+ '- Done. Total elapsed time: 0.9246 ms
+
+[2022-02-21 06:53:11 PM]
+Layer generated in: 0.116455 s, 4 threads.
+Layer generated in: 0.0927207 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 214 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.7207 ms
+
+[2022-02-21 06:53:17 PM]
+Render target pool stats
+ |- 256 x 256: used: 214 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 1.0913 ms
+
+[2022-02-21 06:53:41 PM]
+Render target pool stats
+ |- 256 x 256: used: 214 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.8306 ms
+
+[2022-02-21 06:53:43 PM]
+Render target pool stats
+ |- 256 x 256: used: 214 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.9880 ms
+
+[2022-02-21 06:53:53 PM]
+Render target pool stats
+ |- 256 x 256: used: 214 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.9167 ms
+
+[2022-02-21 06:54:14 PM]
+Save size: 1160618
+Game saved in 43.3198 ms
+[2022-02-21 06:54:19 PM]
+Chambers pruned: 3
+Layer generated in: 0.1620568 s, 4 threads.
+Layer generated in: 0.1938025 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 60 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.8385 ms
+
+[2022-02-21 06:54:23 PM]
+Render target pool stats
+ |- 256 x 256: used: 60 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 1.4532 ms
+
+[2022-02-21 06:54:40 PM]
+Layer generated in: 0.166411 s, 4 threads.
+Layer generated in: 0.2066576 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 100 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 1.0404 ms
+
+[2022-02-21 06:56:28 PM]
+Render target pool stats
+ |- 256 x 256: used: 100 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.7190 ms
+
+[2022-02-21 06:56:32 PM]
+Chambers pruned: 1
+Layer generated in: 0.0502048 s, 4 threads.
+Layer generated in: 0.083554 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 82 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.8352 ms
+
+[2022-02-21 06:56:37 PM]
+Layer generated in: 0.2547349 s, 4 threads.
+Layer generated in: 0.2610821 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 142 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.9303 ms
+
+[2022-02-21 06:56:44 PM]
+Chambers pruned: 1
+Layer generated in: 0.364709 s, 4 threads.
+Layer generated in: 0.3690361 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 214 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.9914 ms
+
+[2022-02-21 06:58:06 PM]
+Render target pool stats
+ |- 256 x 256: used: 214 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.7659 ms
+
+[2022-02-21 06:58:11 PM]
+Render target pool stats
+ |- 256 x 256: used: 214 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.9865 ms
+
+[2022-02-21 06:58:22 PM]
+Chambers pruned: 1
+Layer generated in: 0.173934 s, 4 threads.
+Layer generated in: 0.1872668 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 142 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.8369 ms
+
+[2022-02-21 06:58:29 PM]
+Chambers pruned: 1
+Layer generated in: 0.0444326 s, 4 threads.
+Layer generated in: 0.0650441 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 98 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.9985 ms
+
+[2022-02-21 06:58:48 PM]
+Save size: 1160858
+Game saved in 43.7185 ms
+[2022-02-21 06:58:54 PM]
+Chambers pruned: 1
+Layer generated in: 0.1121281 s, 4 threads.
+Layer generated in: 0.1606844 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 116 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.7622 ms
+
+[2022-02-21 06:58:57 PM]
+Render target pool stats
+ |- 256 x 256: used: 116 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.8609 ms
+
+[2022-02-21 06:59:10 PM]
+Layer generated in: 0.1835715 s, 4 threads.
+Layer generated in: 0.2426895 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 176 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.9838 ms
+
+[2022-02-21 07:00:15 PM]
+Render target pool stats
+ |- 256 x 256: used: 176 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.8664 ms
+
+[2022-02-21 07:00:17 PM]
+Render target pool stats
+ |- 256 x 256: used: 176 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.8422 ms
+
+[2022-02-21 07:00:21 PM]
+Layer generated in: 0.0484412 s, 4 threads.
+Layer generated in: 0.07925 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 192 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 1.1123 ms
+
+[2022-02-21 07:00:24 PM]
+Render target pool stats
+ |- 256 x 256: used: 192 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.6935 ms
+
+[2022-02-21 07:00:36 PM]
+Render target pool stats
+ |- 256 x 256: used: 192 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.9238 ms
+
+[2022-02-21 07:00:44 PM]
+Render target pool stats
+ |- 256 x 256: used: 192 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.9597 ms
+
+[2022-02-21 07:00:53 PM]
+Chambers pruned: 4
+Layer generated in: 0.0370765 s, 4 threads.
+Layer generated in: 0.0575439 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 76 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.7031 ms
+
+[2022-02-21 07:00:59 PM]
+Save size: 1158924
+Game saved in 41.3027 ms
+[2022-02-21 07:01:04 PM]
+Render target pool stats
+ |- 256 x 256: used: 76 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 5.1489 ms
+
+[2022-02-21 07:01:08 PM]
+Chambers pruned: 1
+Layer generated in: 0.0465025 s, 4 threads.
+Layer generated in: 0.0860068 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 80 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.7399 ms
+
+[2022-02-21 07:01:13 PM]
+Render target pool stats
+ |- 256 x 256: used: 80 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 1.5103 ms
+
+[2022-02-21 07:01:16 PM]
+Layer generated in: 0.0419034 s, 4 threads.
+Layer generated in: 0.077837 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 96 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 1.0186 ms
+
+[2022-02-21 07:01:20 PM]
+Layer generated in: 0.1906768 s, 4 threads.
+Layer generated in: 0.2066869 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 156 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.8655 ms
+
+[2022-02-21 07:02:16 PM]
+Chambers pruned: 3
+Layer generated in: 0.3434985 s, 4 threads.
+Layer generated in: 0.3615792 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 196 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.8163 ms
+
+[2022-02-21 07:02:20 PM]
+Save size: 1157624
+Game saved in 50.367 ms
+[2022-02-21 07:02:25 PM]
+Chambers pruned: 1
+Layer generated in: 0.172834 s, 4 threads.
+Layer generated in: 0.1876523 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 120 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.7982 ms
+
+[2022-02-21 07:02:28 PM]
+Chambers pruned: 1
+Layer generated in: 0.3907656 s, 4 threads.
+Layer generated in: 0.2890495 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 196 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.8028 ms
+
+[2022-02-21 07:02:37 PM]
+Layer generated in: 0.0525525 s, 4 threads.
+Layer generated in: 0.0821589 s, 4 threads.
+Render target pool stats
+ |- 256 x 256: used: 214 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.9261 ms
+
+[2022-02-21 07:02:48 PM]
+Render target pool stats
+ |- 256 x 256: used: 214 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 0.7344 ms
+
+[2022-02-21 07:03:18 PM]
+Render target pool stats
+ |- 256 x 256: used: 214 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 1.0416 ms
+
+[2022-02-21 07:03:26 PM]
+Render target pool stats
+ |- 256 x 256: used: 214 allocated: 214
+ |- Approx. pool size in VRAM [MiB]: 53
+ '- Done. Total elapsed time: 1.1960 ms
+
+[2022-02-21 07:03:30 PM]
 Unloading game content...
 Physics thread finished.
 Physics uninitialized.

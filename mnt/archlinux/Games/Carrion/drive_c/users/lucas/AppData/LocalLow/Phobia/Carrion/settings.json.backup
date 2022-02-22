@@ -6,7 +6,7 @@
   "console_hotkey": "OemTilde",
   "controller_smoothing": "0",
   "controller_vendor": "-1",
-  "controller_vibration": "4",
+  "controller_vibration": "0",
   "controls_gamepad_human_defensive": "LeftShoulder",
   "controls_gamepad_human_end_impersonation": "PadY",
   "controls_gamepad_human_interact": "PadA",
@@ -45,8 +45,8 @@
   "controls_kb_monster_roar": "LeftShift",
   "gameplay_is_hud_enabled": "1",
   "language": "PTBR",
-  "video_fullscreen": "0",
+  "video_fullscreen": "1",
   "video_is_fullscreen_hw": "0",
-  "video_resolution": "1280x720",
+  "video_resolution": "desktop",
   "video_vsync": "1"
 }

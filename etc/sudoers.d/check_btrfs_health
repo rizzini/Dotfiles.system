@@ -1,3 +1,2 @@
 lucas ALL = NOPASSWD: /usr/bin/btrfs device stats /
 
-

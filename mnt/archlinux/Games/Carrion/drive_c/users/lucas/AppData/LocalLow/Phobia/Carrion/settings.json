@@ -48,5 +48,5 @@
   "video_fullscreen": "0",
   "video_is_fullscreen_hw": "0",
   "video_resolution": "1280x720",
-  "video_vsync": "1"
+  "video_vsync": "0"
 }

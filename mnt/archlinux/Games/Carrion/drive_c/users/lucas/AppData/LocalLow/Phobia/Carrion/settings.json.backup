@@ -45,8 +45,8 @@
   "controls_kb_monster_roar": "LeftShift",
   "gameplay_is_hud_enabled": "1",
   "language": "PTBR",
-  "video_fullscreen": "1",
+  "video_fullscreen": "0",
   "video_is_fullscreen_hw": "0",
-  "video_resolution": "desktop",
+  "video_resolution": "1280x720",
   "video_vsync": "1"
 }

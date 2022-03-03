@@ -1,3 +1,0 @@
-lucas ALL = NOPASSWD: /usr/bin/btrbk -q -c /etc/btrbk/btrbk_blasphemous.conf run
-
-

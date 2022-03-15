@@ -17,7 +17,6 @@ if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then
     /etc/tmpfiles.d/* \
     /etc/sddm.conf.d/* \
     /etc/modules-load.d/* \
-    /usr/share/wireplumber/* \
     /etc/wireplumber/* \
     /mnt/archlinux/Games/Blasphemous/game/data/.config/unity3d/TheGameKitchen/Blasphemous/* \
     /usr/share/sddm/themes/* --porcelain); do

@@ -1,3 +1,0 @@
-lucas ALL = NOPASSWD: /usr/bin/btrfs device stats -c /
-lucas ALL = NOPASSWD: /usr/bin/btrfs device stats /
-

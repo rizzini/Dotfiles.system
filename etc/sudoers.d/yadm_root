@@ -1,3 +1,0 @@
-lucas ALL = NOPASSWD: /usr/bin/yadm -Y /etc/yadm push
-
-

@@ -1,4 +1,0 @@
-lucas ALL = NOPASSWD: /usr/bin/systemctl start smb
-lucas ALL = NOPASSWD: /usr/bin/systemctl stop smb
-
-

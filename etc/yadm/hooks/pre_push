@@ -18,7 +18,6 @@ if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then
     /etc/sddm.conf.d/* \
     /etc/modules-load.d/* \
     /etc/wireplumber/* \
-    /mnt/archlinux/Games/Blasphemous/game/data/.config/unity3d/TheGameKitchen/Blasphemous/* \
     /usr/share/sddm/themes/* --porcelain); do
         if [ -n "$(echo "$i" | grep '??')" ];then
             yadm -Y /etc/yadm add "/$(echo "$i" | cut -d '"' -f2 | tr -d '??' | perl -pe 's/^\s+//')";

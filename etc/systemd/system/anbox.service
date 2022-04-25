@@ -4,6 +4,7 @@ Description=Abox - Whatsapp
 Type=simple
 ExecStartPre=/bin/bash -c '/usr/local/bin/anbox-bridge force-reload &'
 ExecStart=/usr/bin/sudo -u lucas /bin/bash -c '/home/lucas/Documentos/scripts/anbox.sh start'
+ExecStop=/bin/bash -c "/usr/bin/killall -9 anbox anboxd & exit 0"
 
 [Install]
 WantedBy=multi-user.target

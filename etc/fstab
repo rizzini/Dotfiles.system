@@ -3,8 +3,14 @@ UUID=696cc724-3165-4249-8dc1-2c59193f6b7e   /home/  btrfs   rw,noatime,discard,s
 UUID=696cc724-3165-4249-8dc1-2c59193f6b7e   /home/lucas/.ccache     btrfs   rw,noatime,discard,space_cache=v2,subvol=CCACHE    0 0
 UUID=696cc724-3165-4249-8dc1-2c59193f6b7e   /mnt/archlinux  btrfs   rw,noatime,discard,space_cache=v2,subvol=/ 0 0
 UUID=696cc724-3165-4249-8dc1-2c59193f6b7e   /var/cache/pacman/pkg   btrfs   rw,noatime,discard,space_cache=v2,subvol=PKG   0 0
-UUID=696cc724-3165-4249-8dc1-2c59193f6b7e   /home/lucas/Downloads   btrfs   rw,noatime,discard,space_cache=v2,subvol=DOWNLOADS 00
-UUID=696cc724-3165-4249-8dc1-2c59193f6b7e   /mnt/archlinux/Games   btrfs   rw,noatime,discard,space_cache=v2,subvol=Games 00
+#UUID=696cc724-3165-4249-8dc1-2c59193f6b7e   /home/lucas/Downloads   btrfs   rw,noatime,discard,space_cache=v2,subvol=DOWNLOADS 00
+#UUID=696cc724-3165-4249-8dc1-2c59193f6b7e   /mnt/archlinux/Games   btrfs   rw,noatime,discard,space_cache=v2,subvol=Games 00
+
+UUID=13838af8-ddfb-41dd-861f-b425f491e7b6       /mnt/backup     btrfs           rw,noatime,space_cache=v2,subvolid=5,subvol=/    0 0
+
+UUID=2818bc01-9267-4d76-9e41-ff6f40c1e1bc       /mnt/dados      ext4            rw,noatime     0 2
+
+
 
 binder  /dev/binderfs   binder  nofail  0 0
 

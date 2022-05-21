@@ -31,10 +31,7 @@
   <EnableDashboardResponseCaching>true</EnableDashboardResponseCaching>
   <ImageSavingConvention>Compatible</ImageSavingConvention>
   <EnableAutomaticRestart>true</EnableAutomaticRestart>
-  <CollectionOptionsMigrated>true</CollectionOptionsMigrated>
-  <CollectionsMigratedToTags>true</CollectionsMigratedToTags>
   <CollectionFolderIdsMigrated>true</CollectionFolderIdsMigrated>
-  <SaveMetadataHiddenMigrated>true</SaveMetadataHiddenMigrated>
   <WanDdns />
   <UICulture>pt-BR</UICulture>
   <SaveMetadataHidden>false</SaveMetadataHidden>
@@ -58,6 +55,12 @@
   <EnableSqLiteMmio>false</EnableSqLiteMmio>
   <NextUpUpgraded>true</NextUpUpgraded>
   <ChannelOptionsUpgraded>true</ChannelOptionsUpgraded>
-  <OptimizeDbOnShutdown>false</OptimizeDbOnShutdown>
+  <TimerIdsUpgraded>true</TimerIdsUpgraded>
+  <ForcedSortNameUpgraded>true</ForcedSortNameUpgraded>
+  <InheritedParentalRatingValueUpgraded>true</InheritedParentalRatingValueUpgraded>
+  <EnablePeopleLetterSubFolders>false</EnablePeopleLetterSubFolders>
+  <ShowIntroDetectionScheduledTask>false</ShowIntroDetectionScheduledTask>
+  <OptimizeDatabaseOnShutdown>true</OptimizeDatabaseOnShutdown>
   <DatabaseAnalysisLimit>400</DatabaseAnalysisLimit>
+  <DisableAsyncIO>false</DisableAsyncIO>
 </ServerConfiguration>

@@ -13,6 +13,7 @@ if [[ "$(mount | grep '/dev/sda2 on / type btrfs')" == *"subvol=/ROOT)"* ]];then
     /etc/pulse/* \
     /etc/sysctl.d/* \
     /usr/local/bin/* \
+    /etc/plymouth/*  \
     /etc/modprobe.d/* \
     /etc/tmpfiles.d/* \
     /etc/sddm.conf.d/* \

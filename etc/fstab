@@ -6,6 +6,7 @@ UUID=8c36ee55-73c8-4908-b764-e6db1ac14940   /var/cache/pacman/pkg   btrfs   rw,n
 
 UUID=4e595048-56b4-4d26-ae4b-90ba6d7c7011       /mnt/dados      ext4            rw,noatime     0 2
 UUID=d10eaec6-68e4-4319-965d-a4c04828715f       /mnt/backup     btrfs           rw,noatime,space_cache=v2,subvolid=5,subvol=/ 0 0
+UUID=cda8102d-e400-478a-a678-8adc19aa5e49       /mnt/recovery   ext4            rw,relatime   0 2
 
 
 

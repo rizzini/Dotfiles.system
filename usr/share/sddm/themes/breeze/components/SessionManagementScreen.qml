@@ -4,10 +4,9 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-import QtQuick 2.2
+import QtQuick 2.15
 
-import QtQuick.Layouts 1.1
-import QtQuick.Controls 1.1
+import QtQuick.Layouts 1.15
 
 import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.plasma.components 3.0 as PlasmaComponents3
@@ -24,6 +23,11 @@ FocusScope {
      * A list of Items (typically ActionButtons) to be shown in a Row beneath the prompts
      */
     property alias actionItems: actionItemsLayout.children
+
+    /*
+     * Whether to show or hide the list of action items as a whole.
+     */
+    property alias actionItemsVisible: actionItemsLayout.visible
 
     /*
      * A model with a list of users to show in the view
@@ -52,6 +56,8 @@ FocusScope {
 
     default property alias _children: innerLayout.children
 
+    signal userSelected()
+
     // FIXME: move this component into a layout, rather than abusing
     // anchors and implicitly relying on other components' built-in
     // whitespace to avoid items being overlapped.
@@ -68,6 +74,8 @@ FocusScope {
             right: parent.right
         }
         fontSize: root.fontSize
+        // bubble up the signal
+        onUserSelected: root.userSelected()
     }
 
     //goal is to show the prompts, in ~16 grid units high, then the action buttons
@@ -104,10 +112,15 @@ FocusScope {
                 Layout.fillHeight: true
             }
         }
-        Row { //deliberately not rowlayout as I'm not trying to resize child items
-            id: actionItemsLayout
-            spacing: PlasmaCore.Units.largeSpacing / 2
-            Layout.alignment: Qt.AlignHCenter | Qt.AlignTop
+        Item {
+            Layout.alignment: Qt.AlignHCenter
+            implicitHeight: actionItemsLayout.implicitHeight
+            implicitWidth: actionItemsLayout.implicitWidth
+            Row { //deliberately not rowlayout as I'm not trying to resize child items
+                id: actionItemsLayout
+                anchors.verticalCenter: parent.top
+                spacing: PlasmaCore.Units.largeSpacing / 2
+            }
         }
         Item {
             Layout.fillHeight: true

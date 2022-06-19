@@ -1,7 +1,7 @@
 import "components"
 
-import QtQuick 2.0
-import QtQuick.Layouts 1.2
+import QtQuick 2.15
+import QtQuick.Layouts 1.15
 
 import org.kde.plasma.core 2.0 as PlasmaCore
 import org.kde.plasma.components 3.0 as PlasmaComponents3
@@ -29,21 +29,36 @@ SessionManagementScreen {
         }
     }
 
+    onUserSelected: {
+        const nextControl = (userNameInput.visible
+            ? userNameInput
+            : (passwordBox.visible
+                ? passwordBox
+                : loginButton));
+        // Don't startLogin() here, because the signal is connected to the
+        // Escape key as well, for which it wouldn't make sense to trigger
+        // login. Using TabFocusReason, so that the loginButton gets the
+        // visual highlight.
+        nextControl.forceActiveFocus(Qt.TabFocusReason);
+    }
+
     /*
-    * Login has been requested with the following username and password
-    * If username field is visible, it will be taken from that, otherwise from the "name" property of the currentIndex
-    */
+     * Login has been requested with the following username and password
+     * If username field is visible, it will be taken from that, otherwise from the "name" property of the currentIndex
+     */
     function startLogin() {
-        var username = showUsernamePrompt ? userNameInput.text : userList.selectedUser
-        var password = passwordBox.text
+        const username = showUsernamePrompt ? userNameInput.text : userList.selectedUser
+        const password = passwordBox.text
 
         footer.enabled = false
         mainStack.enabled = false
         userListComponent.userList.opacity = 0.5
 
-        //this is partly because it looks nicer
-        //but more importantly it works round a Qt bug that can trigger if the app is closed with a TextField focused
-        //DAVE REPORT THE FRICKING THING AND PUT A LINK
+        // This is partly because it looks nicer, but more importantly it
+        // works round a Qt bug that can trigger if the app is closed with a
+        // TextField focused.
+        //
+        // See https://bugreports.qt.io/browse/QTBUG-55460
         loginButton.forceActiveFocus();
         loginRequest(username, password);
     }
@@ -58,10 +73,11 @@ SessionManagementScreen {
         focus: showUsernamePrompt && !lastUserName //if there's a username prompt it gets focus first, otherwise password does
         placeholderText: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Username")
 
-        onAccepted:
+        onAccepted: {
             if (root.loginScreenUiVisible) {
                 passwordBox.forceActiveFocus()
             }
+        }
     }
 
     RowLayout {
@@ -115,12 +131,14 @@ SessionManagementScreen {
             id: loginButton
             Accessible.name: i18nd("plasma_lookandfeel_org.kde.lookandfeel", "Log In")
             Layout.preferredHeight: passwordBox.implicitHeight
-            Layout.preferredWidth: text.length == 0 ? loginButton.Layout.preferredHeight : -1
+            Layout.preferredWidth: text.length === 0 ? loginButton.Layout.preferredHeight : -1
 
-            icon.name: text.length == 0 ? (root.LayoutMirroring.enabled ? "go-previous" : "go-next") : ""
+            icon.name: text.length === 0 ? (root.LayoutMirroring.enabled ? "go-previous" : "go-next") : ""
 
             text: root.showUsernamePrompt || userList.currentItem.needsPassword ? "" : i18n("Log In")
-            onClicked: startLogin();
+            onClicked: startLogin()
+            Keys.onEnterPressed: clicked()
+            Keys.onReturnPressed: clicked()
         }
     }
 }

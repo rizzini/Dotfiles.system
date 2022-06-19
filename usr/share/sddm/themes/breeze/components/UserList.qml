@@ -4,25 +4,26 @@
     SPDX-License-Identifier: LGPL-2.0-or-later
 */
 
-import QtQuick 2.2
+import QtQuick 2.15
+
 import org.kde.plasma.core 2.0 as PlasmaCore
 
 ListView {
     id: view
     readonly property string selectedUser: currentItem ? currentItem.userName : ""
     readonly property int userItemWidth: PlasmaCore.Units.gridUnit * 8
-    readonly property int userItemHeight: PlasmaCore.Units.gridUnit * 8
+    readonly property int userItemHeight: PlasmaCore.Units.gridUnit * 9
     readonly property bool constrainText: count > 1
     property int fontSize: PlasmaCore.Theme.defaultFont.pointSize + 2
 
     implicitHeight: userItemHeight
 
-    activeFocusOnTab : true
+    activeFocusOnTab: true
 
     /*
      * Signals that a user was explicitly selected
      */
-    signal userSelected;
+    signal userSelected()
 
     orientation: ListView.Horizontal
     highlightRangeMode: ListView.StrictlyEnforceRange
@@ -42,7 +43,7 @@ ListView {
         needsPassword: model.needsPassword
 
         name: {
-            var displayName = model.realName || model.name
+            const displayName = model.realName || model.name
 
             if (model.vtNumber === undefined || model.vtNumber < 0) {
                 return displayName
@@ -53,14 +54,14 @@ ListView {
             }
 
 
-            var location = ""
+            let location = undefined
             if (model.isTty) {
                 location = i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "User logged in on console number", "TTY %1", model.vtNumber)
             } else if (model.displayNumber) {
                 location = i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "User logged in on console (X display number)", "on TTY %1 (Display %2)", model.vtNumber, model.displayNumber)
             }
 
-            if (location) {
+            if (location !== undefined) {
                 return i18ndc("plasma_lookandfeel_org.kde.lookandfeel", "Username (location)", "%1 (%2)", displayName, location)
             }
 

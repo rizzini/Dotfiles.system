@@ -4,9 +4,8 @@ UUID=8c36ee55-73c8-4908-b764-e6db1ac14940   /home/lucas/.ccache     btrfs   rw,n
 UUID=8c36ee55-73c8-4908-b764-e6db1ac14940   /mnt/archlinux  btrfs   rw,noatime,discard,space_cache=v2,subvol=/ 0 0
 UUID=8c36ee55-73c8-4908-b764-e6db1ac14940   /var/cache/pacman/pkg   btrfs   rw,noatime,discard,space_cache=v2,subvol=PKG   0 0
 
-#UUID=4e595048-56b4-4d26-ae4b-90ba6d7c7011       /mnt/dados      ext4            rw,noatime     0 2
-#UUID=d10eaec6-68e4-4319-965d-a4c04828715f       /mnt/backup     btrfs           rw,noatime,compress-force=zstd:3,space_cache=v2,subvolid=5,subvol=/ 0 0
-#UUID=cda8102d-e400-478a-a678-8adc19aa5e49       /mnt/recovery   ext4            rw,noatime   0 2
+UUID=ac803627-f671-4942-9b42-2cc79f7eaca0       /mnt/backup     btrfs           rw,noatime,compress-force=zstd:3,space_cache=v2,subvolid=5,subvol=/    0 0
+UUID=a26546b0-6409-4957-bfc7-01bdc5fff16c       /mnt/dados      btrfs           rw,noatime,compress-force=zstd:3,space_cache=v2,subvolid=5,subvol=/   0 0
 
 
 

@@ -1,0 +1,10 @@
+[Unit]
+Description=Change TCP IPv4 algorithm to BBR
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/sysctl net.ipv4.tcp_congestion_control=bbr
+Type=oneshot
+
+[Install]
+WantedBy=multi-user.target

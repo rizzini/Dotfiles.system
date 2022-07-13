@@ -294,12 +294,12 @@
 	}
 	"apptickets"
 	{
-		"7"		"32000000040000005ec2990301001001070000005736d2b3c900a8c000000000a4f3c96224a3e562010000000000000000000e3c68ed37021c2e159f39db84996a7bcfabe853f9fed7539fa524065baad5ab6183d5c4ea36f847bc28d61b527b9b8002c3e8d846a50db39f5832c973ec306007bbd523b926d099ade87bb0bc65f7c805782e033130b9cf3aa830d0351dc53c6adc918d75e765464e2fe913c27db307d80107a7af2cb7df416a181fbf960202"
+		"7"		"32000000040000005ec299030100100107000000a63ed2b3c900a8c0000000004e92ce62ce41ea62010000000000000000008fd89c632c7a1b4f091e43a2d2a8661afb7b8c29ef16395f114b035138f2bae800099793abfa3282d2873863f5deb576481a5d4494518f2abe9465ca0685f5a67e6de94e23ae615acda0498fd8c77c95ca3f6dc89977e7d1e98107c03fb56b4ca5cff03bfa941038e2cf74cad6ae128f84cc81eed1ea22e74bf5f75aa5079c64"
 		"470220"		"32000000040000005ec2990301001001cc2c0700863ad2b3c900a8c0000000006324c162e3d3dc62010001960100000000001e064bedde24f7c3556187cebc6008bb48a2273b2e5b15bbd6cfb641dc944fab19e0b13cece6db5954a61e0c2370505a19b35e56e5c53d6ac5976db4d100400c2e9acb8d42a8739fce5f16a9ae13a369d2adf270d14308de5b125e8639ab5fdfe9f3e0d9b58272452c97c6da48cd77b5c29b395da993b1f99fd186644b08affa"
 		"1493710"		"32000000040000005ec2990301001001ceca1600863ad2b3c900a8c0000000004ac3c062ca72dc6201000000000000000000b670a6faf4e98050ac3427df5c2725e46f6003e128d27ab5373693e15a296f86bfbcbf75152d6e52b6d4746137ad06d18fa1b38d5d688fae708caa5a2ee8116f8ecdcc56110dc95d2bf31f2419e1aaa09a7a2cac6cef1f57e356d0a27d0ea8e1c4ed469bb393fd48f459d9ae89f1d323672f03abac088dd1c4d8147041a5d2b6"
 		"1391110"		"32000000040000005ec2990301001001063a15005736d2b3c900a8c0000000009f49c6621ff9e16201000000000000000000d58b5c962985752cd8da5020b29844409545147298e391ca7de1e5b737576835c659ed6dfe936c8550c8d937b817c8f70656dd5229e81805ba5edbe1541fb209af0fbee94b204f65f0424e0b01006d977cd6d38eb3eb08062c37cd3d711506657e7442b222ed330fe5a9e9ddf40a69c58ef8abcc2482b4cc5742a766e7e4bbe9"
 		"228980"		"32000000040000005ec2990301001001747e03005736d2b3c900a8c0000000009f49c6621ff9e162010000000000000000007f4deeac8900d0a21d0d159c75f3ee60e8784305b6f0d04bb0bb80a1dd359a487143435f8210e4d197b85239d0c3773d16e325b57f82547409d1b649697ea28f0eb5a46af92130f24b15c842ae28b26728f1e63d53e2e6a728b67c1f908b0e05b36cdc3d86da33dc01ac97af3b9193c2154cf3a5104054ba495a31fa36fe7be1"
-		"220"		"32000000040000005ec2990301001001dc000000863ad2b3c900a8c002000000054eb46285fdcf6201000b0000000000000020c9af2a6200af0d61dcf0d21a91ad86ee376dc02391cd718064328fc73777716e2208b741a35f4b7508a3fd76d8aae090a8768829ce45b4f62a2d4e62508ec5506ebb25aebb59665f2987f024f8cd9aa102320102ef6bc49723ff7ff8f25d23de735f1c82ddc5b2980f33f78786c96d8ebfb6627b42627b4d7e32ccf804b3ca"
+		"220"		"32000000040000005ec2990301001001dc000000a63ed2b3c900a8c002000000fc27cc627cd7e76201000b000000000000008dcbe8cdc7f1c0c9a2ae5340ff831bdd316b0129c414087045b3c55918d4d9772c1c97ee7d28087184dd04f352110b4902bbd2cfdfb26edf9ec037e93d4bb7a9ebbea20552ccd6a4d34efe2f42299b823ff58844d36dc140837961721e0ca97b18a30cf12be4b0f60df81dfe288853daf6c9b156a06a9cae41bd30cea8accbdb"
 		"550"		"38000000040000005ec2990301001001260200005736d2b3c900a8c0000000004c21c662ccd0e1620100b509000001008c66030000000000ad75bc72fe8fd133b4b07e2a5ae4b03c4a4e3607e3aee8dc27977beaa4853683bba03660c99055db804eba61cfc04a18b6a5ad6adbe7af8d7d18f0418ce0a41d56b886c4bee3d108f55a8344997248dc6a28e31ec5f716dc1126594bfcf0d735841d164a0800feca99da8525892f0f29ff894aedd63251e46b506979c2fa8fb7"
 		"320"		"32000000040000005ec299030100100140010000863ad2b3c900a8c002000000331ac162b3c9dc6201000b00000000000000b7bd2e5beb5b844aaf01826f2b1ac0daab60803a27ec71a85b565bc07b8580fcc06a6609851e4c5678df56405d2e8e11856ddd561d48d9da5ad0c2cde885cdf2ad590b64486fa2710df4cf06c12457a3e09d5db698ad7d892afc26a94a6f4c56efb4c7e9e44a3d89813dde8fc915ffae76d79abe3f70613c32f306fa507a1fc1"
 		"340"		"32000000040000005ec299030100100154010000863ad2b3c900a8c0020000001430b76294dfd26201000b00000000000000bbfb53da46d2eb8d83df741e3832ce9dede69ca237308a4ac991c4bacbe9a5b9ec5b275640e41839a3829c9aade2f84ff8e30e77bd43e64ec8b5e13796797cb293b0ed26be732abf2f47e707d9ac16d281b7d15462db8d37ab64634678ad9567b326f30cc191294091831ed68643c6d88bcfbd60991917e99bd45568c8ccc160"
@@ -313,13 +313,14 @@
 		"45796"		"32000000040000005ec2990301001001e4b20000863ad2b3c900a8c000000000eb50b8626b00d462010055c600000000000053f78d0296f4a5acef4e001e3fa07312b716d8fe59c3baadba10b3eecd295e7653506e6d15d66fad93db0fdd77bb2430e3ba7d0b577fac6e7f023b9e19802c60a21772aeb8fa55ee076ec58277e2035dc612c5f72647e9abd5b1b0162c0fd5c418c53264c3c126540bc471096a98bd17e424f0ccf268324f2545799ba51f271f"
 		"301660"		"32000000040000005ec29903010010015c9a0400863ad2b3c900a8c000000000eb50b8626b00d462010055c6000000000000b457b82a7b578411f49116a9c2e8ec36a69c8641f73d8e622701d2f77d815c95392ac8ce0baaace0fad9dc81f9b2864e92c562ab24cfb76646f680cc69264a0875d8083677810a356bf69e5285f2de5bdabcf3a6b024f311859c8215963df91ecc7b3a331b8b417c3a0de59163843b8f07fc22215026f509a97b6f7a1066a19d"
 		"45797"		"32000000040000005ec2990301001001e5b20000863ad2b3c900a8c000000000eb50b8626b00d462010055c6000000000000540fa04dc4c3edb4f416c6d333d43a72d4e6199c613ad2c9c84f0759e5c6ccb177ba757f6bf1e0c52ece23e5edc5e58882c08c5dc1fdb8cdd40aa059f54481db945bb0a07cca31a37d2fcaa8d30b93a70ffe6a08c70b428cfc1bdbc45b352779bc7341d44b58d3bd66e22ff6fa9b691caf578eacfefd0117958cc3573363e376"
+		"397680"		"38000000040000005ec299030100100170110600a63ed2b3c900a8c0000000007027cc62f0d6e7620100e82b01000100b28c070000000000ba7a045ad3e4519e13fe86722bd00eb2c143199d1f3f59cdcdb6b9f71b005f6174e124c35f2bc3130cdbca77c6a567c09c40bb38164af12749366061c1d12e77b2de0b6446951a5575b1aa8ff0114af22e0ce3251792e29cb87223d4c51b970e8ba99ae870cb96956de1b700495a2ce5c828a8e56614f2241bc276041fdaccb6"
 	}
 	"ParentalSettings"
 	{
 		"settings"		"095ec29903000000004800"
 		"Signature"		"75e2b99435faffe0929753cda4fba40f3687370122785fb710ff7aacf029f890ea704f79d6bc32883f2e3b9dfd48e488d81003a88b03b6d00c436355f43474c69418a3ba79a896bbe4cd30fc7b987e1003a6124d422780bf98c0f2279357df6b869235de04ff234c371f6dc718f7bfcddfed2ff00556b60240ffcb451d7d70fd51fd69074a73e6097c8b055a7acbb5c12d0dc00911c46058f162328f2b5bd4a93c773318159f39f105c2757ef2549d1e28d449e8434f86a4315e65825d2f55a3dba5535943ea13fad1cd49cb32f9fafe8b3697541cf436cbe27775934583934c3dba705c78d276717f35ec97d24b066990e8783a724d875ad04b4ce8312e9dc7"
 	}
-	"AppInfoChangeNumber"		"15373162"
+	"AppInfoChangeNumber"		"15405969"
 	"SharedAuth"
 	{
 		"id"		"148772128"
@@ -366,7 +367,7 @@
 						"LastPlayed"		"1656822631"
 						"Playtime"		"14"
 						"BadgeData"		"020000000809"
-						"Playtime2wks"		"2"
+						"Playtime2wks"		"1"
 						"LaunchOptions"		"-novid -w 1280 -h 720 -windowed"
 					}
 					"550"
@@ -559,9 +560,9 @@
 					}
 					"470220"
 					{
-						"LastPlayed"		"1657403261"
-						"Playtime2wks"		"1204"
-						"Playtime"		"9796"
+						"LastPlayed"		"1657705675"
+						"Playtime2wks"		"945"
+						"Playtime"		"9859"
 						"470220_eula_0"
 						{
 						}
@@ -662,8 +663,19 @@
 						"Playtime2wks"		"1"
 						"Playtime"		"1"
 					}
+					"397680"
+					{
+						"LastPlayed"		"1657547242"
+						"cloud"
+						{
+							"last_sync_state"		"changeslocally"
+						}
+						"BadgeData"		"020000000809"
+						"Playtime2wks"		"4"
+						"Playtime"		"4"
+					}
 				}
-				"LastPlayedTimesSyncTime"		"1657396120"
+				"LastPlayedTimesSyncTime"		"1657651276"
 				"PlayerLevel"		"9"
 				"ShaderCacheManager"
 				{
@@ -685,11 +697,11 @@
 		"SteamVoiceSettings_60408414"		"{\"inputGain\":1,\"outputGain\":1,\"noiseGateLevel\":2,\"noiseCancellation\":true,\"echoCancellation\":true,\"autoGainControl\":true,\"selectedMic\":\"default\",\"selectedOutput\":\"default\",\"pttSoundsEnabled\":true,\"hasResetOpenMicHotKey\":true}"
 		"CTextFilterStore_TextFilterPreferences"		"{\"eTextFilterSetting\":1,\"bIgnoreFriends\":true}"
 		"CTextFilterStore_TextFilterWords"		"{\"text_filter_custom_banned_words\":[],\"text_filter_custom_clean_words\":[]}"
-		"wishlistonsalestore_storage"		"{\"version\":1,\"data\":{\"rgAppIDs\":[],\"bExhausted\":true,\"nSkipped\":0},\"lastFetchTimeMS\":1657318310665}"
-		"playnextstore_storage"		"{\"nVersion\":3,\"cachedPlayNext\":{\"last_update_time\":1657298113,\"appids\":[386360,714010,677620,1180660,231430,1528860,520720,1715460]},\"rgIgnoredApps\":[]}"
+		"wishlistonsalestore_storage"		"{\"version\":1,\"data\":{\"rgAppIDs\":[774361],\"bExhausted\":false,\"nSkipped\":0},\"lastFetchTimeMS\":1657650118515}"
+		"playnextstore_storage"		"{\"nVersion\":3,\"cachedPlayNext\":{\"last_update_time\":1657546600,\"appids\":[386360,714010,677620,1180660,231430,1528860,520720,1715460,397680]},\"rgIgnoredApps\":[]}"
 		"CTextFilterStore_strBannedPattern"		"\"\\\\b((ape|bat|bull?|butt|dip|dog|dumb|ebo|holy|horse|jack|pedo|pig|ubi)\\\\W*sh(it|ti)s?|d[il]+(ck|kc)\\\\W*(ass|bag|breath|eat|face|flip|head|hole|less|suck|weed)\\\\w*|f[chj]?(a|au|aw|e|o+|u|uy)[ch]*k(e?d|e?rs?|[ei]?n+g?|t)|m[aou](d+|t+|th|ht|z)(a|e|er|ir|ur)(c|f)c?[aou]c?k\\\\w*|m[ou]th(a|er)(f|ph)[vue]+c?[gkqx]+(e?d|e?r|[ei]?n+g?)|\\\\w*f[vu]+h*c+[hjvk]*(e?d|e?r|[ei]?n+g?|t)|b+i+a*t+c+h+(e+d|e*r?[sz]+|[ei]?n+g?|y)|\\\\w*f[vu]+c?[xkq]+(e?d|e?r|[ei]?n+g?|t)|p(oo+|u+)s+(a+y+|e+|eh|ey|i+|ie|y+)s*|m[ou]th(a|er)(f|ph)[vue]+c?[gkqx]+|\\\\w*f[vu]+h*q(e?d|e?r|[ei]?n+g?|t)|f[chj]?(a|au|aw|e|o+|u|uy)[ch]*k|f[ck]+(e?d|e?r|[ei]?n+g?|t)|fu󠀡󠀡cki󠀡󠀡ng|dumb(f|ph)[vu]+c?[xkq]|c(oc?|aw)k\\\\W*suc?k\\\\w*|d[il]+(ck|kc)(ed|ing)|ph[vu]+h*c+[hjvk]*\\\\w*|son\\\\W*of\\\\W*a\\\\W*bitch|долбоебизм|\\\\w*who+re(ed|ing|s)|c(o|ah|aw)c?k(s|ed)|s+h+[ily]+t+[ersy]*|a+ss+\\\\W*w?hole?\\\\w*|ph[vu]+c?[xkq]+\\\\w*|говноедов|долбаебов|ебланская|ебланский|заебёшься|захуячили|пидарасов|пидарский|съебаться|уебанский|уебищьное|f[vu]+c?[xkq]+\\\\w*|bull+sh+[ily]+t+|god\\\\W*damn?\\\\W*it|ахуенная|ахуенную|ахуенный|выебаное|ебанному|ебанутые|ебланами|пидарасы|уёбищная|уёбищный|god\\\\W*damn?\\\\w*|въебали|въебать|ебанная|ебанное|ебанных|ебаного|ебаньки|ебонное|заебала|заебало|поебень|хуёвого|a+ss+\\\\W*fu\\\\w*|c(o|ah|aw)c?k|d[il]+(ck|kc)|b+i+a*t+c+h+|butt\\\\W*fu\\\\w*|cumm(er|ing)|f[vu]+h*c\\\\w*|f[vu]+h*q\\\\w*|sh+i+[ae]+t+|ахуели|ебаная|ебаное|ебаной|ебаную|ебаные|ебаный|ебаным|ебаных|ебучий|пиздеж|пиздец|сраная|уёбища|уёбище|хуесос|хуетой|хуйнёй|хуёвая|хуёвый|c+u+n+t+\\\\w*|d+i+c+k+s*|fu‎cking|блядь|блять|дохуя|дрочи|ебало|ебать|н4еб4л|нахуй|нахуя|нехуй|нихуя|пизде|пизду|похуй|уебёт|хуета|хуету|хуйни|хуйню|хуйня|ёбаны|a+sholes?|sh+e+i+t+|ахуе|ебал|ебут|сука|хуям|шлюх|F\\\\.U\\\\.C\\\\.K|chodes?|cumshot|fucking|fu‎ck|shit\\\\w*|shtpost|who+re?|cumbag|jebane|twats?|бля|ебу|хуи|хуй|хуя|cums?|dafuq|diсk|sh it|coq+|hore|kock|shat|dik|fck|\\\\w*f+u+c+k+\\\\w*|\\\\w*fцск\\\\w*|\\\\w*shіtty\\\\w*|\\\\w*f_uc_k\\\\w*|\\\\w*pussy\\\\w*|n+([ehiy]+|ay|ey|io|[il]+)[bgq$]+h?(a+|aer|a+h+|a+r+|e+|ea|eoa|e+r+|ie|ier|let|lit|o|or|r+|u|uh|uhr|u+r+|ward|y+)s*|f[ae]y?g+[oeiu]+t+s?|даунская|пидорасы|ching\\\\W*chongs?|n󠀡󠀡iggers|re+t+a?r[dt]+s?|towel\\\\W*heads?|москаль|пидорка|pac?k(i|ie|y)|ting\\\\W*tongs?|trann(ie|y)s?|white\\\\W*trash|ni:gg\\\\w*:\\\\w*|chin(c|k)s?|n+i+[gq]+s?|yam\\\\W*yams?|\\\\w*niggas?|chinamans?|polacke?s?|русня|хохлы|хохол|neekeris?|nigfhers?|redskins?|beaners?|coolies?|f+a+g+s*|fenians?|gringos?|newfags?|ni gg er|nigga\\\\w*|niggles?|nignogs?|rus+kis?|wiggers?|Ϝaggоt|gypsies|injuns?|jiggas?|nikkas?|wiggas?|\\\\w*fag|coons?|dykes?|fa66ot|fagts?|gooks?|gypos?|homos?|kikes?|kokhol|moskal|spics?|abos?|fgts?|fаgs|gypsy|japs?|wops?|fagz|fаg|f@g|\\\\w*N󠀡󠀡IGGE󠀡󠀡R\\\\w*|\\\\w*свинособак\\\\w*|\\\\w*ɴɪɢɢᴇʀ\\\\w*|\\\\w*кацап\\\\w*|\\\\w*nіggеr\\\\w*|\\\\w*NÍGGER\\\\w*|\\\\w*n\\\\\\\\\\\\|gger\\\\w*|\\\\w*niggеr\\\\w*|\\\\w*F4GG0T\\\\w*|\\\\w*N1GG3R\\\\w*|\\\\w*nigger\\\\w*|\\\\w*nigg4\\\\w*|\\\\w*niggz\\\\w*)\\\\b\""
 		"CTextFilterStore_strCleanPattern"		"\"^(\\\\b(fak(ed|ers?|ing)|kompetenzteam|派送员|pinegrove|n\\\\.e\\\\.ig\\\\.e\\\\.|fukushima|snigger|nie gee|fuchsia|fuchian|cock\\\\.li|fuxius|fucuro|niego|niebo|neige|neggy|nebby|fuxis|cwfag|pubg|niby|nebo|fuku|fuki|fakt|g24|\\\\w*fvchvo\\\\w*)\\\\b)$\""
-		"trendingstore_storage"		"{\"version\":2,\"data\":[{\"appid\":268910,\"rgAccountIDs\":[471554701],\"totalFriends\":1},{\"appid\":1158310,\"rgAccountIDs\":[166970117],\"totalFriends\":1},{\"appid\":262060,\"rgAccountIDs\":[471554701],\"totalFriends\":1},{\"appid\":602960,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":282800,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":588650,\"rgAccountIDs\":[471554701],\"totalFriends\":1},{\"appid\":632360,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":581320,\"rgAccountIDs\":[918310556],\"totalFriends\":1},{\"appid\":1477590,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":612390,\"rgAccountIDs\":[855936292],\"totalFriends\":1},{\"appid\":310560,\"rgAccountIDs\":[918310556],\"totalFriends\":1},{\"appid\":960170,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":39210,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":1286350,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":286160,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":1677740,\"rgAccountIDs\":[893708300],\"totalFriends\":1},{\"appid\":962730,\"rgAccountIDs\":[918310556,114891958],\"totalFriends\":2},{\"appid\":4500,\"rgAccountIDs\":[166970117],\"totalFriends\":1},{\"appid\":238960,\"rgAccountIDs\":[893708300],\"totalFriends\":1},{\"appid\":208750,\"rgAccountIDs\":[161437247],\"totalFriends\":1},{\"appid\":607260,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":230410,\"rgAccountIDs\":[893708300],\"totalFriends\":1},{\"appid\":627270,\"rgAccountIDs\":[893708300],\"totalFriends\":1},{\"appid\":1533420,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":736220,\"rgAccountIDs\":[918310556],\"totalFriends\":1},{\"appid\":242760,\"rgAccountIDs\":[166970117],\"totalFriends\":1},{\"appid\":291550,\"rgAccountIDs\":[471554701],\"totalFriends\":1}],\"lastFetchTimeMS\":1657318311311}"
+		"trendingstore_storage"		"{\"version\":2,\"data\":[{\"appid\":238960,\"rgAccountIDs\":[893708300],\"totalFriends\":1},{\"appid\":268910,\"rgAccountIDs\":[471554701],\"totalFriends\":1},{\"appid\":646570,\"rgAccountIDs\":[114891958],\"totalFriends\":1},{\"appid\":962730,\"rgAccountIDs\":[114891958],\"totalFriends\":1},{\"appid\":602960,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":581320,\"rgAccountIDs\":[918310556],\"totalFriends\":1},{\"appid\":582500,\"rgAccountIDs\":[166970117],\"totalFriends\":1},{\"appid\":39210,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":588650,\"rgAccountIDs\":[471554701,114891958],\"totalFriends\":2},{\"appid\":632360,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":379430,\"rgAccountIDs\":[166970117],\"totalFriends\":1},{\"appid\":1286350,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":286160,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":208750,\"rgAccountIDs\":[161437247],\"totalFriends\":1},{\"appid\":230410,\"rgAccountIDs\":[893708300],\"totalFriends\":1},{\"appid\":310560,\"rgAccountIDs\":[918310556],\"totalFriends\":1},{\"appid\":612390,\"rgAccountIDs\":[855936292],\"totalFriends\":1},{\"appid\":1477590,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":1533420,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":262060,\"rgAccountIDs\":[471554701],\"totalFriends\":1},{\"appid\":291550,\"rgAccountIDs\":[471554701],\"totalFriends\":1},{\"appid\":607260,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":282800,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":736220,\"rgAccountIDs\":[918310556],\"totalFriends\":1},{\"appid\":960170,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":1158310,\"rgAccountIDs\":[166970117],\"totalFriends\":1},{\"appid\":242760,\"rgAccountIDs\":[166970117],\"totalFriends\":1}],\"lastFetchTimeMS\":1657650117990}"
 		"deck_compatibility_feedback_ask"		"[]"
 		"deck_compatibility_feedback_eligible_apps"		"{}"
 		"user-collections"		"{}"
@@ -773,11 +785,12 @@
 		"3537008788"		"0000016e616d6500534f52342e657865000767616d6569640000000002b586ecb401696e7374616c6c65640031000167616d65646972000001706c6174666f726d5f6f766572726964655f64657374006c696e75780001706c6174666f726d5f6f766572726964655f736f757263650077696e646f7773000808"
 		"320"		"00696e7465726e616c00016c616e6775616765006272617a696c69616e000808"
 		"346110"		"00696e7465726e616c0001706c6174666f726d5f6f766572726964655f64657374006c696e75780001706c6174666f726d5f6f766572726964655f736f757263650077696e646f7773000808"
+		"397680"		"00696e7465726e616c00016c616e677561676500656e676c6973680001626574616b657900656e6467616d652d62657461000808"
 	}
 	"LastInstallFolderIndex"
 	{
 	}
-	"RecentLocalPlayedGameIDs"		"cc2c0700000000007ef7c9622602000000000000982dc6624001000000000000671bc162ceca1600000000004ac3c062dc00000000000000b389bb6200000002b586ecb4d3ecba6254010000000000005ddab962c0b20000000000004430b762063a15000000000082d4a962"
+	"RecentLocalPlayedGameIDs"		"cc2c070000000000cc94ce627011060000000000ea29cc62dc00000000000000fb27cc622602000000000000982dc6624001000000000000671bc162ceca1600000000004ac3c06200000002b586ecb4d3ecba6254010000000000005ddab962c0b20000000000004430b762063a15000000000082d4a962"
 	"cache"
 	{
 		"cdk_267965235"		"895dd59032a343cacf966742e51923e801b31620df4207df8d386ea93b04cb1fbdbfcd452be46873722f207d113eb91cfff16feeda80157ba9c4d6626e091be4ed23f613eeb42e27cdfe852e8fb64518defbb855d7c351378377b8218699583488e9ab523749fe78bcf799f113d32fb7eb47bf6e130e084547b8a67818f5da6317e4bd1719616ebaaad6f1b4b67658b3e8354bbf76e039cea7e72da9520ad353a3dc94e2c92353581313725d329c7e71ae9758fcf732886a193480cc85dfbc81731c066ce30f55a4e31965ef99df96ec0fce3e807f4d653d562758863abd6bb1c6d8c5bc67e9c436905cd2943d4db0964eb3f7cd9a5c3c21d235603ab1ff7d08f24eae4de31ab2f0ae900451d8707f4743d518c0c8e5fb3565c232a2ee892b9588edf0529dfaf6cfe74787c157800b08e90be4e819e0b4f49eb36eb0cd636fb7008f256a49a2446b3b621f027ca1dba03516a32a56dcdd21fffabde951950be0d07e82ca7718a6da8f52e79d8ca043ca030dca93cce595a69d2644126c7767607ddfa13d94a32f1edb2823fe66441aea426f29efd46a393263383acf787ec294b01b8602f8ec7b0e5505b6ee0e1c16ddb06ad8bb04f4938dfc3a2e2a204f35740201e8477b45baa34a0ea73f8eb434021f970235e3d4f4043b2eb56d6f692f996d66dc71ae340b51d0eed9a6a375876fa03e7a88dd25e0a7e513305ff7554c5e36eb67bf34e129e245addfac7b9c682e05a2a4643fda39ffcc2b0dba5d2767cf"
@@ -1109,6 +1122,61 @@
 				}
 			}
 		}
+		"397682"
+		{
+			"CDN"
+			{
+				"f3b7q2p3.ssl.hwcdn.net"
+				{
+					"token"		""
+					"Expires"		"1658151416"
+				}
+			}
+		}
+		"234"
+		{
+			"CDN"
+			{
+				"f3b7q2p3.ssl.hwcdn.net"
+				{
+					"token"		""
+					"Expires"		"1658151548"
+				}
+			}
+		}
+		"221"
+		{
+			"CDN"
+			{
+				"f3b7q2p3.ssl.hwcdn.net"
+				{
+					"token"		""
+					"Expires"		"1658151551"
+				}
+			}
+		}
+		"224"
+		{
+			"CDN"
+			{
+				"f3b7q2p3.ssl.hwcdn.net"
+				{
+					"token"		""
+					"Expires"		"1658151595"
+				}
+			}
+		}
+		"397683"
+		{
+			"CDN"
+			{
+				"f3b7q2p3.ssl.hwcdn.net"
+				{
+					"token"		""
+					"Expires"		"1658151782"
+				}
+			}
+		}
 	}
 	"Licenses"
 	{
@@ -1132,6 +1200,7 @@
 		"50773"		"01000000b1b61824275fb60a6721b82c909327add9f76ba40032ebceb18033ce1c1c615b2096cc318a6a182838117f553a3728b7bddfffa000e5c81f4fdfbe4d947a05e7c60e7407009509b7d028a9b9f60ba0bb820000251a726158fe05d74819b738eb093f4895fa268cac68983043843e0fc0a8ba2e5b5a81a95bbfa2c794e22c9dc91349183220072dfbeafd24275779a9210e86ab2970456e9b8b2f31bb0d4addd989b4587b8cab6f740f61e3469ec230a217414a4a218743d5b203a8d13145ea672325ff3c763d6997e415fc8a676166abeae3ef9811ebe549c9201211740f563dbc74b358fc5150f61b9d5c84c90d91b42fa4172a080f5ed490727c4a28018525c877a5ddb204afdc8023602716d162f9a1287f2a45dad433ecdea7b13f6e12f4868d08d479b49ada771a48e0d85bdff9afd8df07dd0a7ed1ebb271581a4877c8fc78072d123a245b084c690c92"
 		"56694"		"01000000b1b61824275fb60a6721b82c909327add9f76ba40032ebceb18010d51c1c615b2096cc318a6a182838117fef5d7f1cb7bddfffa000e5c81f4fdfbe4d947a05e7c60e7407009509b7d028a9b9f60ba0bb820000251a726158fe05d74819b738eb093f4895fa268cac68983043843e0fc0a8ba2e5b5a95a95bbfa2c794e22c9dc91349183220072dfbeafd24275779a9210e86ab2970456e9b8b2f31bb0d4addd989b4587b8cab6f740f61e35e9dc230a217414a4a218743d5b203a8d13145ea672325ff3c763d6997e415fc8a676166abeae3ef9811ebe549c9201211740f563dbc74b358fc5150f61b9d5c84c90d91b42fa4172a080f5ed490727c4a28018525c877a5ddb204afdc8023602716d162f9a1287f2a45dad433ecdea7b13f6e12f4868d08d479b49ada771a1a20d89716670d41df07dd0a7ed1ebb271581a4877c8fc78072d123a245b088a2a1dbc"
 		"72913"		"01000000b1b61824275fb60a6721b82c909327add9f76ba40032ebceb180b7141d1c615b2096cc318a6a182838117fe9770523b7bddfffa000e5c81f4fdfbe4d947a05e7c60e7407009509b7d028a9b9f60ba0bb820000251a726158fe05d74819b738eb093f4895fa268cac68983043843e0fc0a8ba2e5b5a94ad5bbfa2c794e22c9dc91349183220072dfbeafd24275779a9210e86ab2970456e9b8b2f31bb0d4addd989b4587b8cab6f740f61e3469ec230a217414a4a218743d5b203a8d13145ea672325ff3c763d6997e415fc8a676166abeae3ef9811ebe549c9201211740f563dbc74b358fc5150f61b9d5c84c90d91b42fa4172a080f5ed490727c4a28018525c877a5ddb204afdc8023602716d162f9a1287f2a45dad433ecdea7b13f6e12f4868d08d479b49ada771ac7341a68b957d492df07dd0a7ed1ebb271581a4877c8fc78072d123a245b080ffe0823"
+		"76776"		"01000000b1b61824275fb60a6721b82c909327add9f76ba40032ebceb1808e231d1c615b2096cc318a6a182838117f448a731eb7bddfffa000e5c81f4fdfbe4d947a05e7c60e7407009509b7d028a9b9f60ba0bb820000251a726158fe05d74819b738eb093f4895fa268cac68983043843e0fc0a8ba2e5b5a94ad5bbfa2c794e22c9dc91349183220072dfbeafd24275779a9210e86ab2970456e9b8b2d31bb0d4addd989b4587b8cab6f740f61e3469ec230a217414a4a218743d5b203a8d13145ea672325ff3c763d6997e415fc8a676166abeae3ef9811ebe549c9201211740f563dbc74b358fc5150f61b9d5c84c90d91b42fa4172a080f5ed490727c4a28018525c877a5ddb204afdc8023602716d162f9a1287f2a45dad433ecdea7b13f6e12f4868d08d479b49ada771adbcc1b00542b5f3ddf07dd0a7ed1ebb271581a4877c8fc78072d123a245b08500e9942"
 		"94404"		"01000000b1b61824275fb60a6721b82c909327add9f76ba40032ebceb180a2781d1c615b2096cc318a6a182838117f12161123b7bddfffa000e5c81f4fdfbe4d947a05e7c60e7407009509b7d028a9b9f60ba0bb820000251a726158fe05d74819b738eb093f4895fa268cac68983043843e0fc0a8ba2e5b5a94ad5bbfa2c794e22c9dc91349183220072dfbeafd24275779a9210e86ab2970456e9b8b2f31bb0d4addd989b4587b8cab6f740f61e3469ec230a217414a4a218743d5b203a8d13145ea672325ff3c763d6997e415fc8a676166abeae3ef9811ebe549c9201211740f563dbc74b358fc5150f61b9d5c84c90d91b42fa4172a080f5ed490727c4a28018525c877a5ddb204afdc8023602716d162f9a1287f2a45dad433ecdea7b13f6e12f4868d08d479b49ada771af532563465d5ed75df07dd0a7ed1ebb271581a4877c8fc78072d123a245b0843f550e6"
 		"103937"		"01000000b1b61824275fb60a6721b82c909327add9f76ba40032ebceb180679e1d1c615b2096cc318a6a182838117f4b9f7722b7bddfffa000e5c81f4fdfbe4d947a05e7c60e7407009509b7d028a9b9f60ba0bb820000251a726158fe05d74819b738eb093f4895fa268cac68983043843e0fc0a8ba2e5b5a96a95bbfa2c794e22c9dc91349183220072dfbeafd24275779a9210e86ab2970456e9b8b2f31bb0d4addd989b4587b8cab6f740f61e3469ec230a217414a4a218743d5b203a8d13145ea672325ff3c763d6997e415fc8a676166abeae3ef9811ebe549c9201211740f563dbc74b358fc5150f61b9d5c84c90d91b42fa4172a080f5ed490727c4a28018525c877a5ddb204afdc8023602716d162f9a1287f2a45dad433ecdea7b13f6e12f4868d08d479b49ada771a8fe613b8c1b3dd24df07dd0a7ed1ebb271581a4877c8fc78072d123a245b08e78c1694"
 		"189847"		"01000000b1b61824275fb60a6721b82c909327add9f76ba40032ebceb180f1ed1e1c615b2096cc318a6a182838117fac98d922b7bddfffa000e5c81f4fdfbe4d947a05e7c60e7407009509b7d028a9b9f60ba0bb820000251a726158fe05d74819b738eb093f4895fa268cac68983043843e0fc0a8ba2e5b5a94ad5bbfa2c794e22c9dc91349183220072dfbeafd24275779a9210e86ab2970456e9b8b2f31bb0d4addd989b4587b8cab6f740f61e3469ec230a217414a4a218743d5b203a8d13145ea672325ff3c763d6997e415fc8a676166abeae3ef9811ebe549c9201211740f563dbc74b358fc5150f61b9d5c84c90d91b42fa4172a080f5ed490727c4a28018525c877a5ddb204afdc8023602716d162f9a1287f2a45dad433ecdea7b13f6e12f4868d08d479b49ada771a5f127f680e36b975df07dd0a7ed1ebb271581a4877c8fc78072d123a245b082bc29d76"

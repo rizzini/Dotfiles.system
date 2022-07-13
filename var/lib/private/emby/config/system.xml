@@ -59,7 +59,6 @@
   <ForcedSortNameUpgraded>true</ForcedSortNameUpgraded>
   <InheritedParentalRatingValueUpgraded>true</InheritedParentalRatingValueUpgraded>
   <EnablePeopleLetterSubFolders>false</EnablePeopleLetterSubFolders>
-  <ShowIntroDetectionScheduledTask>false</ShowIntroDetectionScheduledTask>
   <OptimizeDatabaseOnShutdown>true</OptimizeDatabaseOnShutdown>
   <DatabaseAnalysisLimit>400</DatabaseAnalysisLimit>
   <DisableAsyncIO>false</DisableAsyncIO>

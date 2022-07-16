@@ -294,9 +294,9 @@
 	}
 	"apptickets"
 	{
-		"7"		"32000000040000005ec299030100100107000000a63ed2b3c900a8c0000000004e92ce62ce41ea62010000000000000000008fd89c632c7a1b4f091e43a2d2a8661afb7b8c29ef16395f114b035138f2bae800099793abfa3282d2873863f5deb576481a5d4494518f2abe9465ca0685f5a67e6de94e23ae615acda0498fd8c77c95ca3f6dc89977e7d1e98107c03fb56b4ca5cff03bfa941038e2cf74cad6ae128f84cc81eed1ea22e74bf5f75aa5079c64"
-		"470220"		"32000000040000005ec2990301001001cc2c0700863ad2b3c900a8c0000000006324c162e3d3dc62010001960100000000001e064bedde24f7c3556187cebc6008bb48a2273b2e5b15bbd6cfb641dc944fab19e0b13cece6db5954a61e0c2370505a19b35e56e5c53d6ac5976db4d100400c2e9acb8d42a8739fce5f16a9ae13a369d2adf270d14308de5b125e8639ab5fdfe9f3e0d9b58272452c97c6da48cd77b5c29b395da993b1f99fd186644b08affa"
-		"1493710"		"32000000040000005ec2990301001001ceca1600863ad2b3c900a8c0000000004ac3c062ca72dc6201000000000000000000b670a6faf4e98050ac3427df5c2725e46f6003e128d27ab5373693e15a296f86bfbcbf75152d6e52b6d4746137ad06d18fa1b38d5d688fae708caa5a2ee8116f8ecdcc56110dc95d2bf31f2419e1aaa09a7a2cac6cef1f57e356d0a27d0ea8e1c4ed469bb393fd48f459d9ae89f1d323672f03abac088dd1c4d8147041a5d2b6"
+		"7"		"32000000040000005ec299030100100107000000a63ed2b3c900a8c000000000b2e1d1623291ed6201000000000000000000076401a7af4d3019a1415dfab7f23c8b1fe09d004827dedfc1715f3ec2b49d384f96fdb1ae3febceb37a7a00385468c783d35ebd030fb4037deb849266753efb25da5c264007f31c5e4ed52c7e9c82e5c37525a5c992a7cfaf2219ecc66297736e585e14f1aece3693e94788e6f4040901821aa00a4129e4ea2eeb46b80926da"
+		"470220"		"32000000040000005ec2990301001001cc2c0700a63ed2b3c900a8c0000000003b30cf62bbdfea62010001960100000000004a4690f2c349529bc1452df7f811e5d1d175a9b4569b3660af4e69863bd50da9c58ba37fceb60dad0e67d808f995f3a98d7d1297bc19b76a1fd92ea2959f5552988deebe0b4a0d00f911fb0830fe93c4858c7aa428c03217059b24a8d94a8b2620f270c95a855cbf5344868da8f9521e2de93181b8aec1db1ef38f6a2ab8bc16"
+		"1493710"		"32000000040000005ec2990301001001ceca1600a63ed2b3c900a8c0000000003b30cf62bbdfea62010000000000000000009ce166b1e0c7fefe8111afe644610ee7bac03b6a5510a201f96d5d49fb65bf8232a9e63c161fb4fe92e4412474e139f15710776b2fe5fe193bd7d2b552db25bb456fdb1bace07be66fe2d292897c4f93ab4c034b26d874d237b71e37dec1383f4cd4f44af9a2f39e33beee1da0ac27e57caf5f6dfafdab88900a393df6b197e2"
 		"1391110"		"32000000040000005ec2990301001001063a15005736d2b3c900a8c0000000009f49c6621ff9e16201000000000000000000d58b5c962985752cd8da5020b29844409545147298e391ca7de1e5b737576835c659ed6dfe936c8550c8d937b817c8f70656dd5229e81805ba5edbe1541fb209af0fbee94b204f65f0424e0b01006d977cd6d38eb3eb08062c37cd3d711506657e7442b222ed330fe5a9e9ddf40a69c58ef8abcc2482b4cc5742a766e7e4bbe9"
 		"228980"		"32000000040000005ec2990301001001747e03005736d2b3c900a8c0000000009f49c6621ff9e162010000000000000000007f4deeac8900d0a21d0d159c75f3ee60e8784305b6f0d04bb0bb80a1dd359a487143435f8210e4d197b85239d0c3773d16e325b57f82547409d1b649697ea28f0eb5a46af92130f24b15c842ae28b26728f1e63d53e2e6a728b67c1f908b0e05b36cdc3d86da33dc01ac97af3b9193c2154cf3a5104054ba495a31fa36fe7be1"
 		"220"		"32000000040000005ec2990301001001dc000000a63ed2b3c900a8c002000000fc27cc627cd7e76201000b000000000000008dcbe8cdc7f1c0c9a2ae5340ff831bdd316b0129c414087045b3c55918d4d9772c1c97ee7d28087184dd04f352110b4902bbd2cfdfb26edf9ec037e93d4bb7a9ebbea20552ccd6a4d34efe2f42299b823ff58844d36dc140837961721e0ca97b18a30cf12be4b0f60df81dfe288853daf6c9b156a06a9cae41bd30cea8accbdb"
@@ -320,7 +320,7 @@
 		"settings"		"095ec29903000000004800"
 		"Signature"		"75e2b99435faffe0929753cda4fba40f3687370122785fb710ff7aacf029f890ea704f79d6bc32883f2e3b9dfd48e488d81003a88b03b6d00c436355f43474c69418a3ba79a896bbe4cd30fc7b987e1003a6124d422780bf98c0f2279357df6b869235de04ff234c371f6dc718f7bfcddfed2ff00556b60240ffcb451d7d70fd51fd69074a73e6097c8b055a7acbb5c12d0dc00911c46058f162328f2b5bd4a93c773318159f39f105c2757ef2549d1e28d449e8434f86a4315e65825d2f55a3dba5535943ea13fad1cd49cb32f9fafe8b3697541cf436cbe27775934583934c3dba705c78d276717f35ec97d24b066990e8783a724d875ad04b4ce8312e9dc7"
 	}
-	"AppInfoChangeNumber"		"15405969"
+	"AppInfoChangeNumber"		"15436672"
 	"SharedAuth"
 	{
 		"id"		"148772128"
@@ -560,9 +560,9 @@
 					}
 					"470220"
 					{
-						"LastPlayed"		"1657705675"
-						"Playtime2wks"		"945"
-						"Playtime"		"9859"
+						"LastPlayed"		"1657922541"
+						"Playtime2wks"		"542"
+						"Playtime"		"9955"
 						"470220_eula_0"
 						{
 						}
@@ -675,7 +675,7 @@
 						"Playtime"		"4"
 					}
 				}
-				"LastPlayedTimesSyncTime"		"1657651276"
+				"LastPlayedTimesSyncTime"		"1657883681"
 				"PlayerLevel"		"9"
 				"ShaderCacheManager"
 				{
@@ -697,11 +697,11 @@
 		"SteamVoiceSettings_60408414"		"{\"inputGain\":1,\"outputGain\":1,\"noiseGateLevel\":2,\"noiseCancellation\":true,\"echoCancellation\":true,\"autoGainControl\":true,\"selectedMic\":\"default\",\"selectedOutput\":\"default\",\"pttSoundsEnabled\":true,\"hasResetOpenMicHotKey\":true}"
 		"CTextFilterStore_TextFilterPreferences"		"{\"eTextFilterSetting\":1,\"bIgnoreFriends\":true}"
 		"CTextFilterStore_TextFilterWords"		"{\"text_filter_custom_banned_words\":[],\"text_filter_custom_clean_words\":[]}"
-		"wishlistonsalestore_storage"		"{\"version\":1,\"data\":{\"rgAppIDs\":[774361],\"bExhausted\":false,\"nSkipped\":0},\"lastFetchTimeMS\":1657650118515}"
-		"playnextstore_storage"		"{\"nVersion\":3,\"cachedPlayNext\":{\"last_update_time\":1657546600,\"appids\":[386360,714010,677620,1180660,231430,1528860,520720,1715460,397680]},\"rgIgnoredApps\":[]}"
+		"wishlistonsalestore_storage"		"{\"version\":1,\"data\":{\"rgAppIDs\":[774361],\"bExhausted\":false,\"nSkipped\":0},\"lastFetchTimeMS\":1657836533070}"
+		"playnextstore_storage"		"{\"nVersion\":3,\"cachedPlayNext\":{\"last_update_time\":1657921975,\"appids\":[386360,714010,677620,1180660,1528860,231430,520720,397680,1715460]},\"rgIgnoredApps\":[]}"
 		"CTextFilterStore_strBannedPattern"		"\"\\\\b((ape|bat|bull?|butt|dip|dog|dumb|ebo|holy|horse|jack|pedo|pig|ubi)\\\\W*sh(it|ti)s?|d[il]+(ck|kc)\\\\W*(ass|bag|breath|eat|face|flip|head|hole|less|suck|weed)\\\\w*|f[chj]?(a|au|aw|e|o+|u|uy)[ch]*k(e?d|e?rs?|[ei]?n+g?|t)|m[aou](d+|t+|th|ht|z)(a|e|er|ir|ur)(c|f)c?[aou]c?k\\\\w*|m[ou]th(a|er)(f|ph)[vue]+c?[gkqx]+(e?d|e?r|[ei]?n+g?)|\\\\w*f[vu]+h*c+[hjvk]*(e?d|e?r|[ei]?n+g?|t)|b+i+a*t+c+h+(e+d|e*r?[sz]+|[ei]?n+g?|y)|\\\\w*f[vu]+c?[xkq]+(e?d|e?r|[ei]?n+g?|t)|p(oo+|u+)s+(a+y+|e+|eh|ey|i+|ie|y+)s*|m[ou]th(a|er)(f|ph)[vue]+c?[gkqx]+|\\\\w*f[vu]+h*q(e?d|e?r|[ei]?n+g?|t)|f[chj]?(a|au|aw|e|o+|u|uy)[ch]*k|f[ck]+(e?d|e?r|[ei]?n+g?|t)|fu󠀡󠀡cki󠀡󠀡ng|dumb(f|ph)[vu]+c?[xkq]|c(oc?|aw)k\\\\W*suc?k\\\\w*|d[il]+(ck|kc)(ed|ing)|ph[vu]+h*c+[hjvk]*\\\\w*|son\\\\W*of\\\\W*a\\\\W*bitch|долбоебизм|\\\\w*who+re(ed|ing|s)|c(o|ah|aw)c?k(s|ed)|s+h+[ily]+t+[ersy]*|a+ss+\\\\W*w?hole?\\\\w*|ph[vu]+c?[xkq]+\\\\w*|говноедов|долбаебов|ебланская|ебланский|заебёшься|захуячили|пидарасов|пидарский|съебаться|уебанский|уебищьное|f[vu]+c?[xkq]+\\\\w*|bull+sh+[ily]+t+|god\\\\W*damn?\\\\W*it|ахуенная|ахуенную|ахуенный|выебаное|ебанному|ебанутые|ебланами|пидарасы|уёбищная|уёбищный|god\\\\W*damn?\\\\w*|въебали|въебать|ебанная|ебанное|ебанных|ебаного|ебаньки|ебонное|заебала|заебало|поебень|хуёвого|a+ss+\\\\W*fu\\\\w*|c(o|ah|aw)c?k|d[il]+(ck|kc)|b+i+a*t+c+h+|butt\\\\W*fu\\\\w*|cumm(er|ing)|f[vu]+h*c\\\\w*|f[vu]+h*q\\\\w*|sh+i+[ae]+t+|ахуели|ебаная|ебаное|ебаной|ебаную|ебаные|ебаный|ебаным|ебаных|ебучий|пиздеж|пиздец|сраная|уёбища|уёбище|хуесос|хуетой|хуйнёй|хуёвая|хуёвый|c+u+n+t+\\\\w*|d+i+c+k+s*|fu‎cking|блядь|блять|дохуя|дрочи|ебало|ебать|н4еб4л|нахуй|нахуя|нехуй|нихуя|пизде|пизду|похуй|уебёт|хуета|хуету|хуйни|хуйню|хуйня|ёбаны|a+sholes?|sh+e+i+t+|ахуе|ебал|ебут|сука|хуям|шлюх|F\\\\.U\\\\.C\\\\.K|chodes?|cumshot|fucking|fu‎ck|shit\\\\w*|shtpost|who+re?|cumbag|jebane|twats?|бля|ебу|хуи|хуй|хуя|cums?|dafuq|diсk|sh it|coq+|hore|kock|shat|dik|fck|\\\\w*f+u+c+k+\\\\w*|\\\\w*fцск\\\\w*|\\\\w*shіtty\\\\w*|\\\\w*f_uc_k\\\\w*|\\\\w*pussy\\\\w*|n+([ehiy]+|ay|ey|io|[il]+)[bgq$]+h?(a+|aer|a+h+|a+r+|e+|ea|eoa|e+r+|ie|ier|let|lit|o|or|r+|u|uh|uhr|u+r+|ward|y+)s*|f[ae]y?g+[oeiu]+t+s?|даунская|пидорасы|ching\\\\W*chongs?|n󠀡󠀡iggers|re+t+a?r[dt]+s?|towel\\\\W*heads?|москаль|пидорка|pac?k(i|ie|y)|ting\\\\W*tongs?|trann(ie|y)s?|white\\\\W*trash|ni:gg\\\\w*:\\\\w*|chin(c|k)s?|n+i+[gq]+s?|yam\\\\W*yams?|\\\\w*niggas?|chinamans?|polacke?s?|русня|хохлы|хохол|neekeris?|nigfhers?|redskins?|beaners?|coolies?|f+a+g+s*|fenians?|gringos?|newfags?|ni gg er|nigga\\\\w*|niggles?|nignogs?|rus+kis?|wiggers?|Ϝaggоt|gypsies|injuns?|jiggas?|nikkas?|wiggas?|\\\\w*fag|coons?|dykes?|fa66ot|fagts?|gooks?|gypos?|homos?|kikes?|kokhol|moskal|spics?|abos?|fgts?|fаgs|gypsy|japs?|wops?|fagz|fаg|f@g|\\\\w*N󠀡󠀡IGGE󠀡󠀡R\\\\w*|\\\\w*свинособак\\\\w*|\\\\w*ɴɪɢɢᴇʀ\\\\w*|\\\\w*кацап\\\\w*|\\\\w*nіggеr\\\\w*|\\\\w*NÍGGER\\\\w*|\\\\w*n\\\\\\\\\\\\|gger\\\\w*|\\\\w*niggеr\\\\w*|\\\\w*F4GG0T\\\\w*|\\\\w*N1GG3R\\\\w*|\\\\w*nigger\\\\w*|\\\\w*nigg4\\\\w*|\\\\w*niggz\\\\w*)\\\\b\""
 		"CTextFilterStore_strCleanPattern"		"\"^(\\\\b(fak(ed|ers?|ing)|kompetenzteam|派送员|pinegrove|n\\\\.e\\\\.ig\\\\.e\\\\.|fukushima|snigger|nie gee|fuchsia|fuchian|cock\\\\.li|fuxius|fucuro|niego|niebo|neige|neggy|nebby|fuxis|cwfag|pubg|niby|nebo|fuku|fuki|fakt|g24|\\\\w*fvchvo\\\\w*)\\\\b)$\""
-		"trendingstore_storage"		"{\"version\":2,\"data\":[{\"appid\":238960,\"rgAccountIDs\":[893708300],\"totalFriends\":1},{\"appid\":268910,\"rgAccountIDs\":[471554701],\"totalFriends\":1},{\"appid\":646570,\"rgAccountIDs\":[114891958],\"totalFriends\":1},{\"appid\":962730,\"rgAccountIDs\":[114891958],\"totalFriends\":1},{\"appid\":602960,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":581320,\"rgAccountIDs\":[918310556],\"totalFriends\":1},{\"appid\":582500,\"rgAccountIDs\":[166970117],\"totalFriends\":1},{\"appid\":39210,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":588650,\"rgAccountIDs\":[471554701,114891958],\"totalFriends\":2},{\"appid\":632360,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":379430,\"rgAccountIDs\":[166970117],\"totalFriends\":1},{\"appid\":1286350,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":286160,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":208750,\"rgAccountIDs\":[161437247],\"totalFriends\":1},{\"appid\":230410,\"rgAccountIDs\":[893708300],\"totalFriends\":1},{\"appid\":310560,\"rgAccountIDs\":[918310556],\"totalFriends\":1},{\"appid\":612390,\"rgAccountIDs\":[855936292],\"totalFriends\":1},{\"appid\":1477590,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":1533420,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":262060,\"rgAccountIDs\":[471554701],\"totalFriends\":1},{\"appid\":291550,\"rgAccountIDs\":[471554701],\"totalFriends\":1},{\"appid\":607260,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":282800,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":736220,\"rgAccountIDs\":[918310556],\"totalFriends\":1},{\"appid\":960170,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":1158310,\"rgAccountIDs\":[166970117],\"totalFriends\":1},{\"appid\":242760,\"rgAccountIDs\":[166970117],\"totalFriends\":1}],\"lastFetchTimeMS\":1657650117990}"
+		"trendingstore_storage"		"{\"version\":2,\"data\":[{\"appid\":238960,\"rgAccountIDs\":[893708300],\"totalFriends\":1},{\"appid\":646570,\"rgAccountIDs\":[114891958],\"totalFriends\":1},{\"appid\":1145360,\"rgAccountIDs\":[471554701],\"totalFriends\":1},{\"appid\":962730,\"rgAccountIDs\":[114891958],\"totalFriends\":1},{\"appid\":602960,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":581320,\"rgAccountIDs\":[918310556],\"totalFriends\":1},{\"appid\":582500,\"rgAccountIDs\":[166970117],\"totalFriends\":1},{\"appid\":632360,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":379430,\"rgAccountIDs\":[166970117],\"totalFriends\":1},{\"appid\":588650,\"rgAccountIDs\":[471554701,114891958],\"totalFriends\":2},{\"appid\":1286350,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":208750,\"rgAccountIDs\":[161437247],\"totalFriends\":1},{\"appid\":286160,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":1477590,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":230410,\"rgAccountIDs\":[893708300],\"totalFriends\":1},{\"appid\":607260,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":310560,\"rgAccountIDs\":[918310556],\"totalFriends\":1},{\"appid\":612390,\"rgAccountIDs\":[855936292],\"totalFriends\":1},{\"appid\":291550,\"rgAccountIDs\":[471554701],\"totalFriends\":1},{\"appid\":960170,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":282800,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":736220,\"rgAccountIDs\":[918310556],\"totalFriends\":1},{\"appid\":242760,\"rgAccountIDs\":[166970117],\"totalFriends\":1},{\"appid\":39210,\"rgAccountIDs\":[146728135],\"totalFriends\":1},{\"appid\":262060,\"rgAccountIDs\":[471554701],\"totalFriends\":1},{\"appid\":1158310,\"rgAccountIDs\":[166970117],\"totalFriends\":1},{\"appid\":268910,\"rgAccountIDs\":[471554701],\"totalFriends\":1}],\"lastFetchTimeMS\":1657836533081}"
 		"deck_compatibility_feedback_ask"		"[]"
 		"deck_compatibility_feedback_eligible_apps"		"{}"
 		"user-collections"		"{}"
@@ -790,7 +790,7 @@
 	"LastInstallFolderIndex"
 	{
 	}
-	"RecentLocalPlayedGameIDs"		"cc2c070000000000cc94ce627011060000000000ea29cc62dc00000000000000fb27cc622602000000000000982dc6624001000000000000671bc162ceca1600000000004ac3c06200000002b586ecb4d3ecba6254010000000000005ddab962c0b20000000000004430b762063a15000000000082d4a962"
+	"RecentLocalPlayedGameIDs"		"cc2c070000000000eee3d1627011060000000000ea29cc62dc00000000000000fb27cc622602000000000000982dc6624001000000000000671bc162ceca1600000000004ac3c06200000002b586ecb4d3ecba6254010000000000005ddab962c0b20000000000004430b762063a15000000000082d4a962"
 	"cache"
 	{
 		"cdk_267965235"		"895dd59032a343cacf966742e51923e801b31620df4207df8d386ea93b04cb1fbdbfcd452be46873722f207d113eb91cfff16feeda80157ba9c4d6626e091be4ed23f613eeb42e27cdfe852e8fb64518defbb855d7c351378377b8218699583488e9ab523749fe78bcf799f113d32fb7eb47bf6e130e084547b8a67818f5da6317e4bd1719616ebaaad6f1b4b67658b3e8354bbf76e039cea7e72da9520ad353a3dc94e2c92353581313725d329c7e71ae9758fcf732886a193480cc85dfbc81731c066ce30f55a4e31965ef99df96ec0fce3e807f4d653d562758863abd6bb1c6d8c5bc67e9c436905cd2943d4db0964eb3f7cd9a5c3c21d235603ab1ff7d08f24eae4de31ab2f0ae900451d8707f4743d518c0c8e5fb3565c232a2ee892b9588edf0529dfaf6cfe74787c157800b08e90be4e819e0b4f49eb36eb0cd636fb7008f256a49a2446b3b621f027ca1dba03516a32a56dcdd21fffabde951950be0d07e82ca7718a6da8f52e79d8ca043ca030dca93cce595a69d2644126c7767607ddfa13d94a32f1edb2823fe66441aea426f29efd46a393263383acf787ec294b01b8602f8ec7b0e5505b6ee0e1c16ddb06ad8bb04f4938dfc3a2e2a204f35740201e8477b45baa34a0ea73f8eb434021f970235e3d4f4043b2eb56d6f692f996d66dc71ae340b51d0eed9a6a375876fa03e7a88dd25e0a7e513305ff7554c5e36eb67bf34e129e245addfac7b9c682e05a2a4643fda39ffcc2b0dba5d2767cf"
@@ -1026,6 +1026,16 @@
 				{
 					"token"		""
 					"Expires"		"1657404875"
+				}
+				"google.cdn.steampipe.steamcontent.com"
+				{
+					"token"		""
+					"Expires"		"1658350270"
+				}
+				"steampipe.akamaized.net"
+				{
+					"token"		""
+					"Expires"		"1658526774"
 				}
 			}
 		}
